@@ -1,0 +1,206 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="code,CiNii,Google">
+  <title>
+    
+      Google Image ChartsでCiNiiの検索結果をグラフ化 &middot; library labs
+    
+  </title>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Sail'>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=IM+Fell+Double+Pica+SC'>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0-rc-1/pure-min.css">
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0-rc-1/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0-rc-1/grids-responsive-min.css">
+  <!--<![endif]-->
+  <link rel="stylesheet" href="/library-labs/css/style.css">
+  <link rel="stylesheet" href="/library-labs/css/syntax.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/library-labs/atom.xml">
+</head>
+<body>
+  <header class="site-header">
+  <div class="container">
+    <h1 class="site-title"><a href="/library-labs/index.html">library labs</a></h1>
+    <nav class="site-nav pure-menu pure-menu-open pure-menu-horizontal">
+      <ul>
+        <li><a href="/library-labs/index.html">Home</a></li>
+        <li><a href="/library-labs/code/">Code</a></li>
+        <li><a href="/library-labs/design/">Design</a></li>
+        <li><a href="/library-labs/works/">Works</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  <div class="container">
+    <div class="pure-g">
+      <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-3-4">
+        <section class="main">
+          <header class="entry-header">
+  <h1>Google Image ChartsでCiNiiの検索結果をグラフ化</h1>
+<!--   <div class="category">
+    
+  </div>
+  <div class="tags-list">
+    code, CiNii, and Google
+  </div> -->
+</header>
+
+<div class="entry-content">
+<p><a href="http://code.google.com/intl/ja/apis/chart/image/" target="_blank">Google Image Charts</a>を使って、CiNi Articlesの検索結果（最近200件の論文を出版年）をグラフ化してみました。CiNii APIの1ページあたりの最大表示件数が200件のため、検索件数が200以上あるものについては、最新の200件分しか反映されていません。そのため、実用的ではありませんが、Google Image Chartsを使えばこんなのことができるということが分かっていただければと。</p>
+
+<form id="trendSearch" class="form-horizontal">
+  <fieldset><div class="control-group">
+      <label class="control-label" for="kywd">キーワード</label>
+      <div class="controls">
+        <input type="text" id="kywd" value="電子図書館"></div>
+    </div>
+    <div class="control-group">      
+      <label class="control-label" for="author">著者</label>
+      <div class="controls">
+        <input type="text" id="author"></div>  
+    </div>
+    <div class="form-actions">
+      <button type="submit" class="btn">検索</button>
+    </div>
+
+  </fieldset></form>
+
+
+<h3>trends in CiNii</h3>
+<div id="barChart"></div>
+
+<p><a href="http://kyoto-city.sakura.ne.jp/tumblr/e-library/trends.cinii/test.html" target="_blank" class="btn"><i class="icon-leaf"></i> 別ページで見る</a></p>
+<script type="text/javascript">
+$(document).ready(function () {
+
+
+    $("#trendSearch").submit(function (event) {
+        event.preventDefault();
+        $('#barChart').empty();
+        var kywd = $("#kywd").val();
+        var author = $("#author").val();
+        getCiNii(kywd, author);
+    });
+
+    var getCiNii = function (kywd, author) {
+            var kywd = kywd ? encodeURI(kywd) : "",
+                author = author ? encodeURI(author) : "";
+            var statement = "select * from rss where url='http://ci.nii.ac.jp/opensearch/search?q=" + kywd + "&author=" + author + "&sortorder=1&count=200&appid=XCTPcTLXwd7zCae0oxmT&format=rss'";
+
+            $.getJSON("http://query.yahooapis.com/v1/public/yql?callback=?", {
+                q: statement,
+                format: "json"
+            }, function (json) {
+                if (json.query.results == null) {
+                    $("#barChart").append("<div class='alert alert-error'>条件に一致する結果が見つかりませんでした。");
+                    return false;
+                }
+
+                var items = json.query.results.item,
+                    itemsNum = items.length,
+                    date = [],
+                    store = [],
+                    unqSTR = [],
+                    chd = [],
+                    chl = [],
+                    output = "";
+
+                if (itemsNum === 200) {
+                    $("#barChart").append("<div class='alert alert-error'>検索結果が200件以上あるため正しい結果が反映されていません。");
+                }
+
+                //出版年を配列に格納
+                for (var i = 0; i < itemsNum; i++) {
+                    date.push(items[i].date.slice(0, 4));
+                }
+
+                //出版年の件数を求める
+                for (var i = 0; i < date.length; i++) {
+                    if (!store[date[i]]) {
+                        store[date[i]] = 0
+                    }
+                    store[date[i]]++;
+                }
+
+                //件数を配列に格納
+                for (var i in store) {
+                    unqSTR.push(i);
+                }
+
+
+
+                for (var i = 0; i < unqSTR.length; i++) {
+                    chd.push(store[unqSTR[i]]);
+                }
+
+                for (var i = 0; i < unqSTR.length; i++) {
+                    chl.push(unqSTR[i] + "|");
+                }
+
+                $("#barChart").append("<img src='http://chart.apis.google.com/chart?chxr=0,0,200&cht=bvs&chxt=y&chd=t:" + chd + "&chs=620x300&chl=" + chl + "' />");
+
+            });
+
+        }
+
+
+    getCiNii(kywd = "電子教科書");
+
+});
+</script>
+
+</div>
+
+<footer class="entry-footer">
+<p>If you liked this post, you can
+<a href="https://twitter.com/intent/tweet?url=http://snowy0118.github.io/library-labs/2012/02/18/trends-cinii.html&text=Google Image ChartsでCiNiiの検索結果をグラフ化&via=snowy0118" target="_blank"> share it with your followers <i class="icon-twitter"></i></a></p>
+</footer>
+        </section>
+      </div>
+      <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4">
+        <aside class="sub">
+          <div class="section-about">
+  <h3><i class="icon-emo-happy"></i> About</h3>
+  <figure class="profile-figure">
+    <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-frc1/t1.0-9/p417x417/10154222_697296243642462_560682359_n.jpg" class="profile-figure-img">
+    <figcaption class="profile-figure-caption">HIRANO SHRINE</figcaption>
+  </figure>
+  <p>I am working as web developer in Japan.</p>
+  <p>This is my personal website about code and design for library web services.</p>
+</div>
+<div class="pure-menu pure-menu-open">
+  <a class="pure-menu-heading">Connect</a>
+  <ul>
+  <li><a href="https://twitter.com/snowy0118"><i class="icon-twitter"></i> Twitter</a></li>
+  <li><a href="https://github.com/snowy0118"><i class="icon-github"></i> GitHub</a></li>
+  <li><a href="http://instagram.com/snowy0118"><i class="icon-instagramm"></i> Instagram</a></li>
+  </ul>
+</div>
+        </aside>
+      </div>
+    </div><!-- /.pure-h -->
+  </div><!-- /.contaner -->
+  <footer class="site-footer">
+  <div class="container">
+    <p>updated : 25 Apr 2014</p>
+  </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="/library-labs/js/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50303317-1', 'snowy0118.github.io');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

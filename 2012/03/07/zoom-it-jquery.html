@@ -1,0 +1,137 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="code">
+  <title>
+    
+      画像にズーム、フルスクリーン機能を簡単に付けられるjQueryプラグイン &middot; library labs
+    
+  </title>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Sail'>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=IM+Fell+Double+Pica+SC'>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0-rc-1/pure-min.css">
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0-rc-1/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0-rc-1/grids-responsive-min.css">
+  <!--<![endif]-->
+  <link rel="stylesheet" href="/library-labs/css/style.css">
+  <link rel="stylesheet" href="/library-labs/css/syntax.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/library-labs/atom.xml">
+</head>
+<body>
+  <header class="site-header">
+  <div class="container">
+    <h1 class="site-title"><a href="/library-labs/index.html">library labs</a></h1>
+    <nav class="site-nav pure-menu pure-menu-open pure-menu-horizontal">
+      <ul>
+        <li><a href="/library-labs/index.html">Home</a></li>
+        <li><a href="/library-labs/code/">Code</a></li>
+        <li><a href="/library-labs/design/">Design</a></li>
+        <li><a href="/library-labs/works/">Works</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  <div class="container">
+    <div class="pure-g">
+      <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-3-4">
+        <section class="main">
+          <header class="entry-header">
+  <h1>画像にズーム、フルスクリーン機能を簡単に付けられるjQueryプラグイン</h1>
+<!--   <div class="category">
+    
+  </div>
+  <div class="tags-list">
+    code
+  </div> -->
+</header>
+
+<div class="entry-content">
+<p>デジタルアーカイブサイトで高解像度の画像を見るとき、ズーム機能が付いていると便利です。通常、ズーム、フルスクリーン機能を実現するにはソフトを使って画像処理する必要があります。</p>
+<p><a href="http://zoom.it/" target="_blank">Zoom.it</a>はマイクロソフトが提供している、画像をズーム、フルスクリーン機能付きのものに変換してくれるオンラインサービスです。画像のURLを渡すだけでコンパイルしてくれて、ウェブページに埋め込むコードが生成されます。それをコピー＆ペーストするだけで、ズーム、フルスクリーン機能の付いた画像を見せることができます。下が作例です。元のサイズは約4600x3100のjpeg画像です。ちなみに、画像は去年行ってきたパキスタンのチトラール近くの風景です。</p>
+
+<figure><script src="http://zoom.it/yphI.js?width=auto&amp;height=400px"></script></figure><p>これだけでもかなり便利ですが、画像の枚数が多いと一枚一枚処理するのは大変です。Zoom.itはAPIが提供されているので、それを使って処理を簡略するjQueryプラグインを作成しました。</p>
+
+<p><a href="http://kyoto-city.sakura.ne.jp/tumblr/e-library/zoomit.zip" class="btn" target="_blank"><i class="icon-download-alt"></i>  ダウンロード</a></p>
+
+<h3>使い方</h3>
+
+<p>まずは、ヘッダにjQuery本体とプラグイン(jquery.zoomit.js)とZoom.itで処理した画像表示させるためのjavascript(seadragon-min.js)を読み込みます。</p>
+<pre><code>&lt;script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="seadragon-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="jquery.zoomit.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p>次に、処理させたい画像を<code>&lt;div id="zoomit"&gt;&lt;/div&gt;</code>で囲います。</p>
+<pre><code>&lt;div id="zoomit"&gt;&lt;img src="http://[image-path]"&gt;&lt;/div&gt;</code></pre>
+
+<p>オプションの設定です。読み込んだプラグインの下に書き加えてください。widthとheightともに必須です。これは画像の元サイズではなく、ページ上の表示サイズを入力してください。</p>
+<pre><code>&lt;script type="text/javascript"&gt;
+  $(document).ready(function(){
+	$("#zoomit").zoomIt({width:"500",height:"300"});
+  });
+&lt;/script&gt;
+</code></pre>
+
+<p>これだけでページを読み込んだ際に画像処理がなされて、処理された画像が元画像の領域に表示されます。</p>
+<figure><div id="zoomit"><img src="http://24.media.tumblr.com/tumblr_lzjq0lmI8t1r2oigxo1_500.jpg"/></div>
+</figure><script>
+$(document).ready(function(){
+    $("#zoomit").zoomIt({width:"500",height:"300"});
+});
+</script><script src="http://kyoto-city.sakura.ne.jp/tumblr/e-library/zoomit/seadragon-min.js"></script><script src="http://kyoto-city.sakura.ne.jp/tumblr/e-library/zoomit/jquery.zoomit.js"></script><p>私の<a href="http://untitled-photo.tumblr.com/" target="_blank">個人ブログ</a>では、今回のプラグインは使ってませんが、ほぼ同じような事をしています。</p>
+
+</div>
+
+<footer class="entry-footer">
+<p>If you liked this post, you can
+<a href="https://twitter.com/intent/tweet?url=http://snowy0118.github.io/library-labs/2012/03/07/zoom-it-jquery.html&text=画像にズーム、フルスクリーン機能を簡単に付けられるjQueryプラグイン&via=snowy0118" target="_blank"> share it with your followers <i class="icon-twitter"></i></a></p>
+</footer>
+        </section>
+      </div>
+      <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4">
+        <aside class="sub">
+          <div class="section-about">
+  <h3><i class="icon-emo-happy"></i> About</h3>
+  <figure class="profile-figure">
+    <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-frc1/t1.0-9/p417x417/10154222_697296243642462_560682359_n.jpg" class="profile-figure-img">
+    <figcaption class="profile-figure-caption">HIRANO SHRINE</figcaption>
+  </figure>
+  <p>I am working as web developer in Japan.</p>
+  <p>This is my personal website about code and design for library web services.</p>
+</div>
+<div class="pure-menu pure-menu-open">
+  <a class="pure-menu-heading">Connect</a>
+  <ul>
+  <li><a href="https://twitter.com/snowy0118"><i class="icon-twitter"></i> Twitter</a></li>
+  <li><a href="https://github.com/snowy0118"><i class="icon-github"></i> GitHub</a></li>
+  <li><a href="http://instagram.com/snowy0118"><i class="icon-instagramm"></i> Instagram</a></li>
+  </ul>
+</div>
+        </aside>
+      </div>
+    </div><!-- /.pure-h -->
+  </div><!-- /.contaner -->
+  <footer class="site-footer">
+  <div class="container">
+    <p>updated : 25 Apr 2014</p>
+  </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="/library-labs/js/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50303317-1', 'snowy0118.github.io');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

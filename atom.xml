@@ -1,0 +1,2697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>library labs</title>
+ <link href="/library-labs/atom.xml" rel="self"/>
+ <link href="/library-labs/"/>
+ <updated>2014-04-25T02:33:15+09:00</updated>
+ <id>/library-labs</id>
+ 
+ <entry>
+   <title>Current Awareness Search</title>
+   <link href="/library-labs/code/2014/04/25/current-awareness-search.html"/>
+   <updated>2014-04-25T00:00:00+09:00</updated>
+   <id>/library-labs/code/2014/04/25/current-awareness-search</id>
+   <content type="html">&lt;p&gt;NDL SearchのAPIを使って、Current Awarenessを検索する。JavaScriptテンプレートエンジン&lt;a href=&quot;http://handlebarsjs.com/&quot;&gt;Handlebars.js&lt;/a&gt;を使った。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#39;pure-button&#39; href=&#39;http://snowy0118.github.io/Current-Awareness-Search/&#39;&gt;Current Awareness Search&lt;/a&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>How to customize Summon2.0</title>
+   <link href="/library-labs/code/2014/04/11/how-to-customize-summon2-0.html"/>
+   <updated>2014-04-11T01:38:00+09:00</updated>
+   <id>/library-labs/code/2014/04/11/how-to-customize-summon2-0</id>
+   <content type="html">&lt;p&gt;Summon2.0は管理画面からヘッダー部分・テキストリンクの色などを変更できるが、もっと好きにデザインを変更したければ、JavaScriptでスタイルシートの外部ファイルを読み込めばよい。&lt;/p&gt;
+
+&lt;p&gt;テーマカラーを一つ決めればフラットデザインっぽくなるSCSSを作ってみた。&lt;a href=&quot;https://github.com/snowy0118/custom-summon&quot; class=&quot;btn&quot;&gt;custom-summon&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/snowy0118/custom-summon/master/img-flat.png&quot; width=&quot;600&quot;/&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>bento search</title>
+   <link href="/library-labs/2014/04/10/bento-search.html"/>
+   <updated>2014-04-10T01:56:50+09:00</updated>
+   <id>/library-labs/2014/04/10/bento-search</id>
+   <content type="html">&lt;p&gt;Summonをコンテンツタイプ別に検索して表示。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://library-labs.tumblr.com/bento-search&quot; class=&quot;btn&quot;&gt;Bento Search&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>最近リニューアルされた図書館ウェブサイト</title>
+   <link href="/library-labs/2014/04/03/redesign-library-website.html"/>
+   <updated>2014-04-03T22:34:00+09:00</updated>
+   <id>/library-labs/2014/04/03/redesign-library-website</id>
+   <content type="html">&lt;ul&gt;&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;http://www.lib.tohoku-gakuin.ac.jp/index.html&quot;&gt;筑波大学附属図書館&lt;/a&gt;&lt;/h3&gt;
+  &lt;p&gt;Drupal,レスポンシブWebデザイン,Summon&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;http://www.lib.tohoku-gakuin.ac.jp/index.html&quot;&gt;東北学院大学図書館&lt;/a&gt;&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;http://library.rikkyo.ac.jp/&quot;&gt;青山学院大学図書館&lt;/a&gt;&lt;/h3&gt;
+  &lt;p&gt;Drupal,レスポンシブWebデザイン,Summon&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;http://library.rikkyo.ac.jp/&quot;&gt;立教大学図書館&lt;/a&gt;&lt;/h3&gt;
+  &lt;p&gt;レスポンシブWebデザイン&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;http://www.lib.kitami-it.ac.jp/&quot;&gt;北見工業大学図書館&lt;/a&gt;&lt;/h3&gt;
+  &lt;p&gt;WordPress&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;http://lib.nagaokaut.ac.jp/&quot;&gt;長岡技術科学大学付属図書館&lt;/a&gt;&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;http://www.seisen-jc.ac.jp/guidance/&quot;&gt;清泉女学院大学・短期大学 図書館&lt;/a&gt;&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;http://www.niu.ac.jp/library/&quot;&gt;長崎国際大学 図書館&lt;/a&gt;&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;http://www.lib.juen.ac.jp/&quot;&gt;上越教育大学附属図書館&lt;/a&gt;&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;http://www2.ashitech.ac.jp/library/index.html&quot;&gt;足利工業大学附属図書館&lt;/a&gt;&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;http://www.lib.geidai.ac.jp/&quot;&gt;東京藝術大学附属図書館&lt;/a&gt;&lt;/h3&gt;
+  &lt;p&gt;レスポンシブWebデザイン&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;http://lib.tosei-showa-music.ac.jp/&quot;&gt;昭和音楽大学附属図書館&lt;/a&gt;&lt;/h3&gt;
+  &lt;p&gt;NetCommons&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;https://library.city.uji.kyoto.jp/&quot;&gt;宇治市図書館&lt;/a&gt;&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;http://library.city.kizugawa.lg.jp/&quot;&gt;木津川市立図書館&lt;/a&gt;&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;http://www.library.pref.nara.jp/&quot;&gt;奈良県立図書情報館&lt;/a&gt;&lt;/h3&gt;
+  &lt;p&gt;Drupal,レスポンシブWebデザイン&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;http://www.aichi-pref-library.jp/&quot;&gt;愛知県図書館&lt;/a&gt;&lt;/h3&gt;
+  &lt;p&gt;NetCommons&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;http://www.library.city.nishitokyo.lg.jp/&quot;&gt;西東京市図書館&lt;/a&gt;&lt;/h3&gt;
+  
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;https://www.lib016.nexs-service.jp/hashima/index.html&quot;&gt;羽島市立図書館&lt;/a&gt;&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;https://www.tosyokan.city.numazu.shizuoka.jp/index.html&quot;&gt;沼津市立図書館&lt;/a&gt;&lt;/h3&gt;
+  &lt;p&gt;レスポンシブWebデザイン&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;https://www.lib.city.kawagoe.saitama.jp/&quot;&gt;川越市立図書館&lt;/a&gt;&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;http://www.lib.omura.nagasaki.jp/index.html&quot;&gt;大村市立図書館&lt;/a&gt;&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;h3&gt;&lt;a href=&quot;https://www.library.sosa.chiba.jp/&quot;&gt;匝瑳市立図書館&lt;/a&gt;&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>国立国会図書館デジタルコレクションの画像を角度を指定して回転させる</title>
+   <link href="/library-labs/2014/03/11/.html"/>
+   <updated>2014-03-11T21:42:00+09:00</updated>
+   <id>/library-labs/2014/03/11/</id>
+   <content type="html">&lt;p&gt;国立国会図書館デジタルコレクションの画像を好きな角度で回転させることができるブックマークレット。ChromeとFirefoxに対応。&lt;/p&gt;
+&lt;p&gt;下のリンクをブラウザのブックマークバーに登録して、国立国会図書館デジタルコレクションの詳細ページでクリックしてください。回転角度を聞いてくるので入力すれば、画像が回転します。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;javascript:%20(function%20()%20%7B%0Ar%20=%20prompt(&#39;%E5%9B%9E%E8%BB%A2%E8%A7%92%E5%BA%A6%E3%82%92%E5%85%A5%E5%8A%9B%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84:&#39;,&#39;&#39;);%0Avar%20target%20=%20document.querySelector(&#39;#image-viewer-canvas%20&amp;gt;%20div&#39;);%0Atarget.style.webkitTransform%20=%20&#39;rotate(&#39;+%20r%20+%20&#39;deg)&#39;;%0Atarget.style.mozTransform%20=%20&#39;rotate(&#39;+%20r%20+%20&#39;deg)&#39;;%0A%7D)()&quot;&gt;rotate&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>「京都が出てくる本のデータ」を使ってみた</title>
+   <link href="/library-labs/2014/02/26/.html"/>
+   <updated>2014-02-26T01:04:06+09:00</updated>
+   <id>/library-labs/2014/02/26/</id>
+   <content type="html">&lt;p&gt;京都の岡崎にある図書館で働く図書館司書の方たちの自己学習グループ「ししょまろはん」が作成された「&lt;a href=&quot;http://linkdata.org/work/rdf1s1294i&quot;&gt;京都が出てくる本のデータ&lt;/a&gt;」を使ってみた。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://kyoto-city.net/opendata/discover-kyoto/book.html&quot; class=&quot;btn&quot;&gt;Discover Kyoto in Books&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Googleドライブ「スプレッドシート」とCiNii APIで所蔵確認</title>
+   <link href="/library-labs/2014/01/24/google-cinii-api.html"/>
+   <updated>2014-01-24T22:56:00+09:00</updated>
+   <id>/library-labs/2014/01/24/google-cinii-api</id>
+   <content type="html">&lt;p&gt;Googleドライブ「スプレッドシート」にはRSSをインポートする関数(IMPORTFEED)がある。この関数とCiNii Books APIで所蔵確認ができる。&lt;/p&gt;
+&lt;p&gt;IMPORTFEEDでISBNと図書館IDを指定したCiNii BooksのRSSフィードをインポートするだけ。&lt;/p&gt;
+&lt;p&gt;例えば、「=IMPORTFEED(CONCATENATE(&amp;#8220;http://ci.nii.ac.jp/books/opensearch/search?fano=FA007670&amp;amp;count=1&amp;amp;format=rss&amp;amp;isbn=&amp;#8221;,A3,),&amp;#8221;items title&amp;#8221;)」のようにすればよい。ここでは、セルA3にあるISBNとベースとなるOpenSearchクエリをCONCATENATEで連結している。&lt;/p&gt;
+
+&lt;p&gt;下の例では所蔵ありの場合はタイトルが表示され、所蔵なしのは「#VALUE!」が表示されている。このように複数の図書、図書館でも関数の入ったセルをコピーすれば一括で所蔵確認ができる。&lt;/p&gt;
+
+&lt;iframe width=&quot;500&quot; height=&quot;300&quot; frameborder=&quot;0&quot; src=&quot;https://docs.google.com/spreadsheet/pub?key=0AshiaH0NnbDTdDVLUHNUZkhDQWstMmxKWmlYUkxYYXc&amp;amp;output=html&amp;amp;widget=true&quot;&gt;&lt;/iframe&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CiNii Chart</title>
+   <link href="/library-labs/2013/12/18/cinii-chart.html"/>
+   <updated>2013-12-18T00:06:00+09:00</updated>
+   <id>/library-labs/2013/12/18/cinii-chart</id>
+   <content type="html">&lt;p&gt;この前の「&lt;a href=&quot;http://library-labs.tumblr.com/post/69484775755/cinii-2&quot;&gt;CiNiiで２つのキーワード検索の結果をグラフで比較&lt;/a&gt;」を少し改良して「&lt;a href=&quot;http://library-labs.tumblr.com/cinii-chart&quot;&gt;CiNii Chart&lt;/a&gt;」と公開しました。今回はキーワードだけでなく、著者・出版者でも比較できるようになっています。&lt;/p&gt;
+
+&lt;a href=&quot;http://library-labs.tumblr.com/cinii-chart&quot; class=&quot;btn&quot;&gt;CiNii Chart&lt;/a&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Google Custom Search APIでCiNiiを検索</title>
+   <link href="/library-labs/2013/12/14/google-custom-search-api-cinii.html"/>
+   <updated>2013-12-14T03:23:00+09:00</updated>
+   <id>/library-labs/2013/12/14/google-custom-search-api-cinii</id>
+   <content type="html">&lt;p&gt;CiNii APIを使わずにGoogle Custom Search APIでCiNiiを検索する。メタタグの情報も取得できる。無料だと1日あたり100クエリーまで。&lt;/p&gt;
+
+  &lt;form action=&quot;#&quot;&gt;
+    &lt;input type=&quot;text&quot; name=&quot;q&quot;&gt;&lt;input type=&quot;submit&quot; value=&quot;search&quot;&gt;&lt;div&gt;
+        &lt;input type=&quot;radio&quot; name=&quot;type&quot; value=&quot;all&quot; id=&quot;all&quot; checked&gt;論文+図書
+        &lt;input type=&quot;radio&quot; name=&quot;type&quot; value=&quot;articles&quot; id=&quot;articles&quot;&gt;論文
+        &lt;input type=&quot;radio&quot; name=&quot;type&quot; value=&quot;books&quot; id=&quot;books&quot;&gt;図書&lt;/div&gt;
+&lt;/form&gt;
+
+&lt;div id=&quot;results&quot;&gt;&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;//&lt;![CDATA[ 
+
+var googleSearch = function (params) {
+    var api = &quot;https://www.googleapis.com/customsearch/v1?callback=?&quot;,
+        type = params.type,
+        site;
+
+    if (type == &quot;all&quot;) {
+        site = &quot; site:ci.nii.ac.jp/naid OR site:ci.nii.ac.jp/ncid&quot;;
+    } else if (type == &quot;articles&quot;) {
+        site = &quot; site:ci.nii.ac.jp/naid&quot;;
+    } else {
+        site = &quot; site:ci.nii.ac.jp/ncid&quot;;
+    }
+
+    $.getJSON(api, {
+        key: &quot;AIzaSyA-n9P6rX_0r8ySKnttYTVLAdh3SMcJaKE&quot;,
+        cx: &quot;011417589782501095658:oaujesbewgq&quot;,
+        q: params.q + site
+    }, function (data) {
+
+        var items = data.items,
+            totalNum = data.searchInformation.formattedTotalResults,
+            html = &quot;&quot;;
+
+        for (var i = 0; i &lt; items.length; i++) {
+            var snippet = items[i].htmlSnippet,
+                metatags = items[i].pagemap.metatags[0],
+                title, url, authors, journalTitle, publisher, keywords;
+
+            if (metatags[&quot;og:type&quot;] == &quot;article&quot;) {
+                title = metatags.citation_title;
+                url = metatags[&quot;og:url&quot;];
+                authors = metatags.citation_authors;
+                journalTitle = metatags.citation_journal_title;
+                issn = metatags.citation_issn,
+                publisher = metatags.citation_publisher;
+                keywords = metatags.citation_keywords;
+            } else {
+                title = metatags[&quot;dc.title&quot;];
+                authors = metatags[&quot;dc.creator&quot;] ? metatags[&quot;dc.creator&quot;] : &quot;&quot;;
+                url = metatags[&quot;og:url&quot;];
+                publisher = [&quot;dc.publisher&quot;];
+
+            }
+
+
+            html += &quot;&lt;li&gt;&quot;;
+            html += &quot;&lt;h3&gt;&lt;a href=&#39;&quot; + url + &quot;&#39;&gt;&quot; + title + &quot;&lt;\/a&gt;&lt;\/h3&gt;&quot;;
+            html += &quot;&lt;div class=&#39;authors&#39;&gt;&quot; + authors + &quot;&lt;\/div&gt;&quot;;
+            if (metatags[&quot;og:type&quot;] == &quot;article&quot;) {
+                html += &quot;&lt;div class=&#39;journal&#39;&gt;&quot; + journalTitle + &quot;(&quot; + issn + &quot;)&lt;\/div&gt;&quot;;
+            }
+            html += &quot;&lt;div class=&#39;snippet&#39;&gt;&quot; + snippet + &quot;&lt;\/div&gt;&quot;;
+            html += &quot;&quot;;
+
+
+        }
+
+        $(&quot;#results&quot;).html(&quot;&lt;p&gt;&quot; + totalNum + &quot;件&lt;\/p&gt;&lt;ul&gt;&quot; + html + &quot;&lt;\/ul&gt;&quot;);
+
+    });
+};
+
+
+$(&quot;form&quot;).submit(function (e) {
+    e.preventDefault();
+
+
+    var params = {
+        q: $(&quot;input[name=q]&quot;).val(),
+        type: $(&#39;input[name=&quot;type&quot;]:checked&#39;).val()
+    };
+
+    googleSearch(params);
+});
+//]]&gt;  
+
+&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CiNii Articles RDFをJSONでlocalStrageに格納する</title>
+   <link href="/library-labs/2013/12/12/cinii-articles-rdf-json-localstrage.html"/>
+   <updated>2013-12-12T21:49:00+09:00</updated>
+   <id>/library-labs/2013/12/12/cinii-articles-rdf-json-localstrage</id>
+   <content type="html">&lt;p&gt;CiNii Articles RDFをJSONでlocalStorageに格納します。&lt;/p&gt;
+&lt;p&gt;NAIDをカンマ区切りで入力してください。&lt;/p&gt;
+&lt;p&gt;保存をクリックした後、リロードするとlocalStorageに格納されているJSONが確認できます。&lt;/p&gt;
+&lt;p&gt;localStorageに格納することで、オフライン時にlocalStorageからデータを取得することができます。&lt;/p&gt;
+
+&lt;form action=&quot;#&quot;&gt;
+    &lt;input type=&quot;text&quot; id=&quot;naid&quot; name=&quot;naid&quot; value=&quot;40019315417,120003089174&quot;&gt;&lt;button id=&quot;save&quot;&gt;保存&lt;/button&gt;
+    &lt;button id=&quot;clear&quot;&gt;クリア&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;div id=&quot;itemsList&quot;&gt;&lt;/div&gt;
+  
+
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+//&lt;![CDATA[ 
+
+var showItemsList = function () {
+    
+    if(!localStorage.naid) {
+        return false;
+    }
+    
+    var items = JSON.parse(localStorage.naid),
+        naid = [];
+
+    // itemsを使ってコンテンツを作成 
+
+    for (var i = 0; i &lt; items.length; i++) {
+         naid.push(items[i][&quot;cinii:naid&quot;]);
+    }
+    
+    $(&quot;#naid&quot;).attr(&quot;value&quot;,naid);
+
+    $(&quot;#itemsList&quot;).append(localStorage.naid);
+};
+
+showItemsList();
+
+function saveItems(params) {
+    var appID = &quot;XCTPcTLXwd7zCae0oxmT&quot;,
+        naid = params.naid.split(&quot;,&quot;),
+        jqXHRList = [];
+
+    if (!window.localStorage) {
+        $(&quot;#itemsList&quot;).html(&quot;localstorageに対応してません。&quot;);
+        return false;
+    }
+
+    for (var i = 0; i &lt; naid.length; i++) {
+        var id = naid[i],
+            url = &quot;http://ci.nii.ac.jp/naid/&quot; + id + &quot;.json?appid=&quot; + appID;
+
+        jqXHRList.push($.getJSON(url));
+    }
+
+    $.when.apply($, jqXHRList).done(function () {
+        var items = [],
+            result = &quot;&quot;;
+
+        if (naid.length &gt; 1) {
+            for (var i = 0; i &lt; arguments.length; i++) {
+                result = arguments[i];
+                items.push(result[0]);
+            }
+        } else {
+            result = arguments[0];
+            items.push(result);
+        }
+
+        getItemDetail(items);
+
+    });
+
+    function getItemDetail(d) {
+
+        var items = [];
+
+        for (var i = 0; i &lt; naid.length; i++) {
+            var item = d[i][&quot;@graph&quot;][0];
+            items.push(item);
+        }
+
+        console.log(items);
+        window.localStorage.setItem(&quot;naid&quot;, JSON.stringify(items));
+
+    }
+
+}
+
+$(&quot;#save&quot;).click(function (e) {
+    e.preventDefault();
+
+    var params = {
+        naid: $(&quot;form input[name=naid]&quot;).val()
+    };
+
+    saveItems(params);
+});
+
+$(&quot;#clear&quot;).click(function (e) {
+    e.preventDefault();
+    if(!localStorage.naid) {
+        return false;
+    } else {
+    localStorage.clear();
+    }
+    
+});
+
+
+
+
+//]]&gt;  
+&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CiNii APIを使って複数の図書館の所蔵状況を表にする</title>
+   <link href="/library-labs/2013/12/11/cinii-api.html"/>
+   <updated>2013-12-11T23:29:00+09:00</updated>
+   <id>/library-labs/2013/12/11/cinii-api</id>
+   <content type="html">&lt;p&gt;CiNii APIで複数の図書館の所蔵確認。&lt;/p&gt;
+&lt;p&gt;図書・雑誌はissn/isbn/ncidをコンマ区切りで入力。&lt;/p&gt;
+&lt;form&gt;
+    &lt;select id=&quot;libraryID&quot; name=&quot;libraryID&quot; size=&quot;3&quot; multiple&gt;&lt;option value=&quot;FA002611&quot; selected&gt;京都大学&lt;/option&gt;&lt;option value=&quot;FA007670&quot; selected&gt;同志社大学&lt;/option&gt;&lt;option value=&quot;FA007739&quot; selected&gt;立命館大学&lt;/option&gt;&lt;/select&gt;&lt;div&gt;
+        &lt;input type=&quot;text&quot; name=&quot;itemID&quot; id=&quot;itemID&quot; value=&quot;AN00221958,AA12219565,AN00396849,AN0023681X&quot; style=&quot;width:400px&quot;&gt;&lt;/div&gt;
+    &lt;div&gt;
+        &lt;input type=&quot;radio&quot; name=&quot;type&quot; value=&quot;issn&quot; id=&quot;issn&quot;&gt;ISSN
+        &lt;input type=&quot;radio&quot; name=&quot;type&quot; value=&quot;isbn&quot; id=&quot;isbn&quot;&gt;ISBN
+        &lt;input type=&quot;radio&quot; name=&quot;type&quot; value=&quot;ncid&quot; id=&quot;ncid&quot; checked&gt;NCID
+    &lt;/div&gt;
+&lt;br/&gt;&lt;button&gt;所蔵確認&lt;/button&gt;
+&lt;/form&gt;
+&lt;div id=&quot;table&quot; style=&quot;width:600px&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.google.com/jsapi&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;//&lt;![CDATA[ 
+
+ google.load(&#39;visualization&#39;, &#39;1&#39;, {
+     packages: [&#39;table&#39;]
+ });
+
+ var setting = {
+     appID: &quot;XCTPcTLXwd7zCae0oxmT&quot;
+ };
+
+ function checkHolding(params) {
+
+     var libraryID = params.libraryID,
+         libraryName = params.libraryName,
+         itemID = (params.itemID).replace(/-/g, &quot;&quot;).split(&quot;,&quot;),
+         type = params.type,
+         jqXHRList = [];
+
+     for (var i = 0; i &lt; libraryID.length; i++) {
+         for (var j = 0; j &lt; itemID.length; j++) {
+             var url = &quot;http://ci.nii.ac.jp/books/opensearch/search?&quot; + type + &quot;=&quot; + itemID[j] + &quot;&amp;fano=&quot; + libraryID[i] + &quot;&amp;count=1&amp;appid=&quot; + setting.appID + &quot;&amp;count=1&amp;format=json&quot;;
+
+             jqXHRList.push($.getJSON(url));
+
+         }
+     }
+
+
+
+     $.when.apply($, jqXHRList).done(function () {
+         var items = [],
+             i = 0,
+             result;
+
+         if (itemID.length == 1) {
+             for (i = 0; i &lt; arguments.length; i++) {
+                 result = arguments[i];
+                 items.push(result);
+             }
+         } else {
+             for (i = 0; i &lt; arguments.length; i++) {
+                 result = arguments[i];
+                 items.push(result[0]);
+             }
+
+         }
+
+         google.setOnLoadCallback(createTable(items));
+     });
+
+     function createTable(d) {
+         var content = [];
+
+         content.push([type]);
+
+         for (var h = 0; h &lt; libraryID.length; h++) {
+             // 図書館IDを図書館名に変更したい。。
+             content[0].push($(libraryName[h]).text());
+         }
+
+         for (var i = 0; i &lt; itemID.length; i++) {
+
+             var item = [],
+                 id = itemID[i];
+
+             // 資料のID(ISSN/ISBN/NCID)を挿入する
+             item.push(id);
+
+             for (var j = 0, k = 0; j &lt; libraryID.length; j++, k += itemID.length) {
+                 var holding = &quot;&quot;;
+
+                 if (itemID.length == 1) {
+
+                     if (libraryID.length == 1) {
+                         holding = d[j][&quot;@graph&quot;][0][&quot;opensearch:totalResults&quot;] !== &quot;0&quot; ? true : false;
+                     } else {
+                         holding = d[j][0][&quot;@graph&quot;][0][&quot;opensearch:totalResults&quot;] !== &quot;0&quot; ? true : false;
+                     }
+                 } else {
+                     holding = d[i + k][&quot;@graph&quot;][0][&quot;opensearch:totalResults&quot;] !== &quot;0&quot; ? true : false;
+                 }
+
+                 item.push(holding);
+             }
+
+             content.push(item);
+         }
+
+         var data = google.visualization.arrayToDataTable(content);
+         var visualization = new google.visualization.Table(document.getElementById(&#39;table&#39;));
+         visualization.draw(data, null);
+
+         $(&quot;.google-visualization-table-td-bool:contains(&#39;✗&#39;)&quot;).css({
+             color: &quot;red&quot;
+         });
+
+     }
+
+ }
+
+
+     var params = {
+         libraryID: $(&quot;select[name=&#39;libraryID&#39;]&quot;).val(),
+         libraryName: $(&quot;select[name=&#39;libraryID&#39;] option:selected&quot;),
+         itemID: $(&quot;form input[name=itemID]&quot;).val(),
+         type: $(&#39;input[name=&quot;type&quot;]:checked&#39;).val()
+     };
+
+     checkHolding(params);
+
+ $(&quot;form&quot;).submit(function (e) {
+
+     e.preventDefault();
+     $(&quot;#table&quot;).empty();
+
+     var params = {
+         libraryID: $(&quot;select[name=&#39;libraryID&#39;]&quot;).val(),
+         libraryName: $(&quot;select[name=&#39;libraryID&#39;] option:selected&quot;),
+         itemID: $(&quot;form input[name=itemID]&quot;).val(),
+         type: $(&#39;input[name=&quot;type&quot;]:checked&#39;).val()
+     };
+
+     checkHolding(params);
+ });
+//]]&gt;  
+
+&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CiNii APIで取得した複数の図書・雑誌の所蔵館数をグラフにする</title>
+   <link href="/library-labs/2013/12/10/cinii-api.html"/>
+   <updated>2013-12-10T20:52:00+09:00</updated>
+   <id>/library-labs/2013/12/10/cinii-api</id>
+   <content type="html">&lt;p&gt;図書・雑誌の所蔵館数をCiNii APIから取得してグラフにしました。コンマ区切りでNCIDを入力してください。&lt;/p&gt;
+
+&lt;form&gt;
+    &lt;input type=&quot;text&quot; name=&quot;ncid&quot; id=&quot;ncid&quot; value=&quot;AN00122038,AN00067949,AN0022103X,AN00391801,AN00221958,AA12219565,AN00396849,AN0023681X&quot; style=&quot;width:600px&quot;&gt;&lt;button&gt;グラフを生成&lt;/button&gt;
+&lt;/form&gt;
+  
+&lt;div id=&quot;chart&quot; style=&quot;width: 600px; height: 400px;&quot;&gt;&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.google.com/jsapi&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;//&lt;![CDATA[ 
+
+google.load(&#39;visualization&#39;, &#39;1&#39;, {
+    packages: [&#39;corechart&#39;]
+});
+
+function getCount(params) {
+    var setting = {
+        appID: &quot;XCTPcTLXwd7zCae0oxmT&quot;,
+        ncid: params.ncid.split(&quot;,&quot;)
+    };
+
+    var jqXHRList = [];
+
+    for (var i = 0; i &lt; setting.ncid.length; i++) {
+        var id = setting.ncid[i];
+
+        if (id.length !== 10) {
+            return false;
+        }
+
+        var url = &quot;http://ci.nii.ac.jp/ncid/&quot; + id + &quot;.json?appid=&quot; + setting.appID;
+        jqXHRList.push($.getJSON(url));
+    }
+
+
+    $.when.apply($, jqXHRList).done(function () {
+        var items = [],
+            result = &quot;&quot;;
+        if (setting.ncid.length &gt; 1) {
+            for (var i = 0; i &lt; arguments.length; i++) {
+                result = arguments[i];
+                items.push(result[0]);
+            }
+        } else {
+            result = arguments[0];
+            items.push(result);
+        }
+        google.setOnLoadCallback(createChart(items));
+
+    });
+
+    function createChart(d) {
+
+        var content = [];
+
+        content.push([&quot;title&quot;, &quot;所蔵館数&quot;]);
+
+        for (var i = 0; i &lt; d.length; i++) {
+            var item = [],
+                title = d[i][&quot;@graph&quot;][0][&quot;dc:title&quot;][0][&quot;@value&quot;];
+
+            item.push(d[i][&quot;@graph&quot;][0][&quot;dc:title&quot;][0][&quot;@value&quot;]);
+
+            item.push(parseInt(d[i][&quot;@graph&quot;][0][&quot;bibo:owner&quot;].length, 10));
+            content.push(item);
+        }
+
+        var data = google.visualization.arrayToDataTable(content);
+        var chart = new google.visualization.ColumnChart(document.getElementById(&#39;chart&#39;));
+
+        chart.draw(data);
+
+    }
+
+}
+
+
+    var params = {
+        ncid: $(&quot;form input[name=ncid]&quot;).val()
+    };
+    getCount(params);
+
+$(&quot;form&quot;).submit(function (e) {
+    e.preventDefault();
+
+    var params = {
+        ncid: $(&quot;form input[name=ncid]&quot;).val()
+    };
+
+    getCount(params);
+});
+//]]&gt;  
+
+&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CiNiiで２つのキーワード検索の結果をグラフで比較</title>
+   <link href="/library-labs/2013/12/09/cinii-2.html"/>
+   <updated>2013-12-09T23:17:00+09:00</updated>
+   <id>/library-labs/2013/12/09/cinii-2</id>
+   <content type="html">&lt;p&gt;指定した出版年までの10年間の検索数を2つのキーワードで比較する。&lt;/p&gt;
+
+&lt;form&gt;
+&lt;p&gt;比較したい2つのキーワードを入力&lt;/p&gt;
+        &lt;div&gt;
+            &lt;label&gt;キーワード1&lt;/label&gt;
+            &lt;input type=&quot;text&quot; id=&quot;q1&quot; name=&quot;q1&quot; placeholder=&quot;キーワード&quot; value=&quot;夏目漱石&quot;&gt;&lt;/div&gt;
+        &lt;div&gt;
+            &lt;label&gt;キーワード2&lt;/label&gt;
+            &lt;input type=&quot;text&quot; id=&quot;q2&quot; name=&quot;q2&quot; placeholder=&quot;キーワード&quot; value=&quot;森鴎外&quot;&gt;&lt;/div&gt;
+    &lt;div&gt;
+            &lt;label&gt;出版年&lt;/label&gt;
+            &lt;input type=&quot;text&quot; id=&quot;year&quot; name=&quot;year&quot; val=&quot;2013&quot; placeholder=&quot;2013&quot;&gt;年まで過去10年間
+    &lt;/div&gt;
+    &lt;div&gt;
+&lt;p&gt;
+           &lt;input type=&quot;radio&quot; name=&quot;type&quot; value=&quot;articles&quot; id=&quot;articles&quot; checked&gt;
+            論文
+            &lt;input type=&quot;radio&quot; name=&quot;type&quot; value=&quot;books&quot; id=&quot;books&quot;&gt;
+            図書・雑誌
+&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;button&gt;グラフを生成&lt;/button&gt;
+&lt;/form&gt;
+&lt;div id=&quot;chart&quot; style=&quot;width: 600px; height: 400px;&quot;&gt;&lt;/div&gt;
+
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.google.com/jsapi&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;//&lt;![CDATA[ 
+
+google.load(&#39;visualization&#39;, &#39;1&#39;, {
+    packages: [&#39;corechart&#39;]
+});
+
+function openSearchAPI(params) {
+
+    var setting = {
+        appID: &quot;XCTPcTLXwd7zCae0oxmT&quot;,
+        year: params.year ? params.year : (new Date()).getFullYear(),
+        count: 10,
+        q1: params.q1,
+        q2: params.q2,
+        type: params.type,
+        baseURL: params.type == &quot;articles&quot; ? &quot;http://ci.nii.ac.jp&quot; : &quot;http://ci.nii.ac.jp/books&quot;
+    };
+
+    var jqXHRList = [];
+
+    for (var i = 0; i &lt; setting.count; i++) {
+        var articles1 = setting.baseURL + &quot;/opensearch/search?q=&quot; + encodeURI(setting.q1) + &quot;&amp;year_from=&quot; + (setting.year - (setting.count - 1) + i) + &quot;&amp;year_to=&quot; + (setting.year - (setting.count - 1) + i) + &quot;&amp;count=1&amp;appid=&quot; + setting.appID + &quot;&amp;format=json&quot;;
+
+        jqXHRList.push($.getJSON(articles1));
+    }
+
+    for (var j = 0; j &lt; setting.count; j++) {
+        var articles2 = setting.baseURL + &quot;/opensearch/search?q=&quot; + encodeURI(setting.q2) + &quot;&amp;year_from=&quot; + (setting.year - (setting.count - 1) + j) + &quot;&amp;year_to=&quot; + (setting.year - (setting.count - 1) + j) + &quot;&amp;count=1&amp;appid=&quot; + setting.appID + &quot;&amp;format=json&quot;;
+
+        jqXHRList.push($.getJSON(articles2));
+    }
+
+
+
+    $.when.apply($, jqXHRList).done(function () {
+        var items = [];
+        var articles1 = [];
+        var articles2 = [];
+
+
+
+        for (var i = 0; i &lt; arguments.length; i++) {
+            var result = arguments[i];
+            if (i &lt; arguments.length / 2) {
+                articles1.push(result[0]);
+            } else {
+                articles2.push(result[0]);
+            }
+        }
+
+        items.push(articles1);
+        items.push(articles2);
+
+        google.setOnLoadCallback(createChart(items));
+    });
+
+    function createChart(d) {
+
+        var content = [];
+        var title1 = setting.q1 ? setting.q1 : &quot;すべて&quot;;
+        var title2 = setting.q2 ? setting.q2 : &quot;すべて&quot;;
+
+        content.push([&quot;year&quot;, title1, title2]);
+
+        for (var i = 0; i &lt; d[0].length; i++) {
+            var item = [];
+            item.push(setting.year - (setting.count - 1) + i + &quot;&quot;);
+            item.push(parseInt(d[0][i][&quot;@graph&quot;][0][&quot;opensearch:totalResults&quot;], 10));
+            item.push(parseInt(d[1][i][&quot;@graph&quot;][0][&quot;opensearch:totalResults&quot;], 10));
+            content.push(item);
+        }
+
+
+
+        var data = google.visualization.arrayToDataTable(content);
+        var chart = new google.visualization.ColumnChart(document.getElementById(&#39;chart&#39;));
+
+        chart.draw(data);
+
+    }
+}
+
+
+
+$(&quot;button&quot;).click(function (e) {
+    e.preventDefault();
+
+    var params = {
+
+        q1: $(&quot;form input[name=q1]&quot;).val(),
+        q2: $(&quot;form input[name=q2]&quot;).val(),
+        year: $(&quot;form input[name=year]&quot;).val(),
+        type: $(&#39;input[name=&quot;type&quot;]:checked&#39;).val()
+
+    };
+
+    openSearchAPI(params);
+});
+//]]&gt;  
+
+&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Summon APIから図書館カタログの登録数をグラフにしてみた</title>
+   <link href="/library-labs/2013/12/04/summon-api.html"/>
+   <updated>2013-12-04T23:31:00+09:00</updated>
+   <id>/library-labs/2013/12/04/summon-api</id>
+   <content type="html">&lt;p&gt;SummonのAPIから図書館カタログの発行年別の登録数を得てグラフにしています。エラーが出たら再読み込みしてみてください。&lt;/p&gt;
+
+&lt;div id=&quot;chart&quot; style=&quot;width: 600px; height: 400px;&quot;&gt;&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://www.google.com/jsapi&quot;&gt;&lt;/script&gt;&lt;script&gt;
+google.load(&#39;visualization&#39;, &#39;1&#39;, {
+    packages: [&#39;corechart&#39;]
+});
+
+var uni = [{
+    id: &quot;bukkyo&quot;,
+    name: &quot;佛教大学&quot;
+},{
+    id: &quot;kyushu&quot;,
+    name: &quot;九州大学&quot;
+},{
+    id: &quot;kagoshima&quot;,
+    name: &quot;鹿児島大学&quot;
+},{
+    id: &quot;tokyo&quot;,
+    name: &quot;東京大学&quot;
+}];
+var request = [];
+var title = [&quot;year&quot;];
+
+for (var i = 0; i &lt; uni.length; i++) {
+    title.push(uni[i].name);
+    request.push(&quot;http://&quot; + uni[i].id + &quot;.preview.summon.serialssolutions.com/api/search?pn=1&amp;ho=t&amp;fvf%5B%5D=SourceType%2CLibrary+Catalog%2Cf&amp;l=jp&quot;);
+
+}
+
+var jqXHRList = [];
+
+for (var i = 0; i &lt; request.length; i++) {
+    jqXHRList.push($.getJSON(&quot;http://query.yahooapis.com/v1/public/yql?callback=?&quot;, {
+        q: &quot;select * from json where url=&#39;&quot; + request[i] + &quot;&#39;&quot;,
+        fortmat: &#39;json&#39;
+    }));
+}
+
+$.when.apply($, jqXHRList).done(function () {
+    var json = [];
+    var statuses = [];
+    var jqXHRResultList = [];
+    for (var i = 0; i &lt; arguments.length; i++) {
+        var result = arguments[i];
+        json.push(result[0]);
+        statuses.push(result[1]);
+        jqXHRResultList.push(result[3]);
+    }
+
+    google.setOnLoadCallback(createChart(json));
+});
+
+
+function createChart(d) {
+    var items = d,
+        content = [];
+
+    content.push(title);
+    var years = [];
+
+    for (var i = 0; i &lt; items.length; i++) {
+        var item = items[i].results[0];
+        var counts = $(item).find(&quot;publication_date_facet&quot;).find(&quot;counts&quot;);
+
+
+        for(var j = 0; j &lt; counts.length; j++){
+            if(i===0){
+            content[j + 1] = [];
+            content[j + 1][0] = $(counts[j]).find(&quot;year&quot;).text();
+
+        }
+            content[j + 1][i + 1] = parseInt($(counts[j]).find(&quot;count&quot;).text(),10);
+        }
+    }
+
+     var data = google.visualization.arrayToDataTable(content);
+    var chart = new google.visualization.LineChart(document.getElementById(&#39;chart&#39;));
+
+    var options = {
+        pieSliceText: &#39;label&#39;,
+        title: &#39;図書館カタログ登録数&#39;
+    };
+
+    chart.draw(data, options);
+
+}
+
+
+&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Summonの言語別登録件数</title>
+   <link href="/library-labs/2013/12/03/summon.html"/>
+   <updated>2013-12-03T23:21:00+09:00</updated>
+   <id>/library-labs/2013/12/03/summon</id>
+   <content type="html">&lt;p&gt;SummonのAPIからファセット情報を得てグラフにしています。今回は佛大の場合です。
+
+&lt;/p&gt;&lt;div id=&quot;chart&quot; style=&quot;width: 600px; height: 400px;&quot;&gt;&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://www.google.com/jsapi&quot;&gt;&lt;/script&gt;&lt;script&gt;
+
+google.load(&#39;visualization&#39;, &#39;1&#39;, {
+    packages: [&#39;corechart&#39;]
+});
+
+function getSummonResult(q) {
+    var apiURL = &quot;http://bukkyo.preview.summon.serialssolutions.com/api/facet_values?pn=1&amp;ho=f&amp;l=jp&amp;facet=Language&quot;;
+
+    $.getJSON(&quot;http://query.yahooapis.com/v1/public/yql?callback=?&quot;, {
+        q: &quot;select * from json where url=&#39;&quot; + apiURL + &quot;&#39;&quot;,
+        format: &quot;json&quot;
+    }, function (d) {
+        
+        var language = d.query.results.json.facet_values.counts;
+        google.setOnLoadCallback(createChart(language));
+
+    });
+}
+
+function createChart(d) {
+    var items = d,
+        content = [],
+        total = 0;
+    
+    content.push([&#39;language&#39;, &#39;language count&#39;]);
+
+    for (var i = 0; i &lt; items.length; i++) {
+        var lang = items[i].value,
+            count = items[i].count,
+            item = [];
+        
+        total += parseInt(count,10);
+
+        
+        item.push(lang);
+        item.push(parseInt(count,10));
+        content.push(item);
+    }
+
+    var data = google.visualization.arrayToDataTable(content);
+ 
+       var options = {
+        pieSliceText: &#39;label&#39;,
+        title: total + &#39;件&#39;
+      };
+    
+ 
+    var chart = new google.visualization.PieChart(document.getElementById(&#39;chart&#39;));
+    
+    chart.draw(data, options);
+}
+
+
+getSummonResult(&quot;&quot;);
+
+
+
+&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CiNii Extensionを更新。</title>
+   <link href="/library-labs/2013/11/27/cinii-extension.html"/>
+   <updated>2013-11-27T00:13:00+09:00</updated>
+   <id>/library-labs/2013/11/27/cinii-extension</id>
+   <content type="html">&lt;p&gt;Google Chromeの拡張機能「CiNii Extension」を更新。CiNii Booksで機関IDを入れて検索したとき、書誌詳細ページにおいて、その機関が大学図書館所蔵リストの最初に表示されるようしました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/ckafdcndhfflgimebghcnccikoahhgid&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  ウェブストア&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Omekaのすすめ</title>
+   <link href="/library-labs/2013/09/23/omeka.html"/>
+   <updated>2013-09-23T00:03:17+09:00</updated>
+   <id>/library-labs/2013/09/23/omeka</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://omeka.org/&quot;&gt;Omeka&lt;/a&gt;を使った個人的なサイトを作ろうとしたけど、モチベーションが上がらないので放置している。アクセスはできるようにはなっているので、Omekaやデジタルアーカイブに興味がある人はアクセスしてみてください。&lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&quot;http://media.tumblr.com/63502e4b18bcddf4ced6e97b141d0f75/tumblr_inline_mtj8fai40e1qmedj8.png&quot;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://kyoto-city.net/archives/travel/&quot; class=&quot;btn&quot;&gt;アクセス&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>カーリルウィジェット・ブックマークレット(amazon、CiNii Books対応)</title>
+   <link href="/library-labs/2013/09/22/amazon-cinii-books.html"/>
+   <updated>2013-09-22T03:54:00+09:00</updated>
+   <id>/library-labs/2013/09/22/amazon-cinii-books</id>
+   <content type="html">&lt;p&gt;AmazonとCiNii Booksの書誌詳細ページからISBNを渡してカーリルウィジェットの設定ページに飛べるブックマークレットを作成しました。&lt;/p&gt;
+&lt;p&gt;下のリンクをブラウザのブックマークバーに登録してください。Amazon、またはCiNii Booksの書誌詳細ページで登録したブックマークをクリックすると、ISBNが入った状態でカーリルウィジェットの設定ページが開きます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;javascript:var%20url=location.href,isbns=%5B%5D;url.match(/www%5C.amazon/g)?isbns=location.href.match(/%5C/%5B0-9%5D%7B13%7D%5C/%7C%5C/%5B0-9%5D%7B9%7DX%5C/%7C%5C/%5B0-9%5D%7B10%7D%5C//g):url.match(/ci%5C.nii%5C.ac.jp%5C/ncid/g)&amp;amp;&amp;amp;isbns.push(document.getElementsByClassName(%22isbn%22)%5B0%5D.innerText);if(isbns)%7Bvar%20isbn=isbns%5B0%5D.replace(/%5C//g,%22%22),w=window.open(%22http://calil.jp/widget/?isbn=%22+isbn,%22_blank%22);w.focus()%7Delse%20alert(%22ISBN%5Cu3092%5Cu53d6%5Cu5f97%5Cu3067%5Cu304d%5Cu307e%5Cu305b%5Cu3093%5Cu3067%5Cu3057%5Cu305f%5Cu3002%22);&quot;&gt;カーリルウィジェット&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CiNii Extensionを更新、カーリルウィジェットの設置</title>
+   <link href="/library-labs/2013/09/16/cinii-extension.html"/>
+   <updated>2013-09-16T03:01:00+09:00</updated>
+   <id>/library-labs/2013/09/16/cinii-extension</id>
+   <content type="html">&lt;p&gt;Google Chromeの拡張機能「CiNii Extension」を久々に更新しました。CiNii Booksの書誌詳細ページに最近リリースされた&lt;a href=&quot;http://calil.jp/widget/&quot;&gt;カーリルウィジェット&lt;/a&gt;を設置しています。表紙画像のリンクはAmazonへのリンクです（アソシエイトID入れています）。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/ckafdcndhfflgimebghcnccikoahhgid&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  ウェブストア&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://media.tumblr.com/eff67569cf8a7b300380f3b79183017a/tumblr_inline_mt6i1lx7K71qmedj8.png&quot;/&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Raphaëlで点字変換ツール</title>
+   <link href="/library-labs/2013/09/08/raphael.html"/>
+   <updated>2013-09-08T13:04:00+09:00</updated>
+   <id>/library-labs/2013/09/08/raphael</id>
+   <content type="html">&lt;p&gt;
+RaphaëlはSVGを描くことができるJavaScriptライブラリです。
+「&lt;a href=&quot;http://shop.oreilly.com/product/0636920029601.do&quot;&gt;RaphaelJS Graphics and Visualization on the Web&lt;/a&gt;」のサンプルそのままですが、点字変換ツールの日本語版を作ってみました。アルファベットとひらがなのみで、濁音、半濁音、拗音には対応してません。&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;//&lt;![CDATA[
+window.onload=function(){
+var paper = Raphael(&quot;canvas&quot;, 500, 500),
+    SPACING = 14,
+    RADIUS = 2;
+
+
+var braille = {
+	&quot;あ&quot;: &quot;1&quot;,
+	&quot;い&quot;: &quot;1-2&quot;,
+	&quot;う&quot;: &quot;1-4&quot;,
+	&quot;え&quot;: &quot;1-2-4&quot;,
+	&quot;お&quot;: &quot;2-4&quot;,
+	&quot;か&quot;: &quot;1-6&quot;,
+	&quot;き&quot;: &quot;1-2-6&quot;,
+	&quot;く&quot;: &quot;1-4-6&quot;,
+	&quot;け&quot;: &quot;1-2-4-6&quot;,
+	&quot;こ&quot;: &quot;2-4-6&quot;,
+	&quot;さ&quot;: &quot;1-5-6&quot;,
+	&quot;し&quot;: &quot;1-2-5-6&quot;,
+	&quot;す&quot;: &quot;1-4-5-6&quot;,
+	&quot;せ&quot;: &quot;1-2-4-5-6&quot;,
+	&quot;そ&quot;: &quot;2-4-5-6&quot;,
+	&quot;た&quot;: &quot;1-3-5&quot;,
+	&quot;ち&quot;: &quot;1-2-3-5&quot;,
+	&quot;つ&quot;: &quot;1-3-4-5&quot;,
+	&quot;て&quot;: &quot;1-2-3-4-5&quot;,
+	&quot;と&quot;: &quot;2-3-4-5&quot;,
+	&quot;な&quot;: &quot;1-3&quot;,
+	&quot;に&quot;: &quot;1-2-3&quot;,
+	&quot;ぬ&quot;: &quot;1-3-4&quot;,
+	&quot;ね&quot;: &quot;1-2-3-4&quot;,
+	&quot;の&quot;: &quot;2-3-4&quot;,
+	&quot;は&quot;: &quot;1-3-6&quot;,
+	&quot;ひ&quot;: &quot;1-2-3-6&quot;,
+	&quot;ふ&quot;: &quot;1-3-4-6&quot;,
+	&quot;へ&quot;: &quot;1-2-3-4-6&quot;,
+	&quot;ほ&quot;: &quot;2-3-4-6&quot;,
+	&quot;ま&quot;: &quot;1-3-5-6&quot;,
+	&quot;み&quot;: &quot;1-2-3-5-6&quot;,
+	&quot;む&quot;: &quot;1-3-4-5-6&quot;,
+	&quot;め&quot;: &quot;1-2-3-4-5-6&quot;,
+	&quot;も&quot;: &quot;2-3-4-5-6&quot;,
+	&quot;や&quot;: &quot;3-4&quot;,
+	&quot;ゆ&quot;: &quot;3-4-6&quot;,
+	&quot;よ&quot;: &quot;3-4-5&quot;,
+	&quot;ら&quot;: &quot;1-5&quot;,
+	&quot;り&quot;: &quot;1-2-5&quot;,
+	&quot;る&quot;: &quot;1-4-5&quot;,
+	&quot;れ&quot;: &quot;1-2-4-5&quot;,
+	&quot;ろ&quot;: &quot;2-4-5&quot;,
+	&quot;わ&quot;: &quot;3&quot;,
+	&quot;を&quot;: &quot;3-5&quot;,
+	&quot;ん&quot;: &quot;3-5-6&quot;,
+	&quot;っ&quot;: &quot;2&quot;,
+	&quot;ー&quot;: &quot;2-5&quot;,
+  &quot;A&quot;: &quot;1&quot;,
+  &quot;B&quot;: &quot;1-2&quot;,
+  &quot;C&quot;: &quot;1-4&quot;,
+  &quot;D&quot;: &quot;1-4-5&quot;,
+  &quot;E&quot;: &quot;1-5&quot;,
+  &quot;F&quot;: &quot;1-2-4&quot;,
+  &quot;G&quot;: &quot;1-2-4-5&quot;,
+  &quot;H&quot;: &quot;1-2-5&quot;,
+  &quot;I&quot;: &quot;2-4&quot;,
+  &quot;J&quot;: &quot;2-4-5&quot;,
+  &quot;K&quot;: &quot;1-3&quot;,
+  &quot;L&quot;: &quot;1-2-3&quot;,
+  &quot;M&quot;: &quot;1-3-4&quot;,
+  &quot;N&quot;: &quot;1-3-4-5&quot;,
+  &quot;O&quot;: &quot;1-3-5&quot;,
+  &quot;P&quot;: &quot;1-2-3-4&quot;,
+  &quot;Q&quot;: &quot;1-2-3-4-5&quot;,
+  &quot;R&quot;: &quot;1-2-3-5&quot;,
+  &quot;S&quot;: &quot;2-3-4&quot;,
+  &quot;T&quot;: &quot;2-3-4&quot;,
+  &quot;U&quot;: &quot;1-3-6&quot;,
+  &quot;V&quot;: &quot;1-2-3-6&quot;,
+  &quot;W&quot;: &quot;2-4-5-6&quot;,
+  &quot;X&quot;: &quot;1-3-4-6&quot;,
+  &quot;Y&quot;: &quot;1-3-4-5-6&quot;,
+  &quot;Z&quot;: &quot;1-3-5-6&quot;
+};
+
+function make_dot(number){
+    number -= 1;
+    if(number &lt; 0 || number &gt; 5) {
+        console.log(&quot;Invalid number.&quot;);
+        return null;
+    }
+
+    var x = Math.floor(number / 3);
+    var y = number % 3;
+    var dot = paper.circle(x * SPACING, y * SPACING, RADIUS).attr(&quot;fill&quot;,&quot;black&quot;);
+    return dot;
+}
+
+function make_cell(dots) {
+    if(typeof dots === &quot;string&quot;) {
+        dots = dots.split(&quot;-&quot;);
+    }
+
+    var cell = paper.set();
+
+    for (var c = 0; c &lt; dots.length; c+=1) {
+        cell.push(make_dot(dots[c]));
+    }
+
+    return cell;
+
+}
+
+
+function make_word(word,pos) {
+    pos = pos || {x: 10, y:10};
+    word = word.toUpperCase();
+    var myword = paper.set();
+    for (var c = 0; c &lt; word.length; c += 1) {
+        if(braille[word[c]]) {
+            var letter = make_cell(braille[word[c]]);
+            myword.push(letter);
+            letter.transform(&quot;T&quot; + pos.x + &quot;,&quot; + pos.y);
+            pos.x += SPACING * 3;
+        }
+    }
+    return myword;
+}
+
+function make_words(message) {
+    var pos = {x:10,y:10},
+        words = message.toUpperCase().split(&quot; &quot;),
+        myset = paper.set();
+
+    for (var c = 0;c &lt; words.length; c +=1) {
+        myset.push(make_word(words[c],pos));
+        if(pos.x &gt; 10 &amp;&amp; (pos.x + SPACING * 3 * words[c].length) &gt; paper.width){
+            pos.x = 10;
+            pos.y += SPACING * 5;
+        } else {
+            pos.x += SPACING * 3;
+        }
+     }
+    return myset;
+}
+
+var braille_words = paper.set();
+
+function make() {
+    braille_words.remove();
+    braille_words = make_words(document.getElementById(&quot;message&quot;).value);
+}
+
+document.getElementById(&quot;clickme&quot;).onclick = make;
+make();
+
+}//]]&gt;
+
+&lt;/script&gt;&lt;input type=&quot;text&quot; id=&quot;message&quot; style=&quot;width:200px&quot; value=&quot;&quot;&gt;&lt;input type=&quot;button&quot; id=&quot;clickme&quot; value=&quot;点字に変換&quot;&gt;&lt;div id=&quot;canvas&quot;&gt;&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>オープンソースCMSを使用している大学図書館サイト</title>
+   <link href="/library-labs/2013/09/03/cms.html"/>
+   <updated>2013-09-03T04:10:00+09:00</updated>
+   <id>/library-labs/2013/09/03/cms</id>
+   <content type="html">&lt;p&gt;オープンソースCMSを使用している大学図書館サイト。不完全なリストなので参考程度に。&lt;/p&gt;
+
+&lt;ul id=&quot;library-list&quot;&gt;&lt;li&gt;&lt;a href=&quot;http://www.lib.hokudai.ac.jp&quot;&gt;北海道大学附属図書館&amp;#160;: WordPress&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://s-opac.sap.hokkyodai.ac.jp/library/&quot;&gt;北海道教育大学附属図書館&amp;#160;: Drupal&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.muroran-it.ac.jp/index-j.html&quot;&gt;室蘭工業大学附属図書館&amp;#160;: WordPress&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.lib.kitami-it.ac.jp&quot;&gt;北見工業大学附属図書館&amp;#160;: Movable Type&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.sapmed.ac.jp/libr&quot;&gt;札幌医科大学附属図書館&amp;#160;: WordPress&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://library.sgu.ac.jp&quot;&gt;札幌学院大学図書館&amp;#160;: XOOPS&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.hakodate-u.ac.jp&quot;&gt;函館大学図書館&amp;#160;: Joomla&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://library.hokusei.ac.jp&quot;&gt;北星学園大学図書館&amp;#160;: XOOPS&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.lib.hi-tech.ac.jp&quot;&gt;八戸工業大学図書館&amp;#160;: Drupal&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://lib.hachinohe-u.ac.jp/&quot;&gt;八戸学院大学・八戸学院短期大学図書館&amp;#160;: Movable Type&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.library.tohoku.ac.jp&quot;&gt;東北大学附属図書館&amp;#160;: XOOPS&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.tuad.ac.jp/library/&quot;&gt;東北芸術工科大学図書館&amp;#160;: WordPress&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://library.koriyama-kgc.ac.jp&quot;&gt;郡山女子大学図書館&amp;#160;: XOOPS&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://home.lib.saitama-u.ac.jp/&quot;&gt;埼玉大学附属図書館&amp;#160;: WordPress&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.lib.uec.ac.jp/&quot;&gt;電気通信大学附属図書館&amp;#160;: XOOPS&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.ics.hit-u.ac.jp&quot;&gt;一橋大学大学院国際企業戦略研究科図書室ー&amp;#160;: Drupal&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www-lib.icu.ac.jp&quot;&gt;国際基督教大学図書館&amp;#160;: WordPress&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://lib.swu.ac.jp/&quot;&gt;昭和女子大学図書館&amp;#160;: WordPress&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.tama.ac.jp/subject/library.html&quot;&gt;多摩大学図書館&amp;#160;: XOOPS&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://library.tokyo-med.ac.jp&quot;&gt;東京医科大学図書館&amp;#160;: XOOPS&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://ufinity01.jp.fujitsu.com/kait/&quot;&gt;神奈川工科大学附属図書館&amp;#160;: NetCommons&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://library.aichi-u.ac.jp&quot;&gt;愛知大学豊橋図書館&amp;#160;: Movable Type&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.kulib.kyoto-u.ac.jp/&quot;&gt;京都大学附属図書館&amp;#160;: XOOPS&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://bulib.bukkyo-u.ac.jp/docs/portal/&quot;&gt;佛教大学附属図書館&amp;#160;: WordPress&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.lib.kobe-u.ac.jp&quot;&gt;神戸大学附属図書館&amp;#160;: XOOPS&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://library.otemae.ac.jp/&quot;&gt;大手前大学・大手前短期大学図書館&amp;#160;: WordPress&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://library.naist.jp/&quot;&gt;奈良先端科学技術大学院大学附属図書館&amp;#160;: Drupal&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.mimasaka.ac.jp/intro/library/&quot;&gt;美作大学・美作大学短期短期大学部附属図書館&amp;#160;: XOOPS&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.lib.hiroshima-u.ac.jp&quot;&gt;広島大学附属図書館&amp;#160;: NetCommons&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.lib.kyushu-u.ac.jp/ja&quot;&gt;九州大学附属図書館&amp;#160;: Drupal&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.libt.kyutech.ac.jp/libt/&quot;&gt;九州工業大学附属図書館&amp;#160;: Drupal&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.fwu.ac.jp/lib/&quot;&gt;福岡女子大学附属図書館&amp;#160;: NetCommons&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://coral.lib.nias.ac.jp&quot;&gt;長崎総合科学大学附属図書館&amp;#160;: Joomla&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.lib.kumamoto-u.ac.jp&quot;&gt;熊本大学附属図書館&amp;#160;: Drupal&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.lib.kumagaku.ac.jp/&quot;&gt;熊本学園大学付属図書館&amp;#160;: WordPress&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.lib.u-ryukyu.ac.jp&quot;&gt;琉球大学附属図書館&amp;#160;: WordPress&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Code4Lib JAPAN カンファレンス2013 非公式アプリ</title>
+   <link href="/library-labs/2013/08/09/code4lib-japan-2013.html"/>
+   <updated>2013-08-09T04:18:00+09:00</updated>
+   <id>/library-labs/2013/08/09/code4lib-japan-2013</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://bukkyo.preview.summon.serialssolutions.com/&quot;&gt;Summon2.0&lt;/a&gt;が&lt;a href=&quot;http://angularjs.org/&quot;&gt;AngularJS&lt;/a&gt;を使っていたので、AngularJSの勉強を兼ねてCode4Lib JAPAN カンファレンス2013 非公式アプリというかウェブページを作った。大したことはしてないけど。あとBootstrap 3 RC1を使っている。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://library-labs.tumblr.com/c4ljp&quot; class=&quot;btn&quot;&gt;アクセス&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&quot;http://chart.googleapis.com/chart?cht=qr&amp;amp;chs=150x150&amp;amp;choe=UTF-8&amp;amp;chld=H&amp;amp;chl=http://goo.gl/sM9l8m&quot;/&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>OmekaのOAI-PMH Harvester</title>
+   <link href="/library-labs/2013/07/26/omeka-oai-pmh-harvester.html"/>
+   <updated>2013-07-26T02:14:00+09:00</updated>
+   <id>/library-labs/2013/07/26/omeka-oai-pmh-harvester</id>
+   <content type="html">&lt;p&gt;Omekaのプラグイン「&lt;a href=&quot;http://omeka.org/add-ons/plugins/oai-pmh-harvester/&quot;&gt;OAI-PMH Harvester&lt;/a&gt;」について。以下、メモ書き。&lt;/p&gt;
+&lt;p&gt;国立国会図書館サーチではうまく行かなかった。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://community.repo.nii.ac.jp/&quot;&gt;JAIRO Cloud&lt;/a&gt;で運営されている&lt;a href=&quot;https://niad.repo.nii.ac.jp/index.php&quot;&gt;大学評価・学位授与機構学術情報リポジトリ&lt;/a&gt;で試してみた。&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;
+base URLの入力: &lt;a href=&quot;https://niad.repo.nii.ac.jp/?action=repository_oaipmh&quot;&gt;https://niad.repo.nii.ac.jp/?action=repository_oaipmh&lt;/a&gt;
+&lt;p&gt;
+&lt;img src=&quot;http://media.tumblr.com/2d95fbfdadc4229f2a6d7bedd716852a/tumblr_inline_mqi4sdwrvi1qz4rgp.png&quot;/&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+ハーベストするセットを選択
+&lt;p&gt;
+&lt;img src=&quot;http://media.tumblr.com/fecee7f3a504268500595fd0ff54763b/tumblr_inline_mqi4ynR7Mg1qz4rgp.png&quot;/&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+ハーベスト完了
+&lt;p&gt;
+&lt;img src=&quot;http://media.tumblr.com/6403dc70b32cdc999154d84641ad1997/tumblr_inline_mqi5114Roy1qz4rgp.png&quot;/&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+管理画面のアイテム一覧ページ
+&lt;p&gt;
+&lt;img src=&quot;http://media.tumblr.com/f32d66174506eab1eef6caa1da16b2a9/tumblr_inline_mqi55gxndW1qz4rgp.png&quot;/&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+実際の詳細ページ
+&lt;p&gt;
+&lt;img src=&quot;http://media.tumblr.com/4e6a46212376ae7ef1a116674fc5c938/tumblr_inline_mqi570DF7g1qz4rgp.png&quot;/&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Omekaの日本語化</title>
+   <link href="/library-labs/2013/07/23/omeka.html"/>
+   <updated>2013-07-23T00:39:00+09:00</updated>
+   <id>/library-labs/2013/07/23/omeka</id>
+   <content type="html">&lt;p&gt;Omekaの管理画面を日本語にするには以下の様にしてください（まだ50％ほどしか終わっていないので一部英語の所も残っていますが）。&lt;/p&gt;
+
+&lt;p&gt;{omeka-root}/application/config.iniをテキストエディタで開き、31行目あたりの「locale.name = &amp;#8220;&amp;#8221;」 を「locale.name = &amp;#8220;ja&amp;#8221;」に変更。
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://media.tumblr.com/ebcc83a1ff9b8a0826dc79ab69b3cf1c/tumblr_inline_mqcgy6Sif31qz4rgp.png&quot; width=&quot;500&quot;/&gt;&lt;/p&gt;
+&lt;p&gt;興味ある人は翻訳に参加してください。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>PARTS OF LIBRARY WEBSITES</title>
+   <link href="/library-labs/2013/07/01/parts.html"/>
+   <updated>2013-07-01T02:38:00+09:00</updated>
+   <id>/library-labs/2013/07/01/parts</id>
+   <content type="html">&lt;p&gt;「&lt;a href=&quot;http://kyoto-city.net/library-labs/parts&quot;&gt;PARTS OF LIBRARY WEBSITES&lt;/a&gt;」は図書館ウェブサイトを検索窓、アイコン、メニューなどのパーツに分けて、コレクションしたサイトです。&lt;/p&gt;
+&lt;p&gt;現在は主に大学図書館のサイトから収集しています。見た目に美しいものだけを集めたギャラリーサイトではなく、大学図書館サイトの傾向、パターンを知ることができるようなサイトを目指しています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://kyoto-city.net/library-labs/parts/&quot;&gt;&lt;img src=&quot;http://media.tumblr.com/de220c690077b43eeb9b9e063fe3ea6b/tumblr_inline_mp7uosuidw1qz4rgp.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>機関リポジトリ一覧（国立大学）</title>
+   <link href="/library-labs/2013/04/14/.html"/>
+   <updated>2013-04-14T21:14:00+09:00</updated>
+   <id>/library-labs/2013/04/14/</id>
+   <content type="html">&lt;div id=&quot;chart&quot;&gt;&lt;/div&gt;
+&lt;ol id=&quot;list&quot;&gt;&lt;li&gt;&lt;h3&gt;秋田大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://air.lib.akita-u.ac.jp/dspace/&quot;&gt;秋田大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;http://air.lib.akita-u.ac.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/57.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;愛知教育大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://repository.aichi-edu.ac.jp/&quot;&gt;愛知教育大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;http://repository.aichi-edu.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/88.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;旭川医科大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://amcor.asahikawa-med.ac.jp&quot;&gt;旭川医科大学学術成果リポジトリ　AMCoR &lt;/a&gt; &lt;a href=&quot;http://amcor.asahikawa-med.ac.jp&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/10.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;XooNIps &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;岩手大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ir.iwate-u.ac.jp/dspace/&quot;&gt;岩手大学リポジトリ &lt;/a&gt; &lt;a href=&quot;http://ir.iwate-u.ac.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/31.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;Dspace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;宇都宮大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://uuair.lib.utsunomiya-u.ac.jp/&quot;&gt;宇都宮大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;http://uuair.lib.utsunomiya-u.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/63.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;茨城大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ir.lib.ibaraki.ac.jp/&quot;&gt;ROSE リポジトリいばらき &lt;/a&gt; &lt;a href=&quot;http://ir.lib.ibaraki.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/86.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;大分大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ir.lib.oita-u.ac.jp/dspace/&quot;&gt;大分大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;http://ir.lib.oita-u.ac.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/59.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;愛媛大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://iyokan.lib.ehime-u.ac.jp/dspace/&quot;&gt;愛媛地区共同リポジトリ　IYOKAN &lt;/a&gt; &lt;a href=&quot;http://iyokan.lib.ehime-u.ac.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/364.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;岡山大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ousar.lib.okayama-u.ac.jp&quot;&gt;岡山大学学術成果リポジトリ &lt;/a&gt; &lt;a href=&quot;http://ousar.lib.okayama-u.ac.jp&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/17.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;Earmas &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;大阪大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ir.library.osaka-u.ac.jp/portal/&quot;&gt;大阪大学学術情報庫　桜華 &lt;/a&gt; &lt;a href=&quot;http://ir.library.osaka-u.ac.jp/portal/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/30.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;小樽商科大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://barrel.ih.otaru-uc.ac.jp/&quot;&gt;小樽商科大学学術成果コレクション &lt;/a&gt; &lt;a href=&quot;http://barrel.ih.otaru-uc.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/46.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;Dspace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;大阪教育大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ir.lib.osaka-kyoiku.ac.jp/dspace/&quot;&gt;大阪教育大学リポジトリ &lt;/a&gt; &lt;a href=&quot;http://ir.lib.osaka-kyoiku.ac.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/48.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;お茶の水女子大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://teapot.lib.ocha.ac.jp/ocha/&quot;&gt;TeaPot　お茶の水女子大学教育・研究成果コレクション &lt;/a&gt; &lt;a href=&quot;http://teapot.lib.ocha.ac.jp/ocha/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/24.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;Dspace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;香川大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://shark.lib.kagawa-u.ac.jp/kuir/&quot;&gt;香川大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;http://shark.lib.kagawa-u.ac.jp/kuir/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/94.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;e-repository &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;鹿児島大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ir.kagoshima-u.ac.jp/&quot;&gt;鹿児島大学リポジトリ &lt;/a&gt; &lt;a href=&quot;http://ir.kagoshima-u.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/16.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;帯広畜産大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ir.obihiro.ac.jp/dspace/index.jsp&quot;&gt;帯広畜産大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;http://ir.obihiro.ac.jp/dspace/index.jsp&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/91.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;金沢大学 &lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://dspace.lib.kanazawa-u.ac.jp/dspace/&quot;&gt;金沢大学学術情報リポジトリKURA &lt;/a&gt; &lt;a href=&quot;http://dspace.lib.kanazawa-u.ac.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/33.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;鹿屋体育大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://repo.lib.nifs-k.ac.jp/&quot;&gt;鹿屋体育大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;http://repo.lib.nifs-k.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/87.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;北見工業大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://kitir.lib.kitami-it.ac.jp/&quot;&gt;北見工業大学学術機関リポジトリ　KIT-R &lt;/a&gt; &lt;a href=&quot;http://kitir.lib.kitami-it.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/80.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace　1.2.3 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;九州工業大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ds.lib.kyutech.ac.jp/dspace/&quot;&gt;九州工業大学学術機関リポジトリ（Kyutacar） &lt;/a&gt; &lt;a href=&quot;http://ds.lib.kyutech.ac.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/53.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;京都工芸繊維大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://repository.lib.kit.ac.jp/dspace/index.jsp&quot;&gt;ＫＩＴ学術成果コレクション &lt;/a&gt; &lt;a href=&quot;http://repository.lib.kit.ac.jp/dspace/index.jsp&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/60.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;九州大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://qir.kyushu-u.ac.jp/dspace/&quot;&gt;九州大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;https://qir.kyushu-u.ac.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/1.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;Dspace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;京都大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://repository.kulib.kyoto-u.ac.jp/&quot;&gt;京都大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;http://repository.kulib.kyoto-u.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/19.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;岐阜大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://repository.lib.gifu-u.ac.jp/&quot;&gt;岐阜大学機関リポジトリ &lt;/a&gt; &lt;a href=&quot;http://repository.lib.gifu-u.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/37.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;NALIS-R(DSpace) &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;熊本大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://reposit.lib.kumamoto-u.ac.jp/&quot;&gt;熊本大学学術リポジトリ &lt;/a&gt; &lt;a href=&quot;http://reposit.lib.kumamoto-u.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/42.png&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;Nalis-R (DSpace) &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;群馬大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://gair.media.gunma-u.ac.jp&quot;&gt;群馬県地域共同リポジトリ　AKAGI &lt;/a&gt; &lt;a href=&quot;https://gair.media.gunma-u.ac.jp&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/14.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;高知大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://ir.kochi-u.ac.jp/dspace/&quot;&gt;高知大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;https://ir.kochi-u.ac.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/54.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;神戸大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://www.lib.kobe-u.ac.jp/kernel/&quot;&gt;神戸大学学術成果リポジトリKernel &lt;/a&gt; &lt;a href=&quot;http://www.lib.kobe-u.ac.jp/kernel/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/6.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;InfoLib-DBR &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;埼玉大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://sucra.saitama-u.ac.jp/&quot;&gt;学術情報発信システムSUCRA &lt;/a&gt; &lt;a href=&quot;http://sucra.saitama-u.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/39.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;XooNIps &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;佐賀大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://portal.dl.saga-u.ac.jp/&quot;&gt;佐賀大学機関リポジトリ &lt;/a&gt; &lt;a href=&quot;http://portal.dl.saga-u.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/67.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;滋賀医科大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://repository.shiga-med.ac.jp/&quot;&gt;滋賀医科大学機関リポジトリ &lt;/a&gt; &lt;a href=&quot;http://repository.shiga-med.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/92.png&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;静岡大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ir.lib.shizuoka.ac.jp/&quot;&gt;静岡大学学術リポジトリ &lt;/a&gt; &lt;a href=&quot;http://ir.lib.shizuoka.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/62.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;滋賀大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://libdspace.biwako.shiga-u.ac.jp/dspace/&quot;&gt;滋賀大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;http://libdspace.biwako.shiga-u.ac.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/123.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;島根大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://sir.lib.shimane-u.ac.jp/&quot;&gt;島根大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;http://sir.lib.shimane-u.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/15.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;E-Repository &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;信州大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://soar-ir.shinshu-u.ac.jp/&quot;&gt;信州大学機関リポジトリ &lt;/a&gt; &lt;a href=&quot;https://soar-ir.shinshu-u.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/28.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;上越教育大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://repository.lib.juen.ac.jp/&quot;&gt;上越教育大学リポジトリ &lt;/a&gt; &lt;a href=&quot;http://repository.lib.juen.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/148.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;総合研究大学院大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ir.soken.ac.jp/&quot;&gt;総研大リポジトリ &lt;/a&gt; &lt;a href=&quot;http://ir.soken.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/404.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;WEKO &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;千葉大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://mitizane.ll.chiba-u.jp/curator/&quot;&gt;千葉大学学術成果リポジトリ &lt;/a&gt; &lt;a href=&quot;http://mitizane.ll.chiba-u.jp/curator/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/7.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;独自システム（後に e-Repository として製品化） &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;筑波技術大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://www.tsukuba-tech.ac.jp/repo/&quot;&gt;筑波技術大学機関リポジトリ &lt;/a&gt; &lt;a href=&quot;http://www.tsukuba-tech.ac.jp/repo/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/151.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;筑波大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://www.tulips.tsukuba.ac.jp/dspace/&quot;&gt;つくばリポジトリ &lt;/a&gt; &lt;a href=&quot;http://www.tulips.tsukuba.ac.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/25.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;電気通信大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ir.lib.uec.ac.jp/&quot;&gt;電気通信大学学術機関リポジトリ &lt;/a&gt; &lt;a href=&quot;http://ir.lib.uec.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/400.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;InfoLib &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;東京海洋大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://oacis.lib.kaiyodai.ac.jp/&quot;&gt;東京海洋大学学術機関リポジトリ &lt;/a&gt; &lt;a href=&quot;http://oacis.lib.kaiyodai.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/82.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;東京外国語大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://repository.tufs.ac.jp/doc/&quot;&gt;東京外国語大学学術成果コレクション &lt;/a&gt; &lt;a href=&quot;http://repository.tufs.ac.jp/doc/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/40.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;東京学芸大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://ir.u-gakugei.ac.jp/&quot;&gt;東京学芸大学リポジトリ &lt;/a&gt; &lt;a href=&quot;https://ir.u-gakugei.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/4.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;NALIS-R &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;東京工業大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://t2r2.star.titech.ac.jp/&quot;&gt;東京工業大学リサーチリポジトリ &lt;/a&gt; &lt;a href=&quot;http://t2r2.star.titech.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/81.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;T2R2システム &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;東京大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://repository.dl.itc.u-tokyo.ac.jp/&quot;&gt;東京大学学術機関リポジトリ &lt;/a&gt; &lt;a href=&quot;http://repository.dl.itc.u-tokyo.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/21.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;東北大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ir.library.tohoku.ac.jp/re/&quot;&gt;東北大学機関リポジトリ　TOUR &lt;/a&gt; &lt;a href=&quot;http://ir.library.tohoku.ac.jp/re/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/83.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;徳島大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://www.lib.tokushima-u.ac.jp/repository/&quot;&gt;徳島大学機関リポジトリ &lt;/a&gt; &lt;a href=&quot;http://www.lib.tokushima-u.ac.jp/repository/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/304.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;Earmas &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;鳥取大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://repository.lib.tottori-u.ac.jp/Repository/Index.e&quot;&gt;鳥取大学研究成果リポジトリ &lt;/a&gt; &lt;a href=&quot;http://repository.lib.tottori-u.ac.jp/Repository/Index.e&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/110.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;豊橋技術科学大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://tut.repo.nii.ac.jp/&quot;&gt;豊橋技術科学大学学術機関リポジトリ &lt;/a&gt; &lt;a href=&quot;https://tut.repo.nii.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/511.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;WEKO &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;富山大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://utomir.lib.u-toyama.ac.jp/&quot;&gt;富山大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;http://utomir.lib.u-toyama.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/52.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;長崎大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://naosite.lb.nagasaki-u.ac.jp/&quot;&gt;長崎大学学術研究成果リポジトリ &lt;/a&gt; &lt;a href=&quot;http://naosite.lb.nagasaki-u.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/13.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;名古屋工業大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://repo.lib.nitech.ac.jp&quot;&gt;名古屋工業大学学術機関リポジトリ &lt;/a&gt; &lt;a href=&quot;http://repo.lib.nitech.ac.jp&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/61.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;NALIS-R &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;名古屋大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ir.nul.nagoya-u.ac.jp/dspace/&quot;&gt;名古屋大学学術機関リポジトリ &lt;/a&gt; &lt;a href=&quot;http://ir.nul.nagoya-u.ac.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/2.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;奈良教育大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://near.nara-edu.ac.jp/&quot;&gt;奈良教育大学学術リポジトリ &lt;/a&gt; &lt;a href=&quot;http://near.nara-edu.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/11.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;NALIS-R &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;奈良先端科学技術大学院大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://library.naist.jp/dspace/&quot;&gt;奈良先端科学技術大学院大学学術リポジトリ &lt;/a&gt; &lt;a href=&quot;http://library.naist.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/44.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;奈良女子大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://nwudir.lib.nara-wu.ac.jp/dspace/&quot;&gt;奈良女子大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;http://nwudir.lib.nara-wu.ac.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/58.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;鳴門教育大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://www.naruto-u.ac.jp/repository/&quot;&gt;鳴門教育大学リポジトリ &lt;/a&gt; &lt;a href=&quot;http://www.naruto-u.ac.jp/repository/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/376.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;Earmas &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;新潟大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://repository.lib.niigata-u.ac.jp/&quot;&gt;新潟大学学術リポジトリ &lt;/a&gt; &lt;a href=&quot;http://repository.lib.niigata-u.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/18.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;浜松医科大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://hikumano.hama-med.ac.jp/dspace/&quot;&gt;浜松医科大学学術機関リポジトリ &lt;/a&gt; &lt;a href=&quot;http://hikumano.hama-med.ac.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/79.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace 1.4.2 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;福島大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ir.lib.fukushima-u.ac.jp/&quot;&gt;福島大学学術機関リポジトリ &lt;/a&gt; &lt;a href=&quot;http://ir.lib.fukushima-u.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/56.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;三重大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://miuse.mie-u.ac.jp/&quot;&gt;三重大学学術機関リポジトリ研究成果コレクション &lt;/a&gt; &lt;a href=&quot;http://miuse.mie-u.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/5.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;北海道大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://eprints.lib.hokudai.ac.jp/&quot;&gt;北海道大学学術成果コレクション &lt;/a&gt; &lt;a href=&quot;http://eprints.lib.hokudai.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/3.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;Dspace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;北海道教育大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://s-ir.sap.hokkyodai.ac.jp/&quot;&gt;北海道教育大学学術リポジトリ &lt;/a&gt; &lt;a href=&quot;http://s-ir.sap.hokkyodai.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/84.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;北陸先端科学技術大学院大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://dspace.jaist.ac.jp/dspace/index.jsp?locale=ja&quot;&gt;JAIST学術研究成果リポジトリ &lt;/a&gt; &lt;a href=&quot;https://dspace.jaist.ac.jp/dspace/index.jsp?locale=ja&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/23.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;広島大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ir.lib.hiroshima-u.ac.jp/portal/&quot;&gt;広島大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;http://ir.lib.hiroshima-u.ac.jp/portal/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/20.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;E-Repository &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;弘前大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://repository.ul.hirosaki-u.ac.jp/dspace/&quot;&gt;弘前大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;http://repository.ul.hirosaki-u.ac.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/12.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;h3&gt;一橋大学(所蔵コレクション)&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://hermes-ir.lib.hit-u.ac.jp/da/&quot;&gt;HERMES-IR(一橋大学機関リポジトリ)&amp;#160;: Special Collections &lt;/a&gt; &lt;a href=&quot;http://hermes-ir.lib.hit-u.ac.jp/da/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/398.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;h3&gt;一橋大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://hermes-ir.lib.hit-u.ac.jp/da/&quot;&gt;HERMES-IR(一橋大学機関リポジトリ)&amp;#160;: Special Collections &lt;/a&gt; &lt;a href=&quot;http://hermes-ir.lib.hit-u.ac.jp/da/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/398.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;h3&gt;兵庫教育大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://repository.hyogo-u.ac.jp/&quot;&gt;兵庫教育大学学術情報リポジトリ HEART &lt;/a&gt; &lt;a href=&quot;http://repository.hyogo-u.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/51.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;福井大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://repo.flib.u-fukui.ac.jp/dspace/&quot;&gt;福井大学学術機関リポジトリ &lt;/a&gt; &lt;a href=&quot;http://repo.flib.u-fukui.ac.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/38.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;宮崎大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ir.lib.miyazaki-u.ac.jp/dspace/&quot;&gt;宮崎大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;http://ir.lib.miyazaki-u.ac.jp/dspace/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/36.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;室蘭工業大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ir.lib.muroran-it.ac.jp/&quot;&gt;室蘭工業大学学術資源アーカイブ &lt;/a&gt; &lt;a href=&quot;http://ir.lib.muroran-it.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/50.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;山口大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://petit.lib.yamaguchi-u.ac.jp/&quot;&gt;山口大学学術機関リポジトリYUNOCA &lt;/a&gt; &lt;a href=&quot;http://petit.lib.yamaguchi-u.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/22.png&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;EARMAS &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;山形大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://repo.lib.yamagata-u.ac.jp/&quot;&gt;ゆうキャンパスリポジトリ &lt;/a&gt; &lt;a href=&quot;http://repo.lib.yamagata-u.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/34.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;NALIS-R &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;山梨大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://www.lib.yamanashi.ac.jp/repository/&quot;&gt;山梨大学学術リポジトリ &lt;/a&gt; &lt;a href=&quot;http://www.lib.yamanashi.ac.jp/repository/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/109.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;E-Repository &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;横浜国立大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://kamome.lib.ynu.ac.jp/&quot;&gt;横浜国立大学学術情報リポジトリ &lt;/a&gt; &lt;a href=&quot;http://kamome.lib.ynu.ac.jp/&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/9.jpg&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;DSpace &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;h3&gt;琉球大学&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://ir.lib.u-ryukyu.ac.jp&quot;&gt;琉球大学学術リポジトリ &lt;/a&gt; &lt;a href=&quot;http://ir.lib.u-ryukyu.ac.jp&quot;&gt;&lt;img src=&quot;http://irdb.nii.ac.jp/analysis//file/image/logo/47.gif&quot; width=&quot;68&quot; alt=&quot;image&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;system&quot;&gt;NALIS-R &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.google.com/jsapi&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+    google.load(&#39;visualization&#39;, &#39;1&#39;, {packages: [&#39;corechart&#39;]});
+&lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+
+	var data = {
+		&quot;DSpace&quot;: 56,
+		&quot;XooNIps&quot;: 2,
+		&quot;InfoLib&quot;: 2,
+		&quot;T2R2システム&quot;: 1,
+		&quot;NALIS-R&quot;: 7,
+		&quot;E-Repository &quot;: 5,
+		&quot;WEKO&quot;: 2,
+		&quot;Earmas&quot;: 4
+	}
+
+
+		function drawVisualization() {
+			var data = google.visualization.arrayToDataTable([
+				[&quot;統計&quot;,79],
+				[&quot;DSpace&quot;,56],
+				[&quot;NALIS-R&quot;, 7],
+				[&quot;E-Repository &quot;, 5],
+				[&quot;Earmas&quot;, 4],				
+				[&quot;InfoLib&quot;, 2],
+				[&quot;XooNIps&quot;,2],				
+				[&quot;WEKO&quot;, 2],
+				[&quot;T2R2システム&quot;, 1]				
+			]);
+
+			new google.visualization.PieChart(document.getElementById(&#39;chart&#39;)).
+			draw(data, {
+				title: &quot;使用ソフトウェア&quot;,
+				backgroundColor: &quot;#FEFEFE&quot;,
+				height: 350
+			});
+		}
+		drawVisualization();
+
+
+});
+&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>タイムラインで情報の視覚化　- 「作家の歩み」</title>
+   <link href="/library-labs/2013/01/30/--.html"/>
+   <updated>2013-01-30T00:54:06+09:00</updated>
+   <id>/library-labs/2013/01/30/--</id>
+   <content type="html">&lt;p&gt;「&lt;a href=&quot;http://kyoto-city.net/ayumi/index.php&quot; target=&quot;_blank&quot;&gt;作家の歩み&lt;/a&gt;」というサイトを作りました。&lt;/p&gt;
+&lt;p&gt;「作家の歩み」は作家の生前に出版された図書をタイムラインで表現したウェブサイトです。&lt;/p&gt;&lt;p&gt;作家の生没年はWeb NDL Authorities、図書の情報はCiNii Books APIからを取得しています。 &lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Code4Lib JournalをEPUBに変換する</title>
+   <link href="/library-labs/2013/01/17/code4lib.html"/>
+   <updated>2013-01-17T03:45:00+09:00</updated>
+   <id>/library-labs/2013/01/17/code4lib</id>
+   <content type="html">&lt;p&gt;Code4Lib JournalをEPUBに変換するスクリプトを書いた。基本は&lt;a href=&quot;http://library-labs.tumblr.com/post/38080120824/ca-epub&quot;&gt;カレントアウェアネスをEPUBに変換するスクリプト&lt;/a&gt;そのまま。EPUBのファイルサイズが2MBほどで処理に時間がかかるのでオンラインツールとしては公開しない。その代わりに既に変換したファイルをサーバーにアップした。取り敢えず最新号だけ。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://kyoto-city.net/code4lib-epub/code4lib-Issue19.epub&quot; id=&quot;bookmark&quot; target=&quot;blank&quot; class=&quot;btn&quot;&gt;Issue 19をダウンロード&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>大学図書館サイトのページスピード・スコアを調べました</title>
+   <link href="/library-labs/2012/12/19/page-speed-insights.html"/>
+   <updated>2012-12-19T02:28:00+09:00</updated>
+   <id>/library-labs/2012/12/19/page-speed-insights</id>
+   <content type="html">&lt;p&gt;大学図書館サイトのページスピードをGoogleの&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights&quot; target=&quot;_blank&quot;&gt;PageSpeed Insights&lt;/a&gt;のAPIを使って調べました。&lt;/p&gt;
+
+&lt;p&gt;今回調べたのは以下の都道府県です。この一年間でこのサイトへのアクセスが多いところを選びました。図書館のリストは&lt;a href=&quot;http://calil.jp/doc/api.html&quot;&gt;カーリルのAPI&lt;/a&gt;を使って出力しました。サイトのURLはカーリルに登録されているURLです。URLが変更になっている図書館は404のページやリダイレクトページのスコアになっている場合があります。&lt;/p&gt;&lt;p&gt;スコア以外の分析結果は&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights&quot;&gt;PageSpeed Insights&lt;/a&gt;で確認してください。&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://docs.google.com/viewer?url=http%3A%2F%2Fkyoto-city.net%2Ftumblr%2Fe-library%2Fpagespeed%2Ftokyo.pdf&quot; target=&quot;_blank&quot;&gt;東京都&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.google.com/viewer?url=http%3A%2F%2Fkyoto-city.net%2Ftumblr%2Fe-library%2Fpagespeed%2Fkyoto.pdf&quot; target=&quot;_blank&quot;&gt;京都府&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.google.com/viewer?url=http%3A%2F%2Fkyoto-city.net%2Ftumblr%2Fe-library%2Fpagespeed%2Fkanagawa.pdf&quot; target=&quot;_blank&quot;&gt;神奈川県&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.google.com/viewer?url=http%3A%2F%2Fkyoto-city.net%2Ftumblr%2Fe-library%2Fpagespeed%2Fosaka.pdf&quot; target=&quot;_blank&quot;&gt;大阪府&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.google.com/viewer?url=http%3A%2F%2Fkyoto-city.net%2Ftumblr%2Fe-library%2Fpagespeed%2Faichi.pdf&quot; target=&quot;_blank&quot;&gt;愛知県&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.google.com/viewer?url=http%3A%2F%2Fkyoto-city.net%2Ftumblr%2Fe-library%2Fpagespeed%2Fhokkaido.pdf&quot; target=&quot;_blank&quot;&gt;北海道&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.google.com/viewer?url=http%3A%2F%2Fkyoto-city.net%2Ftumblr%2Fe-library%2Fpagespeed%2Ffukuoka.pdf&quot; target=&quot;_blank&quot;&gt;福岡県&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;PageSpeed Insightsはウェブページのコンテンツを分析してスコアを出します。主なチェック項目は次のとおりです。これらを実践することでウェブページは高速化し、ユーザーエクスペリエンスの向上に繋がります。&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;CSS @import を使用しない&lt;/li&gt;
+&lt;li&gt;CSS をドキュメント ヘッドに含める&lt;/li&gt;
+&lt;li&gt;CSS スプライトに画像をまとめる&lt;/li&gt;
+&lt;li&gt;JavaScript の解析を遅延する&lt;/li&gt;
+&lt;li&gt;JavaScript を縮小する&lt;/li&gt;
+&lt;li&gt;キャッシュ バリデータを指定する&lt;/li&gt;
+&lt;li&gt;スタイルシートとスクリプトの順序を最適化する&lt;/li&gt;
+&lt;li&gt;リクエスト サイズを減らす&lt;/li&gt;
+&lt;li&gt;リクエストの直列化を減らす&lt;/li&gt;
+&lt;li&gt;リダイレクトの回数を減らす&lt;/li&gt;
+&lt;li&gt;不要なリフローをなくす&lt;/li&gt;
+&lt;li&gt;変更後のサイズで画像を提供する&lt;/li&gt;
+&lt;li&gt;小さな CSS をインライン化する&lt;/li&gt;
+&lt;li&gt;小さな JavaScript をインライン化する&lt;/li&gt;
+&lt;li&gt;文字セットを指定する&lt;/li&gt;
+&lt;li&gt;画像のサイズを指定する&lt;/li&gt;
+&lt;li&gt;誤りのあるリクエストを送信しない&lt;/li&gt;
+&lt;li&gt;重複するリソースは 1 つの URL から提供する&lt;/li&gt;
+&lt;li&gt;長時間実行されるスクリプトは避ける&lt;/li&gt;
+&lt;li&gt;静的リソースからクエリ文字列を削除する&lt;/li&gt;
+&lt;li&gt;非同期リソースを使用する&lt;/li&gt;
+&lt;li&gt;圧縮を有効にする&lt;/li&gt;
+&lt;li&gt;画像を最適化する&lt;/li&gt;
+&lt;li&gt;CSS を縮小する&lt;/li&gt;
+&lt;li&gt;HTML を縮小する&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>カレントアウェアネス-EをEPUBに変換するツールを改良(CAにも対応)</title>
+   <link href="/library-labs/2012/12/17/ca-epub.html"/>
+   <updated>2012-12-17T04:00:00+09:00</updated>
+   <id>/library-labs/2012/12/17/ca-epub</id>
+   <content type="html">&lt;p&gt;先日公開した&lt;a href=&quot;http://library-labs.tumblr.com/post/37653059282/ca-epub&quot;&gt;カレントアウェアネス-EをEPUBに変換するツール&lt;/a&gt;を改良しました。 &lt;/p&gt;
+&lt;p&gt;ブックマークレットをまだ登録していない方はブラウザの「お気に入りツールバー」に登録してください。前回のを登録されている方はそのままで結構です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;javascript:var%20url=location.href;var%20title=document.title;location.href=&#39;http://kyoto-city.net/ca-epub/index.html?title=&#39;+%20title%20+&#39;&amp;amp;url=&#39;%20+%20url&quot; id=&quot;bookmark&quot; target=&quot;blank&quot; class=&quot;btn&quot;&gt;CA-EPUB&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;以前は「&lt;a href=&quot;http://d.hatena.ne.jp/tily/20100705/js_eeepub&quot; target=&quot;_blank&quot;&gt;JavaScriptで ePub を生成するライブラリ &lt;/a&gt;」を使っていたのですが、うまく処理できない場合もあって不安定だったので、PHPで書き直しました。今回は「&lt;a href=&quot;https://github.com/Grandt/PHPePub&quot; target=&quot;_blank&quot;&gt;PHPePub&lt;/a&gt;」を使っています。&lt;/p&gt;
+&lt;p&gt;また、今回の改良で『カレントアウェアネス』もEPUBに変換できるようになりました。画像も表示されます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_mf4z7iEqGj1qmedj8.png&quot;/&gt;&lt;/p&gt;
+&lt;p&gt;今回のように既存のライブラリを使えば、簡単にウェブページをEPUBに変換できます。注意すべき点としては、EPUBはxhtml記法で書く必要があるということです。なのでbr, img, hrなどhtmlだとスラッシュを末尾につける必要のないダグでも必ずスラッシュをつけなければいけません。これは正規表現で書き換えるだけなのでそれほど難しくありません。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>カレントアウェアネス・ポータルをブラウジングするのに便利なChrome拡張機能</title>
+   <link href="/library-labs/2012/12/13/ca-chrome-extension.html"/>
+   <updated>2012-12-13T03:25:00+09:00</updated>
+   <id>/library-labs/2012/12/13/ca-chrome-extension</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://current.ndl.go.jp/&quot;&gt;カレントアウェアネス・ポータル&lt;/a&gt;をブラウジングするのに便利なChrome拡張機能を作りました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/ca-extension/jllknekfddbikallmjhfjagmclbhdcnl/related&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;CA Extension&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;この拡張機能をインストールするとCA-E とCAで年ごとのページで各号の記事一覧がすべて表示されます。&lt;/p&gt;
+&lt;p&gt;今回この拡張機能を作ろうと思ったのは、先日公開された&lt;a href=&quot;http://current.ndl.go.jp/node/22406&quot;&gt;カレントアウェアネス・ポータル利用者アンケート結果レポート2012&lt;/a&gt;に下記のような回答があったからです。&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;「CA-E や CA の画面はトップから 2 階層くらい通号 No.しか表示されていないが、各
+記事のタイトルだけでも表示があればバックナンバーの拾い読みがしやすいと思う。」&lt;/li&gt;
+&lt;li&gt;「CA-E のバックナンバーの記事のタイトル一覧について、通覧がもっとしやすくして
+欲しい。現在は各号ごとに一覧になっているので、タイトルを通覧したいときには
+一度上位（年ごとのページ）に戻って号を選び直している。年ごとのページで各号
+のタイトル一覧がすべて表示されてもよいのでは。」&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;私も先日公開した「&lt;a href=&quot;http://library-labs.tumblr.com/post/37653059282/ca-epub&quot;&gt;『カレントアウェアネス-E』を電子書籍（EPUB）に変換するツール&lt;/a&gt;」で過去の気になるCA-EをEPUBにしようとしたときに同じ事を思ったので勝手に作ってみました。&lt;/p&gt;
+&lt;div class=&quot;alert&quot;&gt;
+記事がすべて開かない時はリロードしてください。
+&lt;/div&gt;
+&lt;img src=&quot;http://media.tumblr.com/tumblr_mexk93BEHj1qmedj8.png&quot;/&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>カレントアウェアネス-EをEPUBに変換して電子書籍で読む</title>
+   <link href="/library-labs/2012/12/11/ca-epub.html"/>
+   <updated>2012-12-11T04:47:00+09:00</updated>
+   <id>/library-labs/2012/12/11/ca-epub</id>
+   <content type="html">&lt;p&gt;カレントアウェアネス-EをEPUBに変換して電子書籍として読めるスクリプトを &lt;del&gt;&lt;a href=&quot;http://d.hatena.ne.jp/tily/20100705/js_eeepub&quot;&gt;ここ&lt;/a&gt; &lt;/del&gt;&lt;a href=&quot;https://github.com/Grandt/PHPePub&quot;&gt;ここ&lt;/a&gt;(2012/12/16に変更)&lt;ins&gt;&lt;/ins&gt;を参考に書いてみました。&lt;/p&gt;&lt;p&gt;kindleご利用の方はEPUBをmibi形式に変換する必要があります。&lt;/p&gt;
+
+&lt;h3&gt;手順&lt;/h3&gt;
+&lt;ol&gt;&lt;li&gt;
+&lt;p&gt;下のブックマークレットをブラウザの「お気に入りツールバー」に登録してください。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;javascript:var%20url=location.href;var%20title=document.title;location.href=&#39;http://kyoto-city.net/ca-epub/index.html?title=&#39;+%20title%20+&#39;&amp;amp;url=&#39;%20+%20url&quot; id=&quot;bookmark&quot; target=&quot;blank&quot; class=&quot;btn&quot;&gt;CA-EPUB&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;カレントアウェアネス-E でEPUBに変換したい号のトップページに行ってください。最近のだと&lt;a href=&quot;http://current.ndl.go.jp/node/22394&quot;&gt;No.227 （E1363-E1369） 2012.11.29&lt;/a&gt;です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;登録したブックマークレットをクリックしてください。&lt;/li&gt;
+&lt;li&gt;ページが移動するので、ダウンロードボタンをクリックしてください。&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;以上で終わりです。&lt;/p&gt;
+&lt;p&gt;※ Chrome・Firefoxの最新版で正しく動くことを確認しています。&lt;/p&gt;
+&lt;div class=&quot;alert alert-info&quot;&gt;
+&lt;p&gt;MacのSafariにブックマークレットを入れてiPadと同期するとiPadのSafariにもブックマークレットを入れることができます。これでiPadから直接EPUBをダウンロードしてiBooksで読むことができます。&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;alert alert-info&quot;&gt;Chromeをお使いの方は&lt;a href=&quot;https://chrome.google.com/webstore/detail/ca-extension/jllknekfddbikallmjhfjagmclbhdcnl/related&quot;&gt;拡張機能をインストール&lt;/a&gt;すれば、ページ内にボタンが表示されます。ブックマークレットの登録は不要です。&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_metyqe538r1qmedj8.png&quot;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_metymgF1tN1qmedj8.png&quot;/&gt;&lt;br/&gt;目次も登録されています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_metyouqEFf1qmedj8.png&quot;/&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>音声でCiNIi(論文・本・雑誌)を検索する</title>
+   <link href="/library-labs/2012/12/10/cat-search.html"/>
+   <updated>2012-12-10T02:15:00+09:00</updated>
+   <id>/library-labs/2012/12/10/cat-search</id>
+   <content type="html">&lt;p&gt;Google Chrome11以降では音声入力がサポートされています。&lt;/p&gt;
+&lt;p&gt;マークアップは簡単です。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;input type=&quot;text&quot; x-webkit-speech&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;検索窓にマイクアイコンが現れるので、クリックして話しかけると音声入力が可能になります。&lt;/p&gt;
+&lt;p&gt;残念ながらまだスマートフォンやタブレット端末では対応していないようです。&lt;/p&gt;
+
+&lt;p&gt;PCでしか使えないけど、お遊びで作ってみました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://kyoto-city.net/cat-search/index.html&quot;&gt;Cat Search&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://kyoto-city.net/cat-search/index.html&quot;&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_merwle8any1qmedj8.png&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;音声入力でCiNiiを検索できます。はじめに論文か本か雑誌か音声で選択してください（クリックで選択するほうが速いのは分かっています…）。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ANii - Search CiNii Articles Powered By AngularJS</title>
+   <link href="/library-labs/2012/12/03/anii.html"/>
+   <updated>2012-12-03T04:08:37+09:00</updated>
+   <id>/library-labs/2012/12/03/anii</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://angularjs.org/&quot; target=&quot;blank&quot;&gt;AngularJS&lt;/a&gt;を使ってCiNii Articlesを検索するウェブサイト「&lt;a href=&quot;http://kyoto-city.net/anii/index.php&quot; target=&quot;blank&quot;&gt;ANii&lt;/a&gt;」を作りました。様々なウェブサービス(&lt;a href=&quot;http://developer.yahoo.co.jp/webapi/jlp/kousei/v1/kousei.html&quot;&gt;Yahoo! JAPAN 校正支援&lt;/a&gt;など)を利用して、検索する際に便利な機能（関連キーワードの表示・文字校正など）を追加しています。&lt;/p&gt;
+
+&lt;p&gt;
+&lt;img src=&quot;http://media.tumblr.com/tumblr_mef3q3LsYZ1qmedj8.png&quot;/&gt;&lt;/p&gt;
+
+&lt;p&gt;ブラウザはChrome、Firefox、Safariの最新版で動作確認しています。タブレット、スマートフォンからも利用できます。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>AngularJSでCiNii論文検索</title>
+   <link href="/library-labs/2012/11/22/angularjs-cinii.html"/>
+   <updated>2012-11-22T22:03:16+09:00</updated>
+   <id>/library-labs/2012/11/22/angularjs-cinii</id>
+   <content type="html">&lt;p&gt;JavaScriptのMVCフレームワークである&lt;a href=&quot;http://angularjs.org/&quot;&gt;AngularJS&lt;/a&gt;を使ってCiNii Articlesを検索する。&lt;/p&gt;
+&lt;iframe style=&quot;width: 100%; height: 300px&quot; src=&quot;http://jsfiddle.net/snowy0118/N5jGZ/embedded/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>爆速YQLでCiNiiのAPIを使う</title>
+   <link href="/library-labs/2012/09/24/yql.html"/>
+   <updated>2012-09-24T00:23:56+09:00</updated>
+   <id>/library-labs/2012/09/24/yql</id>
+   <content type="html">&lt;p&gt;先日公開されたYahoo!デベロッパーネットワークの&lt;a href=&quot;http://techblog.yahoo.co.jp/programming/bakusoku-yql/&quot;&gt;爆速YQL&lt;/a&gt;を使えば、気軽にWebAPIを使うことができます。爆速YQLでCiNiiのAPIを使うのも簡単です。HTMLの知識があれば自由にカスタマイズもできます。&lt;/p&gt;
+&lt;h3&gt;CiNii Articlesの検索結果 (HTMLとResultを見てください)&lt;/h3&gt;
+&lt;iframe style=&quot;width: 100%; height: 300px&quot; src=&quot;http://jsfiddle.net/snowy0118/Vg2uK/1/embedded/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;h3&gt;CiNii Booksの書誌詳細ページ (HTMLとResultを見てください)&lt;/h3&gt;
+&lt;iframe style=&quot;width: 100%; height: 300px&quot; src=&quot;http://jsfiddle.net/snowy0118/KpdV6/2/embedded/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;テンプレート部分は&lt;a href=&quot;https://github.com/janl/mustache.js&quot;&gt;mustache.js&lt;/a&gt;が使われています。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>『Web Designing』で佛教大学図書館デジタルコレクションについて執筆しました</title>
+   <link href="/library-labs/2012/08/20/web-designing.html"/>
+   <updated>2012-08-20T09:04:03+09:00</updated>
+   <id>/library-labs/2012/08/20/web-designing</id>
+   <content type="html">&lt;p&gt;『&lt;a href=&quot;http://t.co/W1l5sBcb&quot;&gt;Web Designing&lt;/a&gt;』9月号の特集「脱blogなWordPressサイトの舞台裏」に佛教大学図書館デジタルコレクションについて&lt;a href=&quot;https://twitter.com/chocolife77&quot;&gt;@chocolife77&lt;/a&gt;さんと共同で記事書きました。&lt;/p&gt;
+&lt;p&gt;私が担当したのは以下のトピックです。&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;画像ビューア用ライブラリとWordPressの連携&lt;/li&gt;
+&lt;li&gt;投稿を複製するプラグインで手間を削減&lt;/li&gt;
+&lt;li&gt;プラグインを使わずOGPを設定する&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;技術的なことを書いていますが、そんなに難しいことは言っていませんので、ぜひ見てください！&lt;/p&gt;
+
+&lt;p&gt;あと、個人的には次回デジタルアーカイブのサイトを作る時は、WordPressじゃなくて、&lt;a href=&quot;http://omeka.org/&quot; target=&quot;_blank&quot;&gt;omeka&lt;/a&gt;を使ってみたいです（日本語化を進めていましたが、最近サボっています）。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CiNii Extensionを更新、履歴を閲覧できます</title>
+   <link href="/library-labs/2012/08/02/cinii-extension.html"/>
+   <updated>2012-08-02T23:42:42+09:00</updated>
+   <id>/library-labs/2012/08/02/cinii-extension</id>
+   <content type="html">&lt;p&gt;CiNii Extensionを更新、履歴を閲覧でるようになりました。ヘッダーのナビゲーション「履歴をみる」をクリックしたら、ダイアログが開きます。最大10件までの表示にしました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/ckafdcndhfflgimebghcnccikoahhgid&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  ウェブストア&lt;/a&gt;
+&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m84u3wGFIn1qmedj8.jpg&quot; alt=&quot;*&quot;/&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m84u5g0mKx1qmedj8.jpg&quot;/&gt;&lt;/figure&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Summon Extensionを更新。検索結果にリソースの表示</title>
+   <link href="/library-labs/2012/07/31/summon-extension.html"/>
+   <updated>2012-07-31T21:13:00+09:00</updated>
+   <id>/library-labs/2012/07/31/summon-extension</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/lkjidfgipnhbjclbgjbehcdghofnijka&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  Summon Extension&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Summonの検索結果のソースがいつの間にか少し変更されていた。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m80x53GTmQ1qmedj8.png&quot;/&gt;&lt;/figure&gt;&lt;p&gt;リソースがわかるようにIDが付与されている。現在のところ、新しい機能が追加されたり、見た目が変わったりはしていない。&lt;/p&gt;
+&lt;p&gt;何かに使えるかなと考えて、リソースが分かるようにアイコンを付けようか思ったけど、すべてのリソースのアイコンを用意は出来ないので、とりあえずCiNiiだけアイコンを付けた。&lt;/p&gt;
+&lt;p&gt;OPAC、J-STAGE、医中誌に関してはアイコンの代わりに文字を挿入。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m80xhhgnDG1qmedj8.png&quot;/&gt;&lt;/figure&gt;&lt;p&gt;CSSは下のように:after疑似要素を使用。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;div[id^=&quot;FETCH-jstage_primary&quot;] .Availability::after{
+    content: &quot;(J-STAGE)&quot;;
+}&lt;/code&gt;&lt;/pre&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>D3.jsでデータの可視化</title>
+   <link href="/library-labs/2012/07/30/d3js.html"/>
+   <updated>2012-07-30T03:33:00+09:00</updated>
+   <id>/library-labs/2012/07/30/d3js</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://d3js.org/&quot;&gt;D3.js&lt;/a&gt;を使って、
+カレントアウェアネス・ポータルの「&lt;a href=&quot;http://current.ndl.go.jp/popular/today&quot;&gt;よく読まれているコンテンツ&lt;/a&gt;」をグラフにしてみました。あとキーワードをタグクラウドにしてます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://library-labs.tumblr.com/d3js-current&quot; class=&quot;btn&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt; D3.jsでデータの可視化&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;普段、jQueryを使っている方ならこれぐらいのグラフなら簡単に作成できると思います。前回の記事「&lt;a href=&quot;http://library-labs.tumblr.com/post/27993926129/topsy-api-d3-js-twitter-cinii&quot;&gt;Twitterで話題のCiNii論文ランキング&lt;/a&gt;」ではD3.jsを使ってHTMLで棒グラフを描いていますが、今回はグラフもタグクラウドもSVGで描かれています。SVGを使ったほうが横幅と最大値に合わせて目盛りを打てたりして便利です。&lt;/p&gt;
+
+&lt;p&gt;データは&lt;a href=&quot;http://developer.yahoo.com/yql/console/#h=select%20*%20from%20html%20where%20url%3D%27http%3A//current.ndl.go.jp/popular/today%27%20and%20xpath%3D%27//div%5B@id%3D%22content-content%22%5D/div/div/table/tbody/tr%27&quot;&gt;YQLを使って記事のタイトル、URL、アクセス数を取得してJSONPに変換&lt;/a&gt;しています。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CiNii Extensionを更新、Amazonのページ上で所蔵確認ができます</title>
+   <link href="/library-labs/2012/07/10/cinii-extension-amazon.html"/>
+   <updated>2012-07-10T03:48:00+09:00</updated>
+   <id>/library-labs/2012/07/10/cinii-extension-amazon</id>
+   <content type="html">&lt;p&gt;Chrome Extensionのmanifestのヴァージョンを2に更新する必要があったので、新しい機能も追加することにしました。&lt;/p&gt;
+&lt;p&gt;いままでもAmazonのページにはCiNii Booksへのボタンを埋め込んでいましたが、今回の更新でAmazonのページ上で所蔵確認ができるようになりました。&lt;/p&gt;
+
+&lt;p&gt;もちろん無料なのでぜひ使ってみてください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/ckafdcndhfflgimebghcnccikoahhgid&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  ウェブストア&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;利用手順&lt;/h3&gt;
+&lt;p&gt;Amazonの図書のページ上で設定を行います。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m6wp7hP3SQ1qmedj8.jpg&quot;/&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m6wp8f8okA1qmedj8.jpg&quot;/&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m6wpmhFtl81qmedj8.jpg&quot;/&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m6wpcenOib1qmedj8.jpg&quot;/&gt;&lt;/figure&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ウェブサイトやブログにCiNii Booksの書誌情報を挿入できるjQueryプラグイン</title>
+   <link href="/library-labs/2012/07/09/jquery-cinii-ncid.html"/>
+   <updated>2012-07-09T04:04:00+09:00</updated>
+   <id>/library-labs/2012/07/09/jquery-cinii-ncid</id>
+   <content type="html">&lt;p&gt;「&lt;a href=&quot;http://library-labs.tumblr.com/post/26572429020/jquery-cinii-data-naid-js&quot;&gt;ウェブサイトやブログにCiNii論文情報を挿入できるjQueryプラグイン&lt;/a&gt;」とほぼ同じスクリプトです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/jqueryCiniiNcid/jquery.cinii.data.ncid.js&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-download-alt&quot;&gt;&lt;/i&gt;  ダウンロード&lt;/a&gt; &lt;a href=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/jqueryCiniiNcid/sample-1.html&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  サンプルページ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;まず下の通りheadにプラグインの設定をします。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+  $(document).ready(function(){
+	$(&quot;div[data-ncid]&quot;).getCiNiiDataNcid();
+  });
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;次に書誌情報を表示させるdiv要素のdata属性(data-ncid)にカンマ区切りでncidを入力するだけです。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div data-ncid=&quot;110009040355,40019076036,110008916540&quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;タイトルは二重鉤括弧『』で括りたいとかは各自スクリプトをいじってください。&lt;/p&gt;
+
+&lt;script src=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/jqueryCiniiNcid/jquery.cinii.data.ncid.js&quot;&gt;&lt;/script&gt;&lt;script&gt;
+	$(document).ready(function(){
+		$(&quot;div[data-ncid]&quot;).getCiNiiDataNcid();
+	});
+&lt;/script&gt;&lt;h3&gt;設置例&lt;/h3&gt;
+&lt;p&gt;各liタグにはid=&amp;#8221;ncid-xxxxxxxxxx&amp;#8221;が付与されます。&lt;/p&gt;
+&lt;div data-ncid=&quot;BB03525726,BA88333373,BN10709643&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;alert alert-info&quot;&gt;
+&lt;p&gt;リンク冒頭の画像は、&lt;a href=&quot;http://library-labs.tumblr.com/post/26627776273/favicon-css&quot;&gt;CiNii、カレントアウェアネスなどのリンクに自動でアイコンを付けるCSS&lt;/a&gt;を使っています。&lt;/p&gt;&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CiNii、カレントアウェアネスなどのリンクに自動でアイコンを付けるCSS</title>
+   <link href="/library-labs/2012/07/06/favicon-css.html"/>
+   <updated>2012-07-06T22:56:00+09:00</updated>
+   <id>/library-labs/2012/07/06/favicon-css</id>
+   <content type="html">&lt;p&gt;CiNii、NDLサーチ、カレントアウェアネスなどのリンクに自動でアイコンを付けるCSSを作成しました。ファイルを読み込むだけでOKです。&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;http://kyoto-city.sakura.ne.jp//tumblr/e-library/library-favicon.css&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-download-alt&quot;&gt;&lt;/i&gt;  ダウンロード&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;h3&gt; 対応サイト
+&lt;/h3&gt;&lt;p&gt;以下のURLを含むリンクにはそれぞれのサイトのfavicon画像がリンクの先頭に入ります。画像サイズは16px × 16pxです。&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;CiNii&amp;#160;: ci.nii.ac.jp&lt;/li&gt;
+&lt;li&gt;NDL SEARCH&amp;#160;: iss.ndl.go.jp&lt;/li&gt;
+&lt;li&gt;カレントアウェアネス&amp;#160;: current.ndl.go.jp&lt;/li&gt;
+&lt;li&gt;国立国会図書館&amp;#160;: ndl.go.jp&lt;/li&gt;
+&lt;li&gt;レファレンス協同データベース&amp;#160;: crd.ndl.go.jp&lt;/li&gt;
+&lt;li&gt;Webcat Plus&amp;#160;: webcatplus.nii.ac.jp&lt;/li&gt;
+&lt;li&gt;wikipedia&amp;#160;: ja.wikipedia.org&lt;/li&gt;
+&lt;/ul&gt;&lt;pre&gt;&lt;code&gt;a[href^=&quot;http://ci.nii.ac.jp&quot;] {
+    background:…
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;alert info&quot;&gt;ファビコン画像をbase64にエンコードしたのを背景画像に指定しているので画像をアップする必要はありません。&lt;/div&gt;
+&lt;h3&gt;設置例&lt;/h3&gt;
+&lt;ul class=&quot;unstyled&quot;&gt;&lt;li&gt;&lt;a href=&quot;http://iss.ndl.go.jp/books/R000000004-I10681116-00&quot;&gt;バングラデシュのロヒンギャー難民&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ci.nii.ac.jp/naid/40016958271&quot;&gt;現地リポート アンダマン海を南下するロヒンギャ&amp;#8212;移民・難民・人身取引・無国籍&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ndl.go.jp/jp/event/events/20120801lecture.html&quot;&gt;HathiTrustの挑戦：デジタル化資料の共有における「いま」と「これから」&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://current.ndl.go.jp/ca1768&quot;&gt;多元的デジタルアーカイブズのVR-ARインターフェイスデザイン手法 / 渡邉英徳&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://crd.ndl.go.jp/GENERAL/servlet/detail.reference?id=1000033828&quot;&gt;七夕で使う「五色の短冊」の五色は何色か。また、その色の意味は？&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://webcatplus.nii.ac.jp/webcatplus/details/book/7784673.html&quot;&gt;太宰治全集&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF%E3%83%BB%E3%82%A2%E3%82%B7%E3%83%A2%E3%83%95&quot;&gt;アイザック・アシモフ&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>[改良版] ウェブサイトやブログにCiNii論文情報を挿入できるjQueryプラグイン</title>
+   <link href="/library-labs/2012/07/06/jquery-cinii-data-naid-js.html"/>
+   <updated>2012-07-06T04:05:00+09:00</updated>
+   <id>/library-labs/2012/07/06/jquery-cinii-data-naid-js</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://library-labs.tumblr.com/post/26504671646/jqueryciniinaid&quot;&gt;前回&lt;/a&gt;のNII論文ID(NAID)からCiNiiの論文情報を取得するjQueryのプラグインの別バージョンです。&lt;/p&gt;
+&lt;p&gt;前回のに対してコメントを頂いたのを参考に作り変えました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/jqueryCiniiNaid/jquery.cinii.data.naid.js&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-download-alt&quot;&gt;&lt;/i&gt;  ダウンロード&lt;/a&gt; &lt;a href=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/jqueryCiniiNaid/sample-1.html&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  サンプルページ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;まず下の通りheadにプラグインの設定をします。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+  $(document).ready(function(){
+	$(&quot;div[data-naid]&quot;).getCiNiiDataNaid();
+  });
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;次に論文情報を表示させるdiv要素のdata属性(data-naid)にカンマ区切りでnaidを入力するだけです。&lt;/p&gt;
+&lt;div class=&quot;alert&quot;&gt;現在、配列の順番に展開されないことがあります。&lt;/div&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div data-naid=&quot;110009040355,40019076036,110008916540&quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;今回のほうがいいですね。&lt;a href=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/jqueryCiniiNaid/sample-1.html&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  サンプルページ&lt;/a&gt;みたいに1ページの中で数箇所に設置するのも簡単です。&lt;/p&gt;
+
+&lt;script src=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/jqueryCiniiNaid/jquery.cinii.data.naid.js&quot;&gt;&lt;/script&gt;&lt;script&gt;
+	$(document).ready(function(){
+		$(&quot;div[data-naid]&quot;).getCiNiiDataNaid();
+	});
+&lt;/script&gt;&lt;h3&gt;設置例&lt;/h3&gt;
+&lt;div data-naid=&quot;110009040355,40019076036,110008916540&quot;&gt;&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ウェブサイトやブログにCiNiiの論文情報を簡単に挿入できるjQueryプラグイン</title>
+   <link href="/library-labs/2012/07/05/jqueryciniinaid.html"/>
+   <updated>2012-07-05T03:36:00+09:00</updated>
+   <id>/library-labs/2012/07/05/jqueryciniinaid</id>
+   <content type="html">&lt;div class=&quot;alert&quot;&gt;&lt;a href=&quot;http://library-labs.tumblr.com/post/26572429020/jquery-cinii-data-naid-js&quot;&gt;改良版ができました！&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;NII論文ID(NAID)からCiNiiの論文情報を取得するjQueryのプラグインです。ウェブサイトやブログに簡単に論文情報を挿入することができます。 &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/jqueryCiniiNaid/jquery.cinii.naid.js&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-download-alt&quot;&gt;&lt;/i&gt;  ダウンロード&lt;/a&gt; &lt;a href=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/jqueryCiniiNaid/test.html&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  サンプルページ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;使い方は下記の通りです。naidを配列に格納してください。&lt;/p&gt;
+&lt;div class=&quot;alert&quot;&gt;現在のスクリプトだと配列の順番に展開されないことがあります。&lt;/div&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+  $(document).ready(function(){
+	$(&quot;#sample&quot;).getCiNii([40018281080,40018927729,40018846103]);
+  });
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;script src=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/jqueryCiniiNaid/jquery.cinii.naid.js&quot;&gt;&lt;/script&gt;&lt;script&gt;
+$(document).ready(function(){
+$(&quot;#sample&quot;).getCiNii([40018281080,40018927729,40018846103]);
+});
+&lt;/script&gt;&lt;h3&gt;設置例&lt;/h3&gt;
+&lt;div id=&quot;sample&quot;&gt;&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Chrome ウェブストアにSummon Extensionを公開しました</title>
+   <link href="/library-labs/2012/06/29/summon-extension.html"/>
+   <updated>2012-06-29T03:10:46+09:00</updated>
+   <id>/library-labs/2012/06/29/summon-extension</id>
+   <content type="html">&lt;p&gt;Serials Solutions社のディスカバリーサービス『Summon』をGoogle Chromeから検索できるエクステンションをChrome ウェブストアに公開しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/lkjidfgipnhbjclbgjbehcdghofnijka&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  ウェブストア&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;&lt;li&gt;
+図書館を選択してください。
+&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m6ca4imxPg1qmedj8.png&quot;/&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+絞り込んで検索することもできます。
+&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m6ca54a8lv1qmedj8.png&quot;/&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+マウスオーバーで詳細が表示されます。
+&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m6ca5h6XYo1qmedj8.png&quot;/&gt;&lt;/figure&gt;&lt;/li&gt;
+ &lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CiNii Extensionを更新</title>
+   <link href="/library-labs/2012/06/24/cinii-extension.html"/>
+   <updated>2012-06-24T17:36:29+09:00</updated>
+   <id>/library-labs/2012/06/24/cinii-extension</id>
+   <content type="html">&lt;p&gt;少し前にCiNiiにTwitterへの投稿ボタンとFacebookの「いいね！」ボタンが付いたので、ChromeのCiNii Extensionからはボタンの追加を廃止して、代わりに書誌詳細ページにその論文・図書へのツイートやはてなブックマークのコメントが表示するように変更しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/ckafdcndhfflgimebghcnccikoahhgid&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  ウェブストア&lt;/a&gt;&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m644poaydh1qmedj8.jpg&quot;/&gt;&lt;/figure&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Find A Library</title>
+   <link href="/library-labs/2012/06/18/find-a-library.html"/>
+   <updated>2012-06-18T03:36:14+09:00</updated>
+   <id>/library-labs/2012/06/18/find-a-library</id>
+   <content type="html">&lt;p&gt;先週公開した、CiNii Books APIを使って全国の大学図書館を検索するサービスの名称をとりあえず「Find A Library」にしました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://library-labs.tumblr.com/search-library&quot; class=&quot;btn&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt; Find A Library&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;現在、Find A Libraryでは以下のことができます。&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;大学名から全国の大学図書館の検索&lt;/li&gt;
+&lt;li&gt;図書館の周辺地図、サービス内容、利用方法などの確認&lt;/li&gt;
+&lt;li&gt;図書館所蔵の図書・雑誌の検索&lt;/li&gt;
+&lt;li&gt;検索結果をTwitterで共有・文献管理サービスへの書き出し&lt;/li&gt;
+&lt;/ul&gt;&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m5rxpfBZBI1qmedj8.jpg&quot;/&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m5rxqson2b1qmedj8.jpg&quot;/&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m5rxrdMVxW1qmedj8.jpg&quot;/&gt;&lt;/figure&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CiNii Books APIで全国の大学図書館を検索するサービス</title>
+   <link href="/library-labs/2012/06/12/search-library.html"/>
+   <updated>2012-06-12T01:30:00+09:00</updated>
+   <id>/library-labs/2012/06/12/search-library</id>
+   <content type="html">&lt;p&gt;CiNii Books APIを使って全国の大学図書館を検索するサービスを作成しました。&lt;/p&gt;
+&lt;p&gt;大学名から検索して、図書館の周辺地図、サービス内容、利用方法などを確認することが出来ます
+&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://library-labs.tumblr.com/search-library&quot; class=&quot;btn&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt; 全国の大学図書館検索サービス&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;スマートフォンでも最適化されて表示されます。&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m5goa1Q5yo1qmedj8.png&quot; width=&quot;200px&quot;/&gt;&lt;/figure&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>全国の図書館サイト内を一括検索する検索エンジン</title>
+   <link href="/library-labs/2012/05/23/search-library-info.html"/>
+   <updated>2012-05-23T02:55:00+09:00</updated>
+   <id>/library-labs/2012/05/23/search-library-info</id>
+   <content type="html">&lt;p&gt;Googleのカスタム検索を使って全国の図書館サイト（5000サイト以上）内を一括で検索出来る検索エンジンを作成しました。これは蔵書検索ではなく、図書館サイト内の静的なページを検索するものです。&lt;/p&gt;
+&lt;p&gt;図書館サイトのURLは&lt;a href=&quot;http://calil.jp/doc/api.html&quot;&gt;カーリルのAPI&lt;/a&gt;を使って取得し、Google カスタム検索に登録するだけの作業でしたので1時間かからずに出来上がりました。&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://library-labs.tumblr.com/search-library-info&quot; class=&quot;btn&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt; 全国の図書館サイト内を一括検索&lt;/a&gt;
+&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CiNii Booksの検索結果をタイムライン上に表示させる</title>
+   <link href="/library-labs/2012/03/13/cinii-books.html"/>
+   <updated>2012-03-13T01:18:00+09:00</updated>
+   <id>/library-labs/2012/03/13/cinii-books</id>
+   <content type="html">&lt;p&gt;昨日、&lt;a href=&quot;http://id.ndl.go.jp/auth/ndla/&quot; target=&quot;_blank&quot;&gt;国立国会図書館典拠データ検索・提供サービス（Web NDL Authorities）&lt;/a&gt;で人名から生没年を検索し、「&lt;a href=&quot;http://www.simile-widgets.org/timeline/&quot; target=&quot;_blank&quot;&gt;SIMILE Widgets | Timeline&lt;/a&gt;」を使って、タイムライン上に表示させるページを作りましたが、CiNii Booksからその著者の図書を没年までの期間で検索し、その結果を同じタイムライン上に表示させてみました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://kyoto-city.net/tumblr/e-library/timeline/index.php&quot; class=&quot;btn&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt; timeline&lt;/a&gt;&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m0s50u1ZZB1qmedj8.png&quot;/&gt;&lt;/figure&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>画像にズーム、フルスクリーン機能を簡単に付けられるjQueryプラグイン</title>
+   <link href="/library-labs/2012/03/07/zoom-it-jquery.html"/>
+   <updated>2012-03-07T00:24:00+09:00</updated>
+   <id>/library-labs/2012/03/07/zoom-it-jquery</id>
+   <content type="html">&lt;p&gt;デジタルアーカイブサイトで高解像度の画像を見るとき、ズーム機能が付いていると便利です。通常、ズーム、フルスクリーン機能を実現するにはソフトを使って画像処理する必要があります。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zoom.it/&quot; target=&quot;_blank&quot;&gt;Zoom.it&lt;/a&gt;はマイクロソフトが提供している、画像をズーム、フルスクリーン機能付きのものに変換してくれるオンラインサービスです。画像のURLを渡すだけでコンパイルしてくれて、ウェブページに埋め込むコードが生成されます。それをコピー＆ペーストするだけで、ズーム、フルスクリーン機能の付いた画像を見せることができます。下が作例です。元のサイズは約4600x3100のjpeg画像です。ちなみに、画像は去年行ってきたパキスタンのチトラール近くの風景です。&lt;/p&gt;
+
+&lt;figure&gt;&lt;script src=&quot;http://zoom.it/yphI.js?width=auto&amp;amp;height=400px&quot;&gt;&lt;/script&gt;&lt;/figure&gt;&lt;p&gt;これだけでもかなり便利ですが、画像の枚数が多いと一枚一枚処理するのは大変です。Zoom.itはAPIが提供されているので、それを使って処理を簡略するjQueryプラグインを作成しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/zoomit.zip&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-download-alt&quot;&gt;&lt;/i&gt;  ダウンロード&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;使い方&lt;/h3&gt;
+
+&lt;p&gt;まずは、ヘッダにjQuery本体とプラグイン(jquery.zoomit.js)とZoom.itで処理した画像表示させるためのjavascript(seadragon-min.js)を読み込みます。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot; src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot; src=&quot;seadragon-min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot; src=&quot;jquery.zoomit.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;次に、処理させたい画像を&lt;code&gt;&amp;lt;div id=&quot;zoomit&quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;で囲います。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&quot;zoomit&quot;&amp;gt;&amp;lt;img src=&quot;http://[image-path]&quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;オプションの設定です。読み込んだプラグインの下に書き加えてください。widthとheightともに必須です。これは画像の元サイズではなく、ページ上の表示サイズを入力してください。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+  $(document).ready(function(){
+	$(&quot;#zoomit&quot;).zoomIt({width:&quot;500&quot;,height:&quot;300&quot;});
+  });
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;これだけでページを読み込んだ際に画像処理がなされて、処理された画像が元画像の領域に表示されます。&lt;/p&gt;
+&lt;figure&gt;&lt;div id=&quot;zoomit&quot;&gt;&lt;img src=&quot;http://24.media.tumblr.com/tumblr_lzjq0lmI8t1r2oigxo1_500.jpg&quot;/&gt;&lt;/div&gt;
+&lt;/figure&gt;&lt;script&gt;
+$(document).ready(function(){
+    $(&quot;#zoomit&quot;).zoomIt({width:&quot;500&quot;,height:&quot;300&quot;});
+});
+&lt;/script&gt;&lt;script src=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/zoomit/seadragon-min.js&quot;&gt;&lt;/script&gt;&lt;script src=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/zoomit/jquery.zoomit.js&quot;&gt;&lt;/script&gt;&lt;p&gt;私の&lt;a href=&quot;http://untitled-photo.tumblr.com/&quot; target=&quot;_blank&quot;&gt;個人ブログ&lt;/a&gt;では、今回のプラグインは使ってませんが、ほぼ同じような事をしています。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>人名から生没年、生没年から人名をWeb NDL Authoritiesから取得する</title>
+   <link href="/library-labs/2012/02/28/web-ndl-authorities.html"/>
+   <updated>2012-02-28T00:30:00+09:00</updated>
+   <id>/library-labs/2012/02/28/web-ndl-authorities</id>
+   <content type="html">&lt;p&gt;Web NDL Authoritiesの&lt;a href=&quot;http://iss.ndl.go.jp/ndla/sparql/&quot; target=&quot;_blank&quot;&gt;SPARQL&lt;/a&gt;による検索で、人名から生没年、生没年から人名を調べることができます。今回はその検索結果をjQueryで取得する2つのプラグインです。いつものようにYQLでJSONをJSONPに変換することで別のドメインにあるJSONデータをjQueryでロードしています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/snowy0118/jquery.ndla.person&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-download-alt&quot;&gt;&lt;/i&gt;  ダウンロード&lt;/a&gt; &lt;a href=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/jqueryNdla/person.html&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  サンプルページ&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;人名から生没年を得るプラグイン&lt;/h3&gt;
+&lt;p&gt;まずは、ヘッダにjQueryとプラグイン(jquery.ndla.person.name.js)を読み込みます。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot; src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot; src=&quot;jquery.ndla.person.name.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;検索結果を表示させたい要素のidを設定して、オプションのnameを入力してください。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+  // 例）sample01というid要素に人名「中上健次」の生没年を表示
+  $(document).ready(function(){
+	$(&quot;#sample01&quot;).getNdlaFromName({person:&quot;中上健次&quot;});
+  });
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;下のように読みと一緒に生没年が表示されます。&lt;/p&gt;
+&lt;div id=&quot;sample01&quot; class=&quot;alert info&quot;&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;生没年から人名&lt;/h3&gt;
+&lt;p&gt;同じく、ヘッダにjQueryとプラグイン(jquery.ndla.person.date.js)を読み込みます。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot; src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot; src=&quot;jquery.ndla.person.date.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;検索結果を表示させたい要素のidを設定して、オプションの設定をしてください。birthが生年、deathが没年です。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+  $(document).ready(function(){
+    // 例）sample02というid要素に2000年が生年の人名を表示
+	$(&quot;#sample02&quot;).getNdlaFromDate({birth:2000});
+    // 例）sample03というid要素に2012年が没年の人名を表示
+	$(&quot;#sample03&quot;).getNdlaFromDate({death:2012});	
+  });
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;最大100件まで取得します。&lt;/p&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;span4&quot;&gt;
+&lt;h4&gt;2000年が生年の人名&lt;/h4&gt;
+&lt;div id=&quot;sample02&quot; class=&quot;alert info&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;span4&quot;&gt;
+&lt;h4&gt;2012年が没年の人名&lt;/h4&gt;
+&lt;div id=&quot;sample03&quot; class=&quot;alert info&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/jqueryNdla/jquery.ndla.person.date.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/jqueryNdla/jquery.ndla.person.name.js&quot;&gt;&lt;/script&gt;&lt;script&gt;
+$(document).ready(function(){
+
+	$(&quot;#sample01&quot;).getNdlaFromName({name:&quot;中上健次&quot;});
+	$(&quot;#sample02&quot;).getNdlaFromDate({birth:1990});
+	$(&quot;#sample03&quot;).getNdlaFromDate({death:2011});
+
+});
+&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Google SuggestをYQLを使って取得するjQueryプラグイン</title>
+   <link href="/library-labs/2012/02/27/google-suggest-yql-jquery.html"/>
+   <updated>2012-02-27T02:05:05+09:00</updated>
+   <id>/library-labs/2012/02/27/google-suggest-yql-jquery</id>
+   <content type="html">&lt;p&gt;Google Suggest APIは現在xml形式のみなので、YQLでJSONPに変換してjQueryで取得するプラグインを作ってみました。Google SuggestはGoogle検索時に単語候補予測をしてくれるやつですね。&lt;/p&gt;
+&lt;p&gt;OPACなどでヒット件数0件の時とかに他のキーワード候補として使えるかもしれませんね。あと、スペスミスのときに、「もしかして・・・」と検索結果のページに出したり。ただ、芸能人の名前とか出てくることもありますが…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/snowy0118/jquery.google.suggest&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-download-alt&quot;&gt;&lt;/i&gt;  ダウンロード&lt;/a&gt; &lt;a href=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/google.suggestion/index.html&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  サンプルページ&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;使い方&lt;/h3&gt;
+&lt;p&gt;まずは、ヘッダにjQueryと本プラグインを読み込みます。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot; src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot; src=&quot;jquery.google.suggestion.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Google Suggestの結果を表示させたい要素のidを設定して、オプションのkeywordを入力してください。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+  // 例）sample01というid要素にキーワード「google」の結果を表示
+  $(document).ready(function(){
+	$(&quot;#sample01&quot;).getGoogleSuggestion({keyword:&quot;google&quot;});
+  });
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;リンク付きでリスト表示されます。&lt;/p&gt;
+&lt;div id=&quot;sample01&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;デフォルトではGoogleへのリンクが貼られています。変更する場合は、検索サイトにあわせてプラグインの下記の部分（37行目あたり）を変えてください。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;html += &quot;&amp;lt;li&amp;gt;&amp;lt;a href=&#39;http://www.google.co.jp/search?&amp;amp;q=&quot; + item[i].suggestion.data + &quot;&#39; target=&#39;_blank&#39;&amp;gt;&quot; + item[i].suggestion.data + &quot;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&quot;;
+&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;下のように検索フォームでキーワードを取得するなど使い方は色々あると思います。&lt;/p&gt;
+&lt;p&gt;「gooogle」と間違ったスペルでも候補を返してくれます。&lt;/p&gt;
+&lt;form&gt;
+&lt;input type=&quot;search&quot; id=&quot;keyword&quot; name=&quot;q&quot; value=&quot;gooogle&quot;&gt;&lt;button type=&quot;submit&quot; class=&quot;btn&quot;&gt;検索&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;div id=&quot;sample02&quot;&gt;&lt;/div&gt;
+
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/google.suggestion/jquery.google.suggestion.js&quot;&gt;&lt;/script&gt;&lt;script&gt;
+$(document).ready(function(){
+	$(&quot;#sample01&quot;).getGoogleSuggestion({keyword:&quot;google&quot;});
+	
+	$(&quot;form&quot;).submit(function(e){
+	    e.preventDefault();
+	    var q = $(&quot;#keyword&quot;).val();
+	    $(&quot;#sample02&quot;).getGoogleSuggestion({keyword:q});
+	});
+	
+});
+&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Google Spreadsheetsを使って雑誌検索できる「新着雑誌記事速報」をつくった</title>
+   <link href="/library-labs/2012/02/25/spreadsheets-search-new-articles.html"/>
+   <updated>2012-02-25T17:29:00+09:00</updated>
+   <id>/library-labs/2012/02/25/spreadsheets-search-new-articles</id>
+   <content type="html">&lt;p&gt;先日、「&lt;a href=&quot;http://library-labs.tumblr.com/post/17558560422&quot;&gt;ゆうき図書館作成の新着雑誌記事速報を改良してみた&lt;/a&gt;」という記事を書きましたが、それは単にHTMLを正しただけのもので使い勝手が良くなったわけではありませんでした。問題点は次の2つ。&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;h4&gt;雑誌タイトルを検索できない&lt;/h4&gt;&lt;p&gt;→ 雑誌のジャンルが「総記」とか「一般」とか言われても利用者はわからない&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4&gt;データとスクリプトが一緒になっている&lt;/h4&gt;&lt;p&gt;→ JavaScriptの中で受入雑誌のデータを持たせているので管理が大変&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;そこでこの2つを解決した雑誌タイトルを検索できる「新着雑誌記事速報」をつくってみました。今回のはjQueryのプラグインで動くので、JavaScriptを知らなくても、少しのHTMLの知識だけで作れます。受入雑誌のデータはGoogle Spreadsheetsに登録することで管理しやすくしました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/snowy0118/jquery.new.article.search&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-download-alt&quot;&gt;&lt;/i&gt;  ダウンロード&lt;/a&gt; &lt;a href=&quot;http://library-labs.tumblr.com/new-articles-search&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  サンプルページ&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;データの登録&lt;/h3&gt;
+&lt;ol&gt;&lt;li&gt;
+    &lt;h4&gt;Google Spreadsheetsに受入雑誌を登録する&lt;/h4&gt;
+    &lt;p&gt;下の図のように1行目は固定にして「title」「genre」「xml」の3つを登録してください。
+&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_lzxx1t2ZLY1qmedj8.png&quot;/&gt;&lt;/figure&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4&gt;データ登録したシートをウェブに公開する&lt;/h4&gt;
+    &lt;p&gt;「ファイル」から「ウェブに公開」を選択後、「公開開始」をクリックしてください。「公開データへのリンクを取得」からこのシートのkeyを確認してください。keyは「公開データへのリンクを取得」がウェブページの時は、&lt;br/&gt;&lt;/p&gt;&lt;pre&gt;&lt;a href=&quot;https://spreadsheets.google.com/pub?key=&quot;&gt;https://spreadsheets.google.com/pub?key=&lt;/a&gt;[YOUR-KEY]&amp;amp;output=html&lt;/pre&gt;
+    [YOUR-KEY]の部分をメモしてください。
+    
+    &lt;p&gt;&lt;span class=&quot;label label-important&quot;&gt;注意&lt;/span&gt;この設定で誰もがこのシートを閲覧できるようになります。不必要な情報はこのシートに含めないようにしてください。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;&lt;h3&gt;スクリプトの記述&lt;/h3&gt;
+&lt;ol&gt;&lt;li&gt;
+    &lt;h4&gt;headerにjQuery本体とGoogle feedsと本プラグインを読み込む&lt;/h4&gt;
+    &lt;p&gt;プラグインのオプションであるsheetIDに先ほどメモしたスプレッドシートのkeyを入力してください。&lt;/p&gt;
+    &lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot; src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot; src=&quot;http://www.google.com/jsapi&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+  google.load(&quot;feeds&quot;, &quot;1&quot;);
+&amp;lt;/script&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot; src=&quot;jquery.new.articles.search.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+  $(document).ready(function(){
+	$(&quot;#feed-result&quot;).getNewArticles({sheetID:&quot;YOUR-KEY&quot;});
+  });
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+      &lt;h4&gt;検索窓と雑誌ジャンルリストと検索結果が表示される要素をつくる&lt;/h4&gt;
+      &lt;p&gt;body要素の好きな場所に下記のタグを書き加えてください。&lt;/p&gt;
+    &lt;pre&gt;&lt;code&gt;&amp;lt;div id=&quot;magazine-list&quot;&amp;gt;
+  &amp;lt;!-- Spreadsheetに登録した雑誌ジャンルをリストダグで加えてください --&amp;gt;
+  &amp;lt;ul&amp;gt;
+    &amp;lt;li&amp;gt;総記&amp;lt;li&amp;gt;
+    &amp;lt;li&amp;gt;一般&amp;lt;li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;!-- 雑誌タイトルを検索する検索窓 --&amp;gt;
+&amp;lt;form id=&quot;search-magazine&quot;&amp;gt;
+  &amp;lt;input type=&quot;search&quot; value=&quot;&quot; id=&quot;keyword&quot;&amp;gt;
+  &amp;lt;button type=&quot;submit&quot;&amp;gt;検索&amp;lt;/button&amp;gt;
+&amp;lt;/form&amp;gt;
+&amp;lt;!-- この中に検索結果（雑誌タイトル）が表示される --&amp;gt;
+&amp;lt;div id=&quot;result-magazine-list&quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;!-- 検索結果（雑誌タイトル）をクリックしたら、この中に最新記事が表示される --&amp;gt;
+&amp;lt;div id=&quot;feed-result&quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+  
+&lt;/ol&gt;&lt;p&gt;これで完成です！下の検索から試してください。今回用に40件ほど登録した&lt;a href=&quot;https://docs.google.com/spreadsheet/pub?key=0AjoRmuoph6hMdGtxZ09fbGZyX09yc2hNc0V1UDJ4dVE&amp;amp;output=html&quot; target=&quot;_blank&quot;&gt;Spreadsheet&lt;/a&gt;からデータを取得できます。&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;span2&quot;&gt;
+&lt;div id=&quot;magazine-list&quot;&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;総記&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;一般&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;家庭&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;児童&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;娯楽&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;レジャー&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;スポーツ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;教育&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt; 
+&lt;/div&gt;
+
+&lt;div class=&quot;span6&quot;&gt;
+&lt;form id=&quot;search-magazine&quot;&gt;
+  &lt;input type=&quot;search&quot; value=&quot;&quot; id=&quot;keyword&quot; placeholder=&quot;タイトル名&quot;&gt;&lt;button type=&quot;submit&quot; class=&quot;btn&quot;&gt;&lt;i class=&quot;icon-search&quot;&gt;&lt;/i&gt; 検索&lt;/button&gt;
+  &lt;p class=&quot;help-block&quot;&gt;雑誌タイトルを入力してください（一部でも可）&lt;/p&gt;
+&lt;/form&gt;
+
+&lt;div id=&quot;result-magazine-list&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;feed-result&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;もう少し見栄えを良くしたサンプルページもご覧ください。
+&lt;a href=&quot;http://library-labs.tumblr.com/new-articles-search&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  サンプルページ&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.google.com/jsapi&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+  google.load(&quot;feeds&quot;, &quot;1&quot;);
+  
+  $(document).ready(function(){
+	$(&quot;#feed-result&quot;).getNewArticles({sheetID:&quot;0AjoRmuoph6hMdGtxZ09fbGZyX09yc2hNc0V1UDJ4dVE&quot;});
+  });
+&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/newArticleSearch/jquery.new.articles.search.js&quot;&gt;&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Chrome ウェブストアにCiNii Extensionを公開しました</title>
+   <link href="/library-labs/2012/02/22/cinii-extension.html"/>
+   <updated>2012-02-22T01:13:00+09:00</updated>
+   <id>/library-labs/2012/02/22/cinii-extension</id>
+   <content type="html">&lt;div class=&quot;alert info&quot;&gt;
+&lt;p&gt;少し前にCiNiiにTwitterへの投稿ボタンとFacebookの「いいね！」ボタンが付いたので、ChromeのCiNii Extensionからはボタンの追加を廃止して、代わりに書誌詳細ページにその論文・図書へのツイートやはてなブックマークのコメントが表示するように変更しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://library-labs.tumblr.com/post/25772230963/cinii-extension&quot;&gt;CiNii Extensionを更新&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;以前公開したCiNiiにツィートボタンとLikeボタンを入れるChromeの拡張機能が、思いのほか好評だったので、新たに機能を追加したものをChrome ウェブストアに公開しました。もちろん無料です。以前インストールした方はアンインストール後、ウェブストアから再度インストールしてください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/ckafdcndhfflgimebghcnccikoahhgid&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  ウェブストア&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;概要&lt;/h3&gt;
+
+&lt;p&gt;現在の機能は以下の３点です。&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;CiNii Articles及びCiNii Booksの書誌情報画面にツイッターのツィートボタン、フェイスブックのlikeボタン、QRコードが挿入されます。
+&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_lzr3eecNup1qmedj8.png&quot; alt=&quot;&quot;/&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_lzr3gqFD2D1qmedj8.png&quot; alt=&quot;&quot;/&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;amazonの図書のページには、CiNii Booksのボタンが表示され、isbnからCiNii Booksを検索することができます。
+&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_lzr3bxKPTJ1qmedj8.png&quot; alt=&quot;&quot;/&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;ウェブページ上でテキストをハイライト（文字を選択した状態）にして、右クリックをするとCiNii Articles, CiNii Booksの検索が追加されたコンテキスト・メニューが表示されます。選択したテキストで「論文」「著者」「全文」「図書・雑誌」の検索できます。
+&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m04155RtD51qmedj8.jpg&quot;/&gt;&lt;/figure&gt;&lt;/li&gt;
+ &lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Google chartで簡単に文字情報を含んだQRコードを作る</title>
+   <link href="/library-labs/2012/02/20/google-qrcode.html"/>
+   <updated>2012-02-20T23:36:00+09:00</updated>
+   <id>/library-labs/2012/02/20/google-qrcode</id>
+   <content type="html">&lt;p&gt;OPACの書誌情報などを手書きでメモしたりプリントアウトしたりせず、携帯電話・スマートフォンで情報を読み取れれば、時間と紙の節約になります。&lt;/p&gt;
+&lt;p&gt;Google chart toolsを使えば簡単に文字情報を含んだQRコードが作れます。例えば、「Hello World」という文字情報を含むQRコードは下記のURLで作れます。&lt;/p&gt;
+&lt;pre&gt;
+&lt;a href=&quot;https://chart.googleapis.com/chart?chs=150x150&amp;amp;cht=qr&amp;amp;chl=Hello%20World&quot;&gt;https://chart.googleapis.com/chart?chs=150x150&amp;amp;cht=qr&amp;amp;chl=Hello%20World&lt;/a&gt;
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;chs&amp;#160;: QRコードのサイズで指定します。小さすぎると認識しないので150以上が良いようです。&lt;/li&gt;
+&lt;li&gt;chl&amp;#160;: QRコードに持たせる文字情報です。URLエンコードする必要があります。&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;下のQRコードを携帯電話・スマートフォンで読み取れば、「Hello World」と表示されるはずです。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://chart.googleapis.com/chart?chs=150x150&amp;amp;cht=qr&amp;amp;chl=Hello%20World&quot;/&gt;&lt;/figure&gt;&lt;p&gt;あまり多くの文字数は入らないので、タイトル・所蔵場所・請求記号など基本的な情報だけがいいでしょう。タイトル・所蔵場所・請求記号の取得の仕方はサイトによって違うのでここでは説明はしません。&lt;/p&gt;
+&lt;p&gt;閲覧中のURLならJavaScriptのlocationオブジェクトのhrefメソッドで取得できます。下のボタンをクリックすればこのページのURLをQRコードに変換されます。携帯電話・スマートフォンで読み取ってみてください。素早くこのページにアクセスできると思います。&lt;/p&gt;
+
+&lt;button onclick=&quot;makeQRcode()&quot;&gt;QRcode生成&lt;/button&gt;
+&lt;div id=&quot;qrcode-sample&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+var makeQRcode = function(){
+	$(&quot;#qrcode-sample&quot;).empty();
+	var url = location.href;
+	var qr = &quot;https://chart.googleapis.com/chart?chs=150x150&amp;cht=qr&amp;chl=&quot; + encodeURI(url) ;
+	$(&quot;#qrcode-sample&quot;).append(&quot;&lt;img src=&#39;&quot;+qr+&quot;&#39; alt=&#39;&#39;/&gt;&quot;);
+}
+&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>University of Miami Libraries</title>
+   <link href="/library-labs/2012/02/19/university-of-miami-libraries.html"/>
+   <updated>2012-02-19T23:40:00+09:00</updated>
+   <id>/library-labs/2012/02/19/university-of-miami-libraries</id>
+   <content type="html">&lt;img src=&quot;http://37.media.tumblr.com/tumblr_lzna3ixvZ21roll16o1_1280.png&quot;/&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Google Image ChartsでCiNiiの検索結果をグラフ化</title>
+   <link href="/library-labs/2012/02/18/trends-cinii.html"/>
+   <updated>2012-02-18T19:13:00+09:00</updated>
+   <id>/library-labs/2012/02/18/trends-cinii</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://code.google.com/intl/ja/apis/chart/image/&quot; target=&quot;_blank&quot;&gt;Google Image Charts&lt;/a&gt;を使って、CiNi Articlesの検索結果（最近200件の論文を出版年）をグラフ化してみました。CiNii APIの1ページあたりの最大表示件数が200件のため、検索件数が200以上あるものについては、最新の200件分しか反映されていません。そのため、実用的ではありませんが、Google Image Chartsを使えばこんなのことができるということが分かっていただければと。&lt;/p&gt;
+
+&lt;form id=&quot;trendSearch&quot; class=&quot;form-horizontal&quot;&gt;
+  &lt;fieldset&gt;&lt;div class=&quot;control-group&quot;&gt;
+      &lt;label class=&quot;control-label&quot; for=&quot;kywd&quot;&gt;キーワード&lt;/label&gt;
+      &lt;div class=&quot;controls&quot;&gt;
+        &lt;input type=&quot;text&quot; id=&quot;kywd&quot; value=&quot;電子図書館&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;control-group&quot;&gt;      
+      &lt;label class=&quot;control-label&quot; for=&quot;author&quot;&gt;著者&lt;/label&gt;
+      &lt;div class=&quot;controls&quot;&gt;
+        &lt;input type=&quot;text&quot; id=&quot;author&quot;&gt;&lt;/div&gt;  
+    &lt;/div&gt;
+    &lt;div class=&quot;form-actions&quot;&gt;
+      &lt;button type=&quot;submit&quot; class=&quot;btn&quot;&gt;検索&lt;/button&gt;
+    &lt;/div&gt;
+
+  &lt;/fieldset&gt;&lt;/form&gt;
+
+
+&lt;h3&gt;trends in CiNii&lt;/h3&gt;
+&lt;div id=&quot;barChart&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/trends.cinii/test.html&quot; target=&quot;_blank&quot; class=&quot;btn&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt; 別ページで見る&lt;/a&gt;&lt;/p&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function () {
+
+
+    $(&quot;#trendSearch&quot;).submit(function (event) {
+        event.preventDefault();
+        $(&#39;#barChart&#39;).empty();
+        var kywd = $(&quot;#kywd&quot;).val();
+        var author = $(&quot;#author&quot;).val();
+        getCiNii(kywd, author);
+    });
+
+    var getCiNii = function (kywd, author) {
+            var kywd = kywd ? encodeURI(kywd) : &quot;&quot;,
+                author = author ? encodeURI(author) : &quot;&quot;;
+            var statement = &quot;select * from rss where url=&#39;http://ci.nii.ac.jp/opensearch/search?q=&quot; + kywd + &quot;&amp;author=&quot; + author + &quot;&amp;sortorder=1&amp;count=200&amp;appid=XCTPcTLXwd7zCae0oxmT&amp;format=rss&#39;&quot;;
+
+            $.getJSON(&quot;http://query.yahooapis.com/v1/public/yql?callback=?&quot;, {
+                q: statement,
+                format: &quot;json&quot;
+            }, function (json) {
+                if (json.query.results == null) {
+                    $(&quot;#barChart&quot;).append(&quot;&lt;div class=&#39;alert alert-error&#39;&gt;条件に一致する結果が見つかりませんでした。&quot;);
+                    return false;
+                }
+
+                var items = json.query.results.item,
+                    itemsNum = items.length,
+                    date = [],
+                    store = [],
+                    unqSTR = [],
+                    chd = [],
+                    chl = [],
+                    output = &quot;&quot;;
+
+                if (itemsNum === 200) {
+                    $(&quot;#barChart&quot;).append(&quot;&lt;div class=&#39;alert alert-error&#39;&gt;検索結果が200件以上あるため正しい結果が反映されていません。&quot;);
+                }
+
+                //出版年を配列に格納
+                for (var i = 0; i &lt; itemsNum; i++) {
+                    date.push(items[i].date.slice(0, 4));
+                }
+
+                //出版年の件数を求める
+                for (var i = 0; i &lt; date.length; i++) {
+                    if (!store[date[i]]) {
+                        store[date[i]] = 0
+                    }
+                    store[date[i]]++;
+                }
+
+                //件数を配列に格納
+                for (var i in store) {
+                    unqSTR.push(i);
+                }
+
+
+
+                for (var i = 0; i &lt; unqSTR.length; i++) {
+                    chd.push(store[unqSTR[i]]);
+                }
+
+                for (var i = 0; i &lt; unqSTR.length; i++) {
+                    chl.push(unqSTR[i] + &quot;|&quot;);
+                }
+
+                $(&quot;#barChart&quot;).append(&quot;&lt;img src=&#39;http://chart.apis.google.com/chart?chxr=0,0,200&amp;cht=bvs&amp;chxt=y&amp;chd=t:&quot; + chd + &quot;&amp;chs=620x300&amp;chl=&quot; + chl + &quot;&#39; /&gt;&quot;);
+
+            });
+
+        }
+
+
+    getCiNii(kywd = &quot;電子教科書&quot;);
+
+});
+&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>RaphaëlでWeb NDL Authoritiesをグラフィカル表示させる</title>
+   <link href="/library-labs/2012/02/17/raphael-web-ndl-authorities.html"/>
+   <updated>2012-02-17T03:01:00+09:00</updated>
+   <id>/library-labs/2012/02/17/raphael-web-ndl-authorities</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://raphaeljs.com/&quot; target=&quot;_blank&quot;&gt;Raphaël&lt;/a&gt;はSVG(ベクター画像)を描写するjavascriptのライブラリーです。Raphaëlを使ってWeb NDL Authoritiesの検索結果をグラフィカル表示させてみました。&lt;/p&gt;
+&lt;p&gt;検索したキーワードを中心にして、同意語・関連語・上位語・下位語が周りに表示されます。それぞれの円をクリックするとその円の中の語を再度キーワード検索します。&lt;/p&gt;&lt;p&gt;円の配置は何度か適当に数値を変えて重ならなくしただけです。この辺が分かればもっと綺麗な描写ができるのですが。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/snowy0118/graphical.ndla&quot; class=&quot;btn&quot;&gt;&lt;i class=&quot;icon-download-alt&quot;&gt;&lt;/i&gt; download&lt;/a&gt;&lt;/p&gt;
+
+&lt;form class=&quot;form-search&quot;&gt;
+&lt;input name=&quot;q&quot; id=&quot;q&quot; value=&quot;図書館&quot;&gt;&lt;button type=&quot;submit&quot; class=&quot;btn&quot;&gt;search&lt;/button&gt;
+&lt;/form&gt;
+&lt;div id=&quot;ndla&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/graphical.ndla/raphael.js&quot;&gt;&lt;/script&gt;&lt;script&gt;
+$(document).ready(function(){
+
+$(&quot;form&quot;).submit(function(event){
+		event.preventDefault()
+		var q = $(&quot;#q&quot;).val();
+		getNdla(q);
+});
+
+
+$(&quot;#ndla&quot;).delegate(&quot;a&quot;,&quot;click&quot;,function(event){
+		event.preventDefault()
+		var q = $(this).text();
+		getNdla(q);
+});
+
+	var getNdla = function(q){
+		$(&quot;#ndla&quot;).empty();
+		var paper = Raphael(&quot;ndla&quot;, 620, 550),
+			q_position = paper.circle(310, 250, 40).attr({fill: &quot;#F00&quot;, stroke: &quot;#F00&quot;, opacity: 0.7}),
+			q_t = paper.text(310,250,q);
+	
+		
+    $.getJSON(&quot;http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20json%20where%20url%3D%22http%3A%2F%2Fid.ndl.go.jp%2Fauth%2Fndlsh%2F&quot;+ decodeURI(q) +&quot;.json%22&amp;format=json&amp;diagnostics=true&amp;callback=?&quot;,
+         function(data){
+
+		
+	if(data !== undefined){
+		var
+		results = data.query.results.json,
+		altLabelItem = results.altLabel,
+		relatedItem = results.related,
+		broaderItem = results.broader,
+		narrowerItem = results.narrower;
+
+		var getAltLabelItem = function(){	
+			if(altLabelItem !== undefined){
+				if(altLabelItem.length) {
+				for(i=0;i&lt;altLabelItem.length;i++){
+          			var position_x = 310+75*Math.cos(25+i*0.9);
+          			var position_y = 250+75*Math.sin(25+i*0.9);
+          			var c = paper.circle(position_x, position_y, 30);
+          			c.attr({fill: &quot;#F00&quot;, stroke: &quot;#F00&quot;, opacity: 0.6});
+		  			var l = paper.path(&quot;M 310 250 L&quot;+position_x+&quot; &quot;+position_y);
+		  			l.attr({stroke: &quot;#FFF&quot;, opacity: 0});
+          			var t = paper.text(position_x, position_y,altLabelItem[i].literalForm);
+          			t.attr({href:&quot;#&quot;});
+          			}
+          		}else {
+          			var position_x = 310+75*Math.cos(25+i*0.9);
+          			var position_y = 250+75*Math.sin(25+i*0.9);
+          			var c = paper.circle(position_x, position_y, 30);
+          			c.attr({fill: &quot;#F00&quot;, stroke: &quot;#F00&quot;, opacity: 0.6});
+		  			var l = paper.path(&quot;M 310 250 L&quot;+position_x+&quot; &quot;+position_y);
+		  			l.attr({stroke: &quot;#FFF&quot;, opacity: 0});
+          			var t = paper.text(position_x, position_y,altLabelItem.literalForm);
+          			t.attr({href:&quot;#&quot;});
+          		}
+    		}
+    	}
+
+		var getRelatedItem = function(){	
+			if(relatedItem !== undefined){
+				if(relatedItem.length) {
+          			for(i=0;i&lt;relatedItem.length;i++){
+          			var position_x = 310+135*Math.cos(25+i*0.7);
+          			var position_y = 250+135*Math.sin(25+i*0.7);
+          			var c = paper.circle(position_x, position_y, 30);
+          			c.attr({fill: &quot;#F00&quot;, stroke: &quot;#F00&quot;, opacity: 0.4});
+		  			var l = paper.path(&quot;M 310 250 L&quot;+position_x+&quot; &quot;+position_y);
+		  			l.attr({stroke: &quot;#FFF&quot;, opacity: 0});
+          			var t = paper.text(position_x, position_y,relatedItem[i].label);
+          			t.attr({href:&quot;#&quot;});
+          			}
+          		}else {
+          			var position_x = 310+135*Math.cos(25+i*0.7);
+          			var position_y = 250+135*Math.sin(25+i*0.7);
+          			var c = paper.circle(position_x, position_y, 30);
+          			c.attr({fill: &quot;#F00&quot;, stroke: &quot;#F00&quot;, opacity: 0.4});
+		  			var l = paper.path(&quot;M 310 250 L&quot;+position_x+&quot; &quot;+position_y);
+		  			l.attr({stroke: &quot;#FFF&quot;, opacity: 0});
+          			var t = paper.text(position_x, position_y,relatedItem.label);
+          			t.attr({href:&quot;#&quot;});
+          		}
+    		}
+    	}
+    	
+		var getBroaderItem = function(){	
+			if(broaderItem !== undefined){
+				if(broaderItem.length) {
+          			for(i=0;i&lt;broaderItem.length;i++){
+          				var position_x = 310+300*Math.cos(25+i*0.7);
+          				var position_y = 250+300*Math.sin(25+i*0.7);
+          				var c = paper.circle(position_x, position_y, 30);
+          				c.attr({fill: &quot;#F00&quot;, stroke: &quot;#F00&quot;, opacity: 0.2});
+		  				var l = paper.path(&quot;M 310 250 L&quot;+position_x+&quot; &quot;+position_y);
+		  				l.attr({stroke: &quot;#FFF&quot;, opacity: 0});
+          				var t = paper.text(position_x, position_y,broaderItem[i].label);
+          				t.attr({href:&quot;#&quot;});
+          			}
+          		}else {
+          			var position_x = 310+300*Math.cos(25+0.7);
+          			var position_y = 250+300*Math.sin(25+0.7);
+          			var c = paper.circle(position_x, position_y, 30);
+          			c.attr({fill: &quot;#F00&quot;, stroke: &quot;#F00&quot;, opacity: 0.4});
+		  			var l = paper.path(&quot;M 310 250 L&quot;+position_x+&quot; &quot;+position_y);
+		  			l.attr({stroke: &quot;#FFF&quot;, opacity: 0});
+          			var t = paper.text(position_x, position_y,broaderItem.label);
+          			t.attr({href:&quot;#&quot;});
+          		}
+          	}
+    	}
+    	
+		var getNarrowerItem = function(){	
+			if(narrowerItem  !== undefined){
+				if(narrowerItem.length) {
+          			for(i=0;i&lt;narrowerItem.length;i++){
+          			if(i&lt;7){
+          			var position_x = 310+200*Math.cos(25+i*0.7);
+          			var position_y = 250+200*Math.sin(25+i*0.7);
+          			}else{
+          			var position_x = 310+230*Math.cos(40+i*0.7);
+          			var position_y = 250+230*Math.sin(40+i*0.7);          			
+          			}
+          			var c = paper.circle(position_x, position_y, 30);
+          			c.attr({fill: &quot;#F00&quot;, stroke: &quot;#F00&quot;, opacity: 0.2});
+		  			var l = paper.path(&quot;M 310 250 L&quot;+position_x+&quot; &quot;+position_y);
+		  			l.attr({stroke: &quot;#FFF&quot;, opacity: 0});
+          			var t = paper.text(position_x, position_y,narrowerItem[i].label);
+          			t.attr({href:&quot;#&quot;});
+          			}
+          		}else{
+          			var position_x = 310+200*Math.cos(25+i*0.7);
+          			var position_y = 240+200*Math.sin(25+i*0.7);          		
+          			var c = paper.circle(position_x, position_y, 30);
+          			c.attr({fill: &quot;#F00&quot;, stroke: &quot;#F00&quot;, opacity: 0.2});
+		  			var l = paper.path(&quot;M 310 250 L&quot;+position_x+&quot; &quot;+position_y);
+		  			l.attr({stroke: &quot;#FFF&quot;, opacity: 0});
+          			var t = paper.text(position_x, position_y,narrowerItem.label);
+          			t.attr({href:&quot;#&quot;});          		
+          		}
+    		}
+    	}       	 	
+    
+    getAltLabelItem();
+    getRelatedItem();
+    getBroaderItem();
+    getNarrowerItem ();
+    
+   	}		
+    });
+}
+
+getNdla(&quot;図書館&quot;);
+
+});
+&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Lemontree - University of Huddersfield</title>
+   <link href="/library-labs/2012/02/16/lemontree-university-of-huddersfield.html"/>
+   <updated>2012-02-16T22:53:00+09:00</updated>
+   <id>/library-labs/2012/02/16/lemontree-university-of-huddersfield</id>
+   <content type="html">&lt;img src=&quot;http://24.media.tumblr.com/tumblr_lzhnx6tvFX1roll16o1_1280.png&quot;/&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Chromeの拡張機能を使ってCiNiiにツィートボタンとlikeボタンを入れる</title>
+   <link href="/library-labs/2012/02/15/chrome-extensions-cinii.html"/>
+   <updated>2012-02-15T00:45:00+09:00</updated>
+   <id>/library-labs/2012/02/15/chrome-extensions-cinii</id>
+   <content type="html">&lt;div class=&quot;alert alert-info&quot;&gt;
+  &lt;h4 class=&quot;alert-heading&quot;&gt;お知らせ&lt;/h4&gt;バージョンアップした拡張機能をchrome ウェブストアに無料公開しました。ここからインストールされたかたは一度アンインストールして、ウェブストアからダウンロードしてください。
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/ckafdcndhfflgimebghcnccikoahhgid&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  ウェブストア&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;CiNiiにツィートボタンとfacebookのlikeボタンがあったらいいなと思っている人はどれだけいるのでしょうか。図書館によってはtwitterやfacebookへのアクセスさえできないところもあるかもしれません。が、とりあえずChromeの拡張機能（Extensions）を使って実現してみました。&lt;/p&gt;
+&lt;p&gt;拡張機能をインストール後、書誌情報ページに行ってください。CiNii ArticlesまたはCiNii Booksどちらでもいいです。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_lze3ciK3FF1qmedj8.jpg&quot;/&gt;&lt;/figure&gt;&lt;p&gt;ツィートボタンとfacebookのlikeボタンが挿入されています。ツィートボタンを押すとタイトルとurlがすでに入力されています。&lt;/p&gt;
+&lt;p&gt;以下、今回参考にしたページです。&lt;/p&gt;
+&lt;h3&gt;link&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://code.google.com/chrome/extensions/docs.html&quot; target=&quot;_blank&quot;&gt;Google Chrome Extensions（公式ドキュメント）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://dev.screw-axis.com/doc/chrome_extensions/&quot; target=&quot;_blank&quot;&gt;Chrome Extensions API リファレンス&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>University of Glasgow Library</title>
+   <link href="/library-labs/2012/02/12/university-of-glasgow-library.html"/>
+   <updated>2012-02-12T23:27:00+09:00</updated>
+   <id>/library-labs/2012/02/12/university-of-glasgow-library</id>
+   <content type="html">&lt;img src=&quot;http://37.media.tumblr.com/tumblr_lzaauaBCag1roll16o1_1280.png&quot;/&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Cambridge Digital</title>
+   <link href="/library-labs/2012/02/12/cambridge-digital-library.html"/>
+   <updated>2012-02-12T02:19:00+09:00</updated>
+   <id>/library-labs/2012/02/12/cambridge-digital-library</id>
+   <content type="html">&lt;img src=&quot;http://37.media.tumblr.com/tumblr_lz8o4xLGHP1roll16o1_1280.png&quot;/&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Web NDL Authoritiesを使って関連語などを得るjQuery plugin</title>
+   <link href="/library-labs/2012/02/12/jquery-web-ndl-authorities.html"/>
+   <updated>2012-02-12T00:32:00+09:00</updated>
+   <id>/library-labs/2012/02/12/jquery-web-ndl-authorities</id>
+   <content type="html">&lt;p&gt;本プラグインは、&lt;a href=&quot;http://id.ndl.go.jp/auth/ndla/&quot;&gt;「国立国会図書館典拠データ検索・提供サービス（Web NDL Authorities）」&lt;/a&gt;から、指定した語の上位語、下位語、関連語、同意語を取得するためのものです。さらに取得した語句に国立国会図書館サーチ、CiNii、google、amazon、カーリルへのリンクを選択して付けることができます。&lt;/p&gt;
+    &lt;p&gt;今回も前回の&lt;a href=&quot;http://library-labs.tumblr.com/post/17151148245/jquery-plugin-for-cinii&quot;&gt;「YQLを使ってCiNii APIのデータを取得するjQuery plugin」&lt;/a&gt;と同様に&lt;a href=&quot;http://developer.yahoo.com/yql/&quot;&gt;YQL(Yahoo! Query Language)&lt;/a&gt;を使っています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/snowy0118/jquery-ndla&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-download-alt&quot;&gt;&lt;/i&gt;  download&lt;/a&gt;　&lt;a href=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/jqueryNdla/test.html&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  sample&lt;/a&gt;&lt;/p&gt;
+    &lt;h3&gt;使い方&lt;/h3&gt;
+    &lt;p&gt;まずは、ヘッダにjQueryと本プラグインを読み込みます。&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;&amp;lt;head&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot; src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot; src=&quot;jquery.ndla.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;/head&amp;gt;
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;内でWeb NDL Authoritiesから得た結果を表示させたい場所にdiv要素を配置し、任意のidを付けます。ここでは「ndlaResult」というid名を付けます。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&quot;ndlaResult&quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;先ほど読み込んだプラグインの下に次のコードを書き加えてください。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+	$(function(){
+		$(&#39;#ndlaResult&#39;).getNdla();
+	});	
+&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;次にオプションの設定です。&lt;/p&gt;
+    &lt;h4&gt;例１）「インターネット」の同義語、関連語、上位語、下位語を調べる。リンク先にgoogleを指定。&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;$(&#39;#resultNdla&#39;).getNdla({
+	/* options */
+    keyword : &quot;インターネット&quot;,
+    target : &quot;google&quot;
+});&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;例２）入力フォームから調べる&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;内に入力フォームを設置します。「図書館」の関連語のみを取得して、cinii Articlesへのリンクを張ります。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;form id=&quot;ndlaSearch&quot;&amp;gt;
+  &amp;lt;input type=&quot;search&quot; id=&quot;kywd&quot; /&amp;gt;
+  &amp;lt;input type=&quot;submit&quot; value=&quot;検索&quot; /&amp;gt;
+&amp;lt;/form&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;プラグインの設定を次の様に変更してください。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+$(function(){
+	$(&quot;#ndlaSearch&quot;).submit(function(event){
+		$(&#39;#ndlaResult&#39;).empty();
+		event.preventDefault()
+		var kywd = $(&quot;#kywd&quot;).val();
+			
+		$(&#39;#ndlaResult&#39;).getNdla({
+			 /* options */
+			 keyword : kywd,
+			 altLabel : false,
+	  		 broader : false,
+	  		 narrower :false,
+	         target : &quot;ciniiArticles&quot;			 
+		});
+	});
+});	
+&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;オプションの設定&lt;/h3&gt;
+&lt;table class=&quot;table table-bordered&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;No.&lt;/td&gt;
+		&lt;td&gt;オプション&lt;/td&gt;
+		&lt;td&gt;内容&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;keyword&lt;/td&gt;
+		&lt;td&gt;必須&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;altLabel&lt;/td&gt;
+		&lt;td&gt;同義語。デフォルトはtrue。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;related&lt;/td&gt;
+		&lt;td&gt;関連語。デフォルトはtrue。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;broader&lt;/td&gt;
+		&lt;td&gt;上位語。デフォルトはtrue。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;narrower&lt;/td&gt;
+		&lt;td&gt;下位語。デフォルトはtrue。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;target&lt;/td&gt;
+		&lt;td&gt;リンク先の設定。下から選択。デフォルトはgoogle&lt;ul&gt;&lt;li&gt;google&lt;/li&gt;&lt;li&gt;ciniiArticles&lt;/li&gt;&lt;li&gt;ciniiBooks&lt;/li&gt;&lt;li&gt;ndlSearch&lt;/li&gt;&lt;li&gt;calil&lt;/li&gt;&lt;li&gt;amazon&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Villanova University Falvey Memorial Library</title>
+   <link href="/library-labs/2012/02/09/villanova-university-falvey-memorial-library.html"/>
+   <updated>2012-02-09T09:23:00+09:00</updated>
+   <id>/library-labs/2012/02/09/villanova-university-falvey-memorial-library</id>
+   <content type="html">&lt;img src=&quot;http://24.media.tumblr.com/tumblr_lz3nro4AOA1roll16o1_1280.png&quot;/&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>University of Virginia</title>
+   <link href="/library-labs/2012/02/08/university-of-virginia-library.html"/>
+   <updated>2012-02-08T15:07:00+09:00</updated>
+   <id>/library-labs/2012/02/08/university-of-virginia-library</id>
+   <content type="html">&lt;img src=&quot;http://37.media.tumblr.com/tumblr_lz290hM4jZ1roll16o1_1280.png&quot;/&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Grand Valley State University Libraries</title>
+   <link href="/library-labs/2012/02/08/grand-valley-state-university-libraries.html"/>
+   <updated>2012-02-08T09:37:00+09:00</updated>
+   <id>/library-labs/2012/02/08/grand-valley-state-university-libraries</id>
+   <content type="html">&lt;img src=&quot;http://24.media.tumblr.com/tumblr_lz1tqkwRG41roll16o1_1280.png&quot;/&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>YQLを使ってCiNii APIのデータを取得するjQuery plugin</title>
+   <link href="/library-labs/2012/02/06/jquery-plugin-for-cinii.html"/>
+   <updated>2012-02-06T21:37:00+09:00</updated>
+   <id>/library-labs/2012/02/06/jquery-plugin-for-cinii</id>
+   <content type="html">&lt;p&gt;本プラグインを使用することで、サーバーサイド・スクリプトを使わずにCiNii APIを取得し、ページ内の好きな場所に検索結果を表示することができます。&lt;/p&gt;
+&lt;p&gt;現在CiNii APIのレスポンス形式は、xhtml,rss,atomのみでjsonpに対応していません。そのため通常ならphpなどのサーバーサイド・スクリプトで処理する必要があります。そこで、今回は&lt;a href=&quot;http://developer.yahoo.com/yql/&quot; target=&quot;_blank&quot;&gt;YQL(Yahoo! Query Language)&lt;/a&gt;を使ってrssをjsonpに変換しています。そうすることでクライアントサイドのみでCiNiiの結果を自在に表示、加工することができます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/snowy0118/jQuery-Plugin-CiNii-Articles-API&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-download-alt&quot;&gt;&lt;/i&gt;  download&lt;/a&gt;　&lt;a href=&quot;http://kyoto-city.sakura.ne.jp/tumblr/e-library/ciniiArticleAPI/test.html&quot; class=&quot;btn&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-leaf&quot;&gt;&lt;/i&gt;  sample&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;使い方&lt;/h3&gt;
+&lt;p&gt;まずは、ヘッダにjQueryと本プラグインを読み込みます。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;head&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot; src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot; src=&quot;jquery.cinii-articles-api.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;/head&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;内でCiNiiの検索結果を表示させたい場所にdiv要素を配置し、idを付けます。ここでは「ciniiResult」というid名を付けます。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&quot;ciniiResult&quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;先ほど読み込んだプラグインの下に次のコードを書き加えてください。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+	$(function(){
+		$(&#39;#ciniiResult&#39;).getCiniiArticles();
+	});	
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;あとはオプションの設定です。アプリケーションIDは&lt;a href=&quot;https://portaltools.nii.ac.jp/developer/ja/&quot;&gt;CiNiiウェブAPI ディベロッパー登録&lt;/a&gt;で取得しておいてください。&lt;/p&gt;
+&lt;h3&gt;例1）「樋口一葉」でキーワード検索&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;$(&#39;#ciniiResult&#39;).getCiniiArticles({
+    /* options */
+    appid : &quot;アプリケーションID（必須）&quot;,
+    keyword : &quot;樋口一葉&quot;
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;例2）「円城塔」で著者名検索&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;$(&#39;#ciniiResult&#39;).getCiniiArticles({
+    /* options */
+    appid : &quot;アプリケーションID（必須）&quot;,
+    author : &quot;円城塔&quot;
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;これだけで、指定したID要素内に検索結果が表示されます。&lt;/p&gt;
+&lt;h3&gt;例3）入力フォームで検索&lt;/h3&gt;
+&lt;p&gt;例1）、例2）だと事前に特定のキーワードや著者を設定する必要があります。入力フォームから検索結果を得たい場合は以下の様にしてみてください。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;内に入力フォームを設置します。今回の例はキーワード検索のみの設定です。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;form id=&quot;ciniiSearch&quot;&amp;gt;
+  &amp;lt;input type=&quot;search&quot; id=&quot;kywd&quot; /&amp;gt;
+  &amp;lt;input type=&quot;submit&quot; value=&quot;検索&quot; /&amp;gt;
+&amp;lt;/form&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;プラグインの設定を次の様に変更してください。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;linenums&quot;&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;&lt;br/&gt;$(function(){
+	$(&quot;#ciniiSearch&quot;).submit(function(event){
+		$(&#39;#ciniiResult&#39;).empty();
+		event.preventDefault()
+		var kywd = $(&quot;#kywd&quot;).val();
+			
+		$(&#39;#ciniiResult&#39;).getCiniiArticles({
+			 /* options */
+			 appid : &quot;アプリケーションID（必須）&quot;,
+			 keyword : kywd
+		});
+	});
+});	
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;これでページを移動することなくCiNiiを検索することができます。&lt;/p&gt;
+&lt;h3&gt;オプションの設定&lt;/h3&gt;
+&lt;p&gt;オプションの設定は下の表を参考にしてください。ほぼCiNii APIのクエリ仕様と同じです。&lt;/p&gt;
+
+&lt;table class=&quot;table table-bordered&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;#&lt;/th&gt;&lt;th&gt;オプション&lt;/th&gt;&lt;th&gt;内容&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;appid&lt;/td&gt;
+		&lt;td&gt;（必須）アプリケーションID。&lt;a href=&quot;https://portaltools.nii.ac.jp/developer/ja/&quot;&gt;CiNiiウェブAPI ディベロッパー登録&lt;/a&gt;でIDは取得できます。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;keyword&lt;/td&gt;
+		&lt;td&gt;フリーワードを指定する。項6～17が指定されない場合は必須）&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;count&lt;/td&gt;
+		&lt;td&gt;ページあたりの検索結果件数を指定する。デフォルトは20&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;lang&lt;/td&gt;
+		&lt;td&gt;検索結果の言語を指定する。デフォルトはja。日本語(ja)もしくは英語(en)を指定。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td&gt;取得する検索結果一覧の開始番号。デフォルトは0。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;title&lt;/td&gt;
+		&lt;td&gt;論文名で検索する。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;7&lt;/td&gt;
+		&lt;td&gt;author&lt;/td&gt;
+		&lt;td&gt;著者名で検索する。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;8&lt;/td&gt;
+		&lt;td&gt;issn&lt;/td&gt;
+		&lt;td&gt;ISSNで検索する。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;9&lt;/td&gt;
+		&lt;td&gt;publisher&lt;/td&gt;
+		&lt;td&gt;出版者で検索する。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;affiliation&lt;/td&gt;
+		&lt;td&gt;著者所属で検索する。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;11&lt;/td&gt;
+		&lt;td&gt;journal&lt;/td&gt;
+		&lt;td&gt;刊行物名で検索する。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;12&lt;/td&gt;
+		&lt;td&gt;volume&lt;/td&gt;
+		&lt;td&gt;巻で検索する&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;13&lt;/td&gt;
+		&lt;td&gt;issue&lt;/td&gt;
+		&lt;td&gt;号で検索する。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;14&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;ページで検索する。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;15&lt;/td&gt;
+		&lt;td&gt;references&lt;/td&gt;
+		&lt;td&gt;参考文献名で検索する。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;16&lt;/td&gt;
+		&lt;td&gt;year_from&lt;/td&gt;
+		&lt;td&gt;出版年（From）で検索する。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;17&lt;/td&gt;
+		&lt;td&gt;year_to&lt;/td&gt;
+		&lt;td&gt;出版年（To）で検索する。&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;18&lt;/td&gt;
+		&lt;td&gt;range&lt;/td&gt;
+		&lt;td&gt;検索対象オプションを指定する。デフォルトは0。0：すべて／1：CiNiiに本文あり／2：CiNiiに本文あり、または連携サービスにリンクあり&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;19&lt;/td&gt;
+		&lt;td&gt;sortorder&lt;/td&gt;
+		&lt;td&gt;ソート条件を指定する。デフォルトは1。出版年降順→「1」/ 昇順→「2」/ 論文名降順→「3」 / 昇順→「4」/ 刊行物降順→「5」 / 昇順→「6」 / 被引用文献数降順→「7」&lt;/td&gt;
+	&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+</content>
+ </entry>
+ 
+
+</feed>

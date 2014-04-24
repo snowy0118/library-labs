@@ -1,0 +1,225 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="code,jQuery,YQL">
+  <title>
+    
+      YQLを使ってCiNii APIのデータを取得するjQuery plugin &middot; library labs
+    
+  </title>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Sail'>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=IM+Fell+Double+Pica+SC'>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0-rc-1/pure-min.css">
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0-rc-1/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0-rc-1/grids-responsive-min.css">
+  <!--<![endif]-->
+  <link rel="stylesheet" href="/library-labs/css/style.css">
+  <link rel="stylesheet" href="/library-labs/css/syntax.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/library-labs/atom.xml">
+</head>
+<body>
+  <header class="site-header">
+  <div class="container">
+    <h1 class="site-title"><a href="/library-labs/index.html">library labs</a></h1>
+    <nav class="site-nav pure-menu pure-menu-open pure-menu-horizontal">
+      <ul>
+        <li><a href="/library-labs/index.html">Home</a></li>
+        <li><a href="/library-labs/code/">Code</a></li>
+        <li><a href="/library-labs/design/">Design</a></li>
+        <li><a href="/library-labs/works/">Works</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  <div class="container">
+    <div class="pure-g">
+      <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-3-4">
+        <section class="main">
+          <header class="entry-header">
+  <h1>YQLを使ってCiNii APIのデータを取得するjQuery plugin</h1>
+<!--   <div class="category">
+    
+  </div>
+  <div class="tags-list">
+    code, jQuery, and YQL
+  </div> -->
+</header>
+
+<div class="entry-content">
+<p>本プラグインを使用することで、サーバーサイド・スクリプトを使わずにCiNii APIを取得し、ページ内の好きな場所に検索結果を表示することができます。</p>
+<p>現在CiNii APIのレスポンス形式は、xhtml,rss,atomのみでjsonpに対応していません。そのため通常ならphpなどのサーバーサイド・スクリプトで処理する必要があります。そこで、今回は<a href="http://developer.yahoo.com/yql/" target="_blank">YQL(Yahoo! Query Language)</a>を使ってrssをjsonpに変換しています。そうすることでクライアントサイドのみでCiNiiの結果を自在に表示、加工することができます。</p>
+<p><a href="https://github.com/snowy0118/jQuery-Plugin-CiNii-Articles-API" class="btn" target="_blank"><i class="icon-download-alt"></i>  download</a>　<a href="http://kyoto-city.sakura.ne.jp/tumblr/e-library/ciniiArticleAPI/test.html" class="btn" target="_blank"><i class="icon-leaf"></i>  sample</a></p>
+<h3>使い方</h3>
+<p>まずは、ヘッダにjQueryと本プラグインを読み込みます。</p>
+<pre><code>&lt;head&gt;
+&lt;script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="jquery.cinii-articles-api.js"&gt;&lt;/script&gt;
+&lt;/head&gt;</code></pre>
+<p><code>&lt;body&gt;</code>内でCiNiiの検索結果を表示させたい場所にdiv要素を配置し、idを付けます。ここでは「ciniiResult」というid名を付けます。</p>
+<pre><code>&lt;div id="ciniiResult"&gt;&lt;/div&gt;
+</code></pre>
+<p>先ほど読み込んだプラグインの下に次のコードを書き加えてください。</p>
+<pre><code>&lt;script type="text/javascript"&gt;
+	$(function(){
+		$('#ciniiResult').getCiniiArticles();
+	});	
+&lt;/script&gt;
+</code></pre>
+<p>あとはオプションの設定です。アプリケーションIDは<a href="https://portaltools.nii.ac.jp/developer/ja/">CiNiiウェブAPI ディベロッパー登録</a>で取得しておいてください。</p>
+<h3>例1）「樋口一葉」でキーワード検索</h3>
+<pre><code>$('#ciniiResult').getCiniiArticles({
+    /* options */
+    appid : "アプリケーションID（必須）",
+    keyword : "樋口一葉"
+});
+</code></pre>
+<h3>例2）「円城塔」で著者名検索</h3>
+<pre><code>$('#ciniiResult').getCiniiArticles({
+    /* options */
+    appid : "アプリケーションID（必須）",
+    author : "円城塔"
+});
+</code></pre>
+<p>これだけで、指定したID要素内に検索結果が表示されます。</p>
+<h3>例3）入力フォームで検索</h3>
+<p>例1）、例2）だと事前に特定のキーワードや著者を設定する必要があります。入力フォームから検索結果を得たい場合は以下の様にしてみてください。</p>
+<p><code>&lt;body&gt;</code>内に入力フォームを設置します。今回の例はキーワード検索のみの設定です。</p>
+<pre><code>&lt;form id="ciniiSearch"&gt;
+  &lt;input type="search" id="kywd" /&gt;
+  &lt;input type="submit" value="検索" /&gt;
+&lt;/form&gt;
+</code></pre>
+<p>プラグインの設定を次の様に変更してください。</p>
+<pre><code class="linenums">&lt;script type="text/javascript"&gt;<br/>$(function(){
+	$("#ciniiSearch").submit(function(event){
+		$('#ciniiResult').empty();
+		event.preventDefault()
+		var kywd = $("#kywd").val();
+			
+		$('#ciniiResult').getCiniiArticles({
+			 /* options */
+			 appid : "アプリケーションID（必須）",
+			 keyword : kywd
+		});
+	});
+});	
+&lt;/script&gt;
+</code></pre>
+<p>これでページを移動することなくCiNiiを検索することができます。</p>
+<h3>オプションの設定</h3>
+<p>オプションの設定は下の表を参考にしてください。ほぼCiNii APIのクエリ仕様と同じです。</p>
+
+<table class="table table-bordered"><thead><tr><th>#</th><th>オプション</th><th>内容</th></tr></thead><tbody><tr><td>1</td>
+		<td>appid</td>
+		<td>（必須）アプリケーションID。<a href="https://portaltools.nii.ac.jp/developer/ja/">CiNiiウェブAPI ディベロッパー登録</a>でIDは取得できます。</td>
+	</tr><tr><td>2</td>
+		<td>keyword</td>
+		<td>フリーワードを指定する。項6～17が指定されない場合は必須）</td>
+	</tr><tr><td>3</td>
+		<td>count</td>
+		<td>ページあたりの検索結果件数を指定する。デフォルトは20</td>
+	</tr><tr><td>4</td>
+		<td>lang</td>
+		<td>検索結果の言語を指定する。デフォルトはja。日本語(ja)もしくは英語(en)を指定。</td>
+	</tr><tr><td>5</td>
+		<td>start</td>
+		<td>取得する検索結果一覧の開始番号。デフォルトは0。</td>
+	</tr><tr><td>6</td>
+		<td>title</td>
+		<td>論文名で検索する。</td>
+	</tr><tr><td>7</td>
+		<td>author</td>
+		<td>著者名で検索する。</td>
+	</tr><tr><td>8</td>
+		<td>issn</td>
+		<td>ISSNで検索する。</td>
+	</tr><tr><td>9</td>
+		<td>publisher</td>
+		<td>出版者で検索する。</td>
+	</tr><tr><td>10</td>
+		<td>affiliation</td>
+		<td>著者所属で検索する。</td>
+	</tr><tr><td>11</td>
+		<td>journal</td>
+		<td>刊行物名で検索する。</td>
+	</tr><tr><td>12</td>
+		<td>volume</td>
+		<td>巻で検索する</td>
+	</tr><tr><td>13</td>
+		<td>issue</td>
+		<td>号で検索する。</td>
+	</tr><tr><td>14</td>
+		<td>page</td>
+		<td>ページで検索する。</td>
+	</tr><tr><td>15</td>
+		<td>references</td>
+		<td>参考文献名で検索する。</td>
+	</tr><tr><td>16</td>
+		<td>year_from</td>
+		<td>出版年（From）で検索する。</td>
+	</tr><tr><td>17</td>
+		<td>year_to</td>
+		<td>出版年（To）で検索する。</td>
+	</tr><tr><td>18</td>
+		<td>range</td>
+		<td>検索対象オプションを指定する。デフォルトは0。0：すべて／1：CiNiiに本文あり／2：CiNiiに本文あり、または連携サービスにリンクあり</td>
+	</tr><tr><td>19</td>
+		<td>sortorder</td>
+		<td>ソート条件を指定する。デフォルトは1。出版年降順→「1」/ 昇順→「2」/ 論文名降順→「3」 / 昇順→「4」/ 刊行物降順→「5」 / 昇順→「6」 / 被引用文献数降順→「7」</td>
+	</tr></tbody></table>
+
+</div>
+
+<footer class="entry-footer">
+<p>If you liked this post, you can
+<a href="https://twitter.com/intent/tweet?url=http://snowy0118.github.io/library-labs/2012/02/06/jquery-plugin-for-cinii.html&text=YQLを使ってCiNii APIのデータを取得するjQuery plugin&via=snowy0118" target="_blank"> share it with your followers <i class="icon-twitter"></i></a></p>
+</footer>
+        </section>
+      </div>
+      <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4">
+        <aside class="sub">
+          <div class="section-about">
+  <h3><i class="icon-emo-happy"></i> About</h3>
+  <figure class="profile-figure">
+    <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-frc1/t1.0-9/p417x417/10154222_697296243642462_560682359_n.jpg" class="profile-figure-img">
+    <figcaption class="profile-figure-caption">HIRANO SHRINE</figcaption>
+  </figure>
+  <p>I am working as web developer in Japan.</p>
+  <p>This is my personal website about code and design for library web services.</p>
+</div>
+<div class="pure-menu pure-menu-open">
+  <a class="pure-menu-heading">Connect</a>
+  <ul>
+  <li><a href="https://twitter.com/snowy0118"><i class="icon-twitter"></i> Twitter</a></li>
+  <li><a href="https://github.com/snowy0118"><i class="icon-github"></i> GitHub</a></li>
+  <li><a href="http://instagram.com/snowy0118"><i class="icon-instagramm"></i> Instagram</a></li>
+  </ul>
+</div>
+        </aside>
+      </div>
+    </div><!-- /.pure-h -->
+  </div><!-- /.contaner -->
+  <footer class="site-footer">
+  <div class="container">
+    <p>updated : 25 Apr 2014</p>
+  </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="/library-labs/js/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50303317-1', 'snowy0118.github.io');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

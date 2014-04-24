@@ -1,0 +1,244 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="code">
+  <title>
+    
+      CiNii APIを使って複数の図書館の所蔵状況を表にする &middot; library labs
+    
+  </title>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Sail'>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=IM+Fell+Double+Pica+SC'>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0-rc-1/pure-min.css">
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0-rc-1/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0-rc-1/grids-responsive-min.css">
+  <!--<![endif]-->
+  <link rel="stylesheet" href="/library-labs/css/style.css">
+  <link rel="stylesheet" href="/library-labs/css/syntax.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/library-labs/atom.xml">
+</head>
+<body>
+  <header class="site-header">
+  <div class="container">
+    <h1 class="site-title"><a href="/library-labs/index.html">library labs</a></h1>
+    <nav class="site-nav pure-menu pure-menu-open pure-menu-horizontal">
+      <ul>
+        <li><a href="/library-labs/index.html">Home</a></li>
+        <li><a href="/library-labs/code/">Code</a></li>
+        <li><a href="/library-labs/design/">Design</a></li>
+        <li><a href="/library-labs/works/">Works</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  <div class="container">
+    <div class="pure-g">
+      <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-3-4">
+        <section class="main">
+          <header class="entry-header">
+  <h1>CiNii APIを使って複数の図書館の所蔵状況を表にする</h1>
+<!--   <div class="category">
+    
+  </div>
+  <div class="tags-list">
+    code
+  </div> -->
+</header>
+
+<div class="entry-content">
+<p>CiNii APIで複数の図書館の所蔵確認。</p>
+<p>図書・雑誌はissn/isbn/ncidをコンマ区切りで入力。</p>
+<form>
+    <select id="libraryID" name="libraryID" size="3" multiple><option value="FA002611" selected>京都大学</option><option value="FA007670" selected>同志社大学</option><option value="FA007739" selected>立命館大学</option></select><div>
+        <input type="text" name="itemID" id="itemID" value="AN00221958,AA12219565,AN00396849,AN0023681X" style="width:400px"></div>
+    <div>
+        <input type="radio" name="type" value="issn" id="issn">ISSN
+        <input type="radio" name="type" value="isbn" id="isbn">ISBN
+        <input type="radio" name="type" value="ncid" id="ncid" checked>NCID
+    </div>
+<br/><button>所蔵確認</button>
+</form>
+<div id="table" style="width:600px"></div>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script><script type="text/javascript">//<![CDATA[ 
+
+ google.load('visualization', '1', {
+     packages: ['table']
+ });
+
+ var setting = {
+     appID: "XCTPcTLXwd7zCae0oxmT"
+ };
+
+ function checkHolding(params) {
+
+     var libraryID = params.libraryID,
+         libraryName = params.libraryName,
+         itemID = (params.itemID).replace(/-/g, "").split(","),
+         type = params.type,
+         jqXHRList = [];
+
+     for (var i = 0; i < libraryID.length; i++) {
+         for (var j = 0; j < itemID.length; j++) {
+             var url = "http://ci.nii.ac.jp/books/opensearch/search?" + type + "=" + itemID[j] + "&fano=" + libraryID[i] + "&count=1&appid=" + setting.appID + "&count=1&format=json";
+
+             jqXHRList.push($.getJSON(url));
+
+         }
+     }
+
+
+
+     $.when.apply($, jqXHRList).done(function () {
+         var items = [],
+             i = 0,
+             result;
+
+         if (itemID.length == 1) {
+             for (i = 0; i < arguments.length; i++) {
+                 result = arguments[i];
+                 items.push(result);
+             }
+         } else {
+             for (i = 0; i < arguments.length; i++) {
+                 result = arguments[i];
+                 items.push(result[0]);
+             }
+
+         }
+
+         google.setOnLoadCallback(createTable(items));
+     });
+
+     function createTable(d) {
+         var content = [];
+
+         content.push([type]);
+
+         for (var h = 0; h < libraryID.length; h++) {
+             // 図書館IDを図書館名に変更したい。。
+             content[0].push($(libraryName[h]).text());
+         }
+
+         for (var i = 0; i < itemID.length; i++) {
+
+             var item = [],
+                 id = itemID[i];
+
+             // 資料のID(ISSN/ISBN/NCID)を挿入する
+             item.push(id);
+
+             for (var j = 0, k = 0; j < libraryID.length; j++, k += itemID.length) {
+                 var holding = "";
+
+                 if (itemID.length == 1) {
+
+                     if (libraryID.length == 1) {
+                         holding = d[j]["@graph"][0]["opensearch:totalResults"] !== "0" ? true : false;
+                     } else {
+                         holding = d[j][0]["@graph"][0]["opensearch:totalResults"] !== "0" ? true : false;
+                     }
+                 } else {
+                     holding = d[i + k]["@graph"][0]["opensearch:totalResults"] !== "0" ? true : false;
+                 }
+
+                 item.push(holding);
+             }
+
+             content.push(item);
+         }
+
+         var data = google.visualization.arrayToDataTable(content);
+         var visualization = new google.visualization.Table(document.getElementById('table'));
+         visualization.draw(data, null);
+
+         $(".google-visualization-table-td-bool:contains('✗')").css({
+             color: "red"
+         });
+
+     }
+
+ }
+
+
+     var params = {
+         libraryID: $("select[name='libraryID']").val(),
+         libraryName: $("select[name='libraryID'] option:selected"),
+         itemID: $("form input[name=itemID]").val(),
+         type: $('input[name="type"]:checked').val()
+     };
+
+     checkHolding(params);
+
+ $("form").submit(function (e) {
+
+     e.preventDefault();
+     $("#table").empty();
+
+     var params = {
+         libraryID: $("select[name='libraryID']").val(),
+         libraryName: $("select[name='libraryID'] option:selected"),
+         itemID: $("form input[name=itemID]").val(),
+         type: $('input[name="type"]:checked').val()
+     };
+
+     checkHolding(params);
+ });
+//]]>  
+
+</script>
+
+</div>
+
+<footer class="entry-footer">
+<p>If you liked this post, you can
+<a href="https://twitter.com/intent/tweet?url=http://snowy0118.github.io/library-labs/2013/12/11/cinii-api.html&text=CiNii APIを使って複数の図書館の所蔵状況を表にする&via=snowy0118" target="_blank"> share it with your followers <i class="icon-twitter"></i></a></p>
+</footer>
+        </section>
+      </div>
+      <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4">
+        <aside class="sub">
+          <div class="section-about">
+  <h3><i class="icon-emo-happy"></i> About</h3>
+  <figure class="profile-figure">
+    <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-frc1/t1.0-9/p417x417/10154222_697296243642462_560682359_n.jpg" class="profile-figure-img">
+    <figcaption class="profile-figure-caption">HIRANO SHRINE</figcaption>
+  </figure>
+  <p>I am working as web developer in Japan.</p>
+  <p>This is my personal website about code and design for library web services.</p>
+</div>
+<div class="pure-menu pure-menu-open">
+  <a class="pure-menu-heading">Connect</a>
+  <ul>
+  <li><a href="https://twitter.com/snowy0118"><i class="icon-twitter"></i> Twitter</a></li>
+  <li><a href="https://github.com/snowy0118"><i class="icon-github"></i> GitHub</a></li>
+  <li><a href="http://instagram.com/snowy0118"><i class="icon-instagramm"></i> Instagram</a></li>
+  </ul>
+</div>
+        </aside>
+      </div>
+    </div><!-- /.pure-h -->
+  </div><!-- /.contaner -->
+  <footer class="site-footer">
+  <div class="container">
+    <p>updated : 25 Apr 2014</p>
+  </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="/library-labs/js/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50303317-1', 'snowy0118.github.io');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

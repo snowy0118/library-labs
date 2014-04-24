@@ -1,0 +1,198 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="code,google">
+  <title>
+    
+      Google Spreadsheetsを使って雑誌検索できる「新着雑誌記事速報」をつくった &middot; library labs
+    
+  </title>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Sail'>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=IM+Fell+Double+Pica+SC'>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0-rc-1/pure-min.css">
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0-rc-1/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0-rc-1/grids-responsive-min.css">
+  <!--<![endif]-->
+  <link rel="stylesheet" href="/library-labs/css/style.css">
+  <link rel="stylesheet" href="/library-labs/css/syntax.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/library-labs/atom.xml">
+</head>
+<body>
+  <header class="site-header">
+  <div class="container">
+    <h1 class="site-title"><a href="/library-labs/index.html">library labs</a></h1>
+    <nav class="site-nav pure-menu pure-menu-open pure-menu-horizontal">
+      <ul>
+        <li><a href="/library-labs/index.html">Home</a></li>
+        <li><a href="/library-labs/code/">Code</a></li>
+        <li><a href="/library-labs/design/">Design</a></li>
+        <li><a href="/library-labs/works/">Works</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  <div class="container">
+    <div class="pure-g">
+      <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-3-4">
+        <section class="main">
+          <header class="entry-header">
+  <h1>Google Spreadsheetsを使って雑誌検索できる「新着雑誌記事速報」をつくった</h1>
+<!--   <div class="category">
+    
+  </div>
+  <div class="tags-list">
+    code and google
+  </div> -->
+</header>
+
+<div class="entry-content">
+<p>先日、「<a href="http://library-labs.tumblr.com/post/17558560422">ゆうき図書館作成の新着雑誌記事速報を改良してみた</a>」という記事を書きましたが、それは単にHTMLを正しただけのもので使い勝手が良くなったわけではありませんでした。問題点は次の2つ。</p>
+<ul><li><h4>雑誌タイトルを検索できない</h4><p>→ 雑誌のジャンルが「総記」とか「一般」とか言われても利用者はわからない</p></li>
+<li><h4>データとスクリプトが一緒になっている</h4><p>→ JavaScriptの中で受入雑誌のデータを持たせているので管理が大変</p></li>
+</ul><p>そこでこの2つを解決した雑誌タイトルを検索できる「新着雑誌記事速報」をつくってみました。今回のはjQueryのプラグインで動くので、JavaScriptを知らなくても、少しのHTMLの知識だけで作れます。受入雑誌のデータはGoogle Spreadsheetsに登録することで管理しやすくしました。</p>
+
+<p><a href="https://github.com/snowy0118/jquery.new.article.search" class="btn" target="_blank"><i class="icon-download-alt"></i>  ダウンロード</a> <a href="http://library-labs.tumblr.com/new-articles-search" class="btn" target="_blank"><i class="icon-leaf"></i>  サンプルページ</a></p>
+
+<h3>データの登録</h3>
+<ol><li>
+    <h4>Google Spreadsheetsに受入雑誌を登録する</h4>
+    <p>下の図のように1行目は固定にして「title」「genre」「xml」の3つを登録してください。
+<figure><img src="http://media.tumblr.com/tumblr_lzxx1t2ZLY1qmedj8.png"/></figure></p>
+  </li>
+  <li>
+    <h4>データ登録したシートをウェブに公開する</h4>
+    <p>「ファイル」から「ウェブに公開」を選択後、「公開開始」をクリックしてください。「公開データへのリンクを取得」からこのシートのkeyを確認してください。keyは「公開データへのリンクを取得」がウェブページの時は、<br/></p><pre><a href="https://spreadsheets.google.com/pub?key=">https://spreadsheets.google.com/pub?key=</a>[YOUR-KEY]&amp;output=html</pre>
+    [YOUR-KEY]の部分をメモしてください。
+    
+    <p><span class="label label-important">注意</span>この設定で誰もがこのシートを閲覧できるようになります。不必要な情報はこのシートに含めないようにしてください。</p>
+  </li>
+</ol><h3>スクリプトの記述</h3>
+<ol><li>
+    <h4>headerにjQuery本体とGoogle feedsと本プラグインを読み込む</h4>
+    <p>プラグインのオプションであるsheetIDに先ほどメモしたスプレッドシートのkeyを入力してください。</p>
+    <pre><code>&lt;script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://www.google.com/jsapi"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+  google.load("feeds", "1");
+&lt;/script&gt;
+&lt;script type="text/javascript" src="jquery.new.articles.search.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+  $(document).ready(function(){
+	$("#feed-result").getNewArticles({sheetID:"YOUR-KEY"});
+  });
+&lt;/script&gt;
+</code></pre>
+  </li>
+      <h4>検索窓と雑誌ジャンルリストと検索結果が表示される要素をつくる</h4>
+      <p>body要素の好きな場所に下記のタグを書き加えてください。</p>
+    <pre><code>&lt;div id="magazine-list"&gt;
+  &lt;!-- Spreadsheetに登録した雑誌ジャンルをリストダグで加えてください --&gt;
+  &lt;ul&gt;
+    &lt;li&gt;総記&lt;li&gt;
+    &lt;li&gt;一般&lt;li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!-- 雑誌タイトルを検索する検索窓 --&gt;
+&lt;form id="search-magazine"&gt;
+  &lt;input type="search" value="" id="keyword"&gt;
+  &lt;button type="submit"&gt;検索&lt;/button&gt;
+&lt;/form&gt;
+&lt;!-- この中に検索結果（雑誌タイトル）が表示される --&gt;
+&lt;div id="result-magazine-list"&gt;&lt;/div&gt;
+&lt;!-- 検索結果（雑誌タイトル）をクリックしたら、この中に最新記事が表示される --&gt;
+&lt;div id="feed-result"&gt;&lt;/div&gt;</code></pre>
+  
+</ol><p>これで完成です！下の検索から試してください。今回用に40件ほど登録した<a href="https://docs.google.com/spreadsheet/pub?key=0AjoRmuoph6hMdGtxZ09fbGZyX09yc2hNc0V1UDJ4dVE&amp;output=html" target="_blank">Spreadsheet</a>からデータを取得できます。</p>
+
+<div class="row">
+<div class="span2">
+<div id="magazine-list">
+<ul><li><a href="#">総記</a></li>
+  <li><a href="#">一般</a></li>
+  <li><a href="#">家庭</a></li>
+  <li><a href="#">児童</a></li>
+  <li><a href="#">娯楽</a></li>
+  <li><a href="#">レジャー</a></li>
+  <li><a href="#">スポーツ</a></li>
+  <li><a href="#">教育</a></li>
+</ul></div> 
+</div>
+
+<div class="span6">
+<form id="search-magazine">
+  <input type="search" value="" id="keyword" placeholder="タイトル名"><button type="submit" class="btn"><i class="icon-search"></i> 検索</button>
+  <p class="help-block">雑誌タイトルを入力してください（一部でも可）</p>
+</form>
+
+<div id="result-magazine-list"></div>
+<div id="feed-result"></div>
+</div>
+</div>
+
+<p>もう少し見栄えを良くしたサンプルページもご覧ください。
+<a href="http://library-labs.tumblr.com/new-articles-search" class="btn" target="_blank"><i class="icon-leaf"></i>  サンプルページ</a>
+</p>
+
+<script type="text/javascript" src="http://www.google.com/jsapi"></script><script type="text/javascript">
+  google.load("feeds", "1");
+  
+  $(document).ready(function(){
+	$("#feed-result").getNewArticles({sheetID:"0AjoRmuoph6hMdGtxZ09fbGZyX09yc2hNc0V1UDJ4dVE"});
+  });
+</script><script type="text/javascript" src="http://kyoto-city.sakura.ne.jp/tumblr/e-library/newArticleSearch/jquery.new.articles.search.js"></script>
+
+</div>
+
+<footer class="entry-footer">
+<p>If you liked this post, you can
+<a href="https://twitter.com/intent/tweet?url=http://snowy0118.github.io/library-labs/2012/02/25/spreadsheets-search-new-articles.html&text=Google Spreadsheetsを使って雑誌検索できる「新着雑誌記事速報」をつくった&via=snowy0118" target="_blank"> share it with your followers <i class="icon-twitter"></i></a></p>
+</footer>
+        </section>
+      </div>
+      <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4">
+        <aside class="sub">
+          <div class="section-about">
+  <h3><i class="icon-emo-happy"></i> About</h3>
+  <figure class="profile-figure">
+    <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-frc1/t1.0-9/p417x417/10154222_697296243642462_560682359_n.jpg" class="profile-figure-img">
+    <figcaption class="profile-figure-caption">HIRANO SHRINE</figcaption>
+  </figure>
+  <p>I am working as web developer in Japan.</p>
+  <p>This is my personal website about code and design for library web services.</p>
+</div>
+<div class="pure-menu pure-menu-open">
+  <a class="pure-menu-heading">Connect</a>
+  <ul>
+  <li><a href="https://twitter.com/snowy0118"><i class="icon-twitter"></i> Twitter</a></li>
+  <li><a href="https://github.com/snowy0118"><i class="icon-github"></i> GitHub</a></li>
+  <li><a href="http://instagram.com/snowy0118"><i class="icon-instagramm"></i> Instagram</a></li>
+  </ul>
+</div>
+        </aside>
+      </div>
+    </div><!-- /.pure-h -->
+  </div><!-- /.contaner -->
+  <footer class="site-footer">
+  <div class="container">
+    <p>updated : 25 Apr 2014</p>
+  </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="/library-labs/js/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50303317-1', 'snowy0118.github.io');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
