@@ -4,8 +4,21 @@
  <title>library labs</title>
  <link href="/library-labs/atom.xml" rel="self"/>
  <link href="/library-labs/"/>
- <updated>2014-04-25T02:33:15+09:00</updated>
+ <updated>2014-06-14T05:58:05+09:00</updated>
  <id>/library-labs</id>
+ 
+ <entry>
+   <title>特定のデータベースをSummonで検索する</title>
+   <link href="/library-labs/code/2014/06/13/summon.html"/>
+   <updated>2014-06-13T00:00:00+09:00</updated>
+   <id>/library-labs/code/2014/06/13/summon</id>
+   <content type="html">&lt;p&gt;検索窓に「DBID:データベースID」を入力すれば、そのデータベースに絞って検索することができる。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://bukkyo.preview.summon.serialssolutions.com/#!/search?q=DBID:3CS&quot;&gt;http://bukkyo.preview.summon.serialssolutions.com/#!/search?q=DBID:3CS&lt;/a&gt;ではNDL Searchの結果を取得する。&lt;/p&gt;
+
+&lt;h3 id=&quot;&quot;&gt;検索フォームでの使用例&lt;/h3&gt;
+&lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;400&#39; src=&#39;http://jsfiddle.net/snowy0118/JzL4D/embedded/result&#39; width=&#39;100%&#39;&gt; &lt;/iframe&gt;</content>
+ </entry>
  
  <entry>
    <title>Current Awareness Search</title>
